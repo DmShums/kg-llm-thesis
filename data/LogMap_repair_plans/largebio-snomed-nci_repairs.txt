@@ -1,0 +1,1386 @@
+largebio-snomed-nci
+Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/snomed-nci//logmap/
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Activity_Kind
+	Plan 1 of size: 1 conflict score: 44465 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Qualifier_value,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Qualifier,0
+	Plan 2 of size: 1 conflict score: 21383 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Process,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Processing_Technique,0
+	Plan 3 of size: 1 conflict score: 21329 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Activity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Activity_Kind,-1
+	Plan 4 of size: 1 conflict score: 20827 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Action,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Action,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Community_Health_Education
+	Plan 1 of size: 1 conflict score: 50 confidence: 0.8380000000000001
+		http://www.ihtsdo.org/snomed#Education,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Education,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Community_education,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Community_Health_Education,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Write
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Writing,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Write,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Laparoscopic_Colectomy
+	Plan 1 of size: 1 conflict score: 140 confidence: 0.8799999999999999
+		http://www.ihtsdo.org/snomed#Surgical_specialty,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Surgical_Specialty,0
+	Plan 2 of size: 1 conflict score: 117 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Colorectal_surgery,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Colon_and_Rectal_Surgery,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nicotine_Nasal_Spray
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Nicotine_nasal_spray,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nicotine_Nasal_Spray,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exogenous_Hormone_Therapy
+	Plan 1 of size: 1 conflict score: 133 confidence: 0.823
+		http://www.ihtsdo.org/snomed#Hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hormone,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7270000000000001
+		http://www.ihtsdo.org/snomed#Exogenous_hormones,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exogenous_Hormone_Therapy,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Elliptocyte_Count
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Elliptocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Elliptocyte_Count,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Lymphocyte_Count
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Atypical_lymphocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Lymphocyte_Count,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lymphangiography
+	Plan 1 of size: 1 conflict score: 18 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Lymphangiogram,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lymphangiogram,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.796
+		http://www.ihtsdo.org/snomed#Lymphangiography_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lymphangiography,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Walking
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Walking,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Walking,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Outer_Ear_External_MMHCC
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.8380000000000001
+		http://www.ihtsdo.org/snomed#Ear_part,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Part,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7270000000000001
+		http://www.ihtsdo.org/snomed#Outer_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Outer_Ear_External_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.808
+		http://www.ihtsdo.org/snomed#B_lymphocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exudate_MMHCC
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Effusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Effusion,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8049999999999999
+		http://www.ihtsdo.org/snomed#Exudate,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exudate_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CNS_Brain_Optic_Chiasma_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Central_nervous_system_part,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Central_Nervous_System_Part,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Optic_chiasma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CNS_Brain_Optic_Chiasma_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Stomach_glandular_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Stomach_part,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Stomach_Part,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Glandular_stomach,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Stomach_glandular_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Hyperplasia_of_the_Mouse_Skin
+	Plan 1 of size: 2 conflict score: 6685 confidence: 1.529
+		http://www.ihtsdo.org/snomed#Integumentary_system_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Integumentary_System_Finding,0
+		http://www.ihtsdo.org/snomed#Disorder_of_skin_AND_OR_subcutaneous_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Skin_Disorder,0
+	Plan 2 of size: 2 conflict score: 4405 confidence: 1.508
+		http://www.ihtsdo.org/snomed#Integumentary_system_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Integumentary_System_Finding,0
+		http://www.ihtsdo.org/snomed#Disorder_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Skin_Disorder,-1
+	Plan 3 of size: 2 conflict score: 364 confidence: 1.556
+		http://www.ihtsdo.org/snomed#Sebaceous_hyperplasia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Hyperplasia_of_the_Mouse_Skin,-1
+		http://www.ihtsdo.org/snomed#Disorder_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Skin_Disorder,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Non-neoplastic_Proliferation_of_the_Murine_Prostate_Gland
+	Plan 1 of size: 1 conflict score: 64 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Other_prostate_disorders_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Prostate_Disorder,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Prostatitis
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Prostatitis_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Prostatitis,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Non-Neoplastic_Proliferation_of_the_Mouse_Liver
+	Plan 1 of size: 1 conflict score: 303 confidence: 0.79
+		http://www.ihtsdo.org/snomed#Disorder_of_liver,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatic_Disorder,0
+	Plan 2 of size: 1 conflict score: 132 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Other_specified_liver_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Liver_Disorder,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Other_Focal_Hyperplasias_of_the_Mouse_Mammary_Gland
+	Plan 1 of size: 1 conflict score: 116 confidence: 0.835
+		http://www.ihtsdo.org/snomed#Hyperplasia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hyperplasia,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Focal_hyperplasia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Other_Focal_Hyperplasias_of_the_Mouse_Mammary_Gland,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Papillary_Adenoma_of_the_Mouse_Pulmonary_System
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Papillary_adenoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Papillary_Adenoma_of_the_Mouse_Pulmonary_System,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_Mouse_Liver
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.8140000000000001
+		http://www.ihtsdo.org/snomed#Benign_neoplasm_of_liver,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_Mouse_Liver,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Neoplasms_of_Mouse_Liver
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Malignant_neoplasm_of_liver,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Neoplasms_of_Mouse_Liver,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Carcinoma_of_the_Mouse
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.742
+		http://www.ihtsdo.org/snomed#Hepatocellular_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Carcinoma_of_the_Mouse,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Cholangiocarcinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Cholangiocarcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Cholangiocarcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenoid_Cystic_Carcinoma_of_the_Mouse_Salivary_Glands
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8620000000000001
+		http://www.ihtsdo.org/snomed#Adenoid_cystic_carcinoma_of_salivary_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenoid_Cystic_Carcinoma_of_the_Mouse_Salivary_Glands,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neoplasms_of_the_Mouse_Intestinal_Tract
+	Plan 1 of size: 1 conflict score: 49 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Neoplasm_of_intestinal_tract,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neoplasms_of_the_Mouse_Intestinal_Tract,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_the_Mouse_Intestinal_Tract
+	Plan 1 of size: 1 conflict score: 34 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Benign_neoplasm_of_intestinal_tract,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_the_Mouse_Intestinal_Tract,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lipoma_of_the_Mouse_Intestinal_Tract
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Lipoma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Lipoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Neoplasm
+	Plan 1 of size: 1 conflict score: 7546 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Mass,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mass,0
+	Plan 2 of size: 1 conflict score: 8 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Islet_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Neoplasm,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Insulinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7989999999999999
+		http://www.ihtsdo.org/snomed#Insulinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Insulinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Adenoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Islet_cell_adenoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Adenoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Somatostatinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.778
+		http://www.ihtsdo.org/snomed#Somatostatinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Somatostatinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Glucagonoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.802
+		http://www.ihtsdo.org/snomed#Glucagonoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Glucagonoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Carcinoma
+	Plan 1 of size: 1 conflict score: 95 confidence: 0.908
+		http://www.ihtsdo.org/snomed#Neuroendocrine_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neuroendocrine_Neoplasm,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Islet_cell_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Carcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Undifferentiated_Carcinoma_of_the_Mouse_Pharynx
+	Plan 1 of size: 1 conflict score: 328 confidence: 0.8200000000000001
+		http://www.ihtsdo.org/snomed#Epithelial_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Epithelial_Neoplasm,0
+	Plan 2 of size: 1 conflict score: 10 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Carcinoma_undifferentiated,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Undifferentiated_Carcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Pharynx
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_pharynx,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Pharynx,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Gallbladder_Carcinoma
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Carcinoma_of_gallbladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Gallbladder_Carcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Urinary_Tract_Disorder
+	Plan 1 of size: 1 conflict score: 181 confidence: 0.932
+		http://www.ihtsdo.org/snomed#Disorder_of_the_urinary_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urinary_Tract_Disorder,0
+	Plan 2 of size: 1 conflict score: 179 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Other_urinary_tract_disorders_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Urinary_Tract_Disorder,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Neoplasm
+	Plan 1 of size: 1 conflict score: 13 confidence: 0.883
+		http://www.ihtsdo.org/snomed#Neoplasm_of_bladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Neoplasm,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Carcinoma
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.8440000000000001
+		http://www.ihtsdo.org/snomed#Carcinoma_of_bladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Carcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Papilloma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.835
+		http://www.ihtsdo.org/snomed#Bladder_papilloma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Papilloma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Monocytic_Leukemia
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Monocytic_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Monocytic_Leukemia,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myelomonocytic_Leukemia
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Myelomonocytic_leukemia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myelomonocytic_Leukemia,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Megakaryocytic_Leukemia
+	Plan 1 of size: 1 conflict score: 869 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Hematopoietic_system_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hematopoietic_System_Finding,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Megakaryocytic_leukemia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Megakaryocytic_Leukemia,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#B_Cell_Neoplasms_of_the_Mouse_Hematologic_System
+	Plan 1 of size: 1 conflict score: 128 confidence: 0.872
+		http://www.ihtsdo.org/snomed#B_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_B_Cell_Neoplasms,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_B_Cell_Neoplasm_of_the_Mouse_Hematologic_System
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Precursor_B_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_B_Cell_Neoplasm_of_the_Mouse_Hematologic_System,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_T_Cell_Neoplasm_of_the_Mouse_Hematologic_System
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.835
+		http://www.ihtsdo.org/snomed#Precursor_T_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_T_Cell_Neoplasm_of_the_Mouse_Hematologic_System,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Benign_Melanocytic_Neoplasms
+	Plan 1 of size: 1 conflict score: 871 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Neoplasm_benign,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasm,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Benign_melanocytic_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Benign_Melanocytic_Neoplasms,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Adenoma_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8989999999999999
+		http://www.ihtsdo.org/snomed#Sebaceous_adenoma_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Adenoma_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hibernoma_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Hibernoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hibernoma_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#B-cell_Lymphomas_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#B_cell_lymphoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#B-cell_Lymphomas_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_in_Situ_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8809999999999999
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_in_situ_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_in_Situ_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.952
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Basal_Cell_Tumor_of_the_Mouse_Skin
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.847
+		http://www.ihtsdo.org/snomed#Basal_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Basal_Cell_Neoplasm,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Malignant_basal_cell_tumor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Basal_Cell_Tumor_of_the_Mouse_Skin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fallopian_Tube_Neoplasm
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Neoplasm_of_fallopian_tube,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fallopian_Tube_Neoplasm,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Ovarian_Cysts
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Other_ovarian_cysts,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Ovarian_Cysts,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Soft_Tissue_Neoplasm
+	Plan 1 of size: 1 conflict score: 4360 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Disorder_of_soft_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Soft_Tissue_Disorder,0
+	Plan 2 of size: 1 conflict score: 10 confidence: 0.8320000000000001
+		http://www.ihtsdo.org/snomed#Neoplasm_of_soft_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Soft_Tissue_Neoplasm,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Craniopharyngioma
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Craniopharyngioma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Craniopharyngioma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Adamantinomatous_Craniopharyngioma
+	Plan 1 of size: 1 conflict score: 333 confidence: 0.809
+		http://www.ihtsdo.org/snomed#Neoplasm_uncertain_whether_benign_or_malignant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neoplasm_Uncertain_Whether_Primary_or_Metastatic,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Craniopharyngioma_adamantinomatous,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Adamantinomatous_Craniopharyngioma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Plasmacytoma
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.796
+		http://www.ihtsdo.org/snomed#Plasmacytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Plasmacytoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NCI_Kind
+	Plan 1 of size: 1 conflict score: 9355 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#nCi,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NCI_Kind,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Clinical_Microbiology
+	Plan 1 of size: 1 conflict score: 714 confidence: 0.784
+		http://www.ihtsdo.org/snomed#Laboratory_procedure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Test,0
+	Plan 2 of size: 1 conflict score: 28 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Microbiology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Microbiology,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Blood
+	Plan 1 of size: 1 conflict score: 283 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Biological_agent,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Biological_Agent,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Blood,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Blood,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Axis
+	Plan 1 of size: 1 conflict score: 37 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Organism,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organism_Kind,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Genus_Axis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Axis,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intravenous_Infusion
+	Plan 1 of size: 1 conflict score: 36 confidence: 0.958
+		http://www.ihtsdo.org/snomed#Infusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Infusion,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Intravenous_infusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intravenous_Infusion,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intramuscular_Injection
+	Plan 1 of size: 1 conflict score: 633 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Injection,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Injection,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Intramuscular_injection_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intramuscular_Injection,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Drug_Administration_via_Hemodialysis
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Hemodialysis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Drug_Administration_via_Hemodialysis,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Staging_System
+	Plan 1 of size: 1 conflict score: 13 confidence: 0.754
+		http://www.ihtsdo.org/snomed#With_staging,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Staging,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Staging_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Staging_System,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Segment
+	Plan 1 of size: 1 conflict score: 311 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Action,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Action,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Segmentation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Segment,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ethnic_Group
+	Plan 1 of size: 1 conflict score: 996 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Rank,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rank,0
+	Plan 2 of size: 1 conflict score: 13 confidence: 0.836
+		http://www.ihtsdo.org/snomed#Other_ethnic_group,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ethnic_Group,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Coordinate
+	Plan 1 of size: 1 conflict score: 45 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Function,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Function,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Coordination,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Coordinate,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Corneal_Transplant
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Corneal_transplant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Corneal_Transplant,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sexual_Intercourse
+	Plan 1 of size: 1 conflict score: 21383 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Process,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Processing_Technique,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Intercourse,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sexual_Intercourse,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood_Pressure
+	Plan 1 of size: 1 conflict score: 55 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Vital_sign,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Vital_Signs_Test_Name,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Blood_pressure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood_Pressure,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Susceptibility
+	Plan 1 of size: 1 conflict score: 149 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Findings_values,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Finding_by_Cause,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.742
+		http://www.ihtsdo.org/snomed#Susceptible,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Susceptibility,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#White_Color
+	Plan 1 of size: 1 conflict score: 11 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Morphologic_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Morphologic_Finding,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#White_color,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#White_Color,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Menthol_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Menthol,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Menthol_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Berry_Flavor
+	Plan 1 of size: 1 conflict score: 34 confidence: 0.8739999999999999
+		http://www.ihtsdo.org/snomed#Fruit,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fruit,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Berry,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Berry_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Electromagnetic_Radiation
+	Plan 1 of size: 1 conflict score: 110 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Physical_force,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Physical_Examination,0
+	Plan 2 of size: 1 conflict score: 41 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Electromagnetic_radiation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Electromagnetic_Radiation,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Radiation_Exposure
+	Plan 1 of size: 1 conflict score: 180 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Event,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Event,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.958
+		http://www.ihtsdo.org/snomed#Exposure_to_radiation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Radiation_Exposure,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Organism
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Association,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Associate,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Associated_organism,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Organism,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Subaortic
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Sub_location,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anatomic_Sites,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Subaortic,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Subaortic,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rapidly
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Method_values,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Techniques,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Rapidly,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rapidly,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Legal
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Legal_son,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Legal,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Minor
+	Plan 1 of size: 1 conflict score: 199 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Person,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Name,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Minor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Minor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Separate
+	Plan 1 of size: 1 conflict score: 1255 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Techniques_values,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Use_of_New_Techniques,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#With_separation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Separate,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Radical
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.8440000000000001
+		http://www.ihtsdo.org/snomed#Inorganic_chemical,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inorganic_Chemical,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Radical,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Radical,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lead
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.796
+		http://www.ihtsdo.org/snomed#Metal,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metals,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Lead,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lead,-1
+http://www.ihtsdo.org/snomed#Legal_son
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Legal_son,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Legal,0
+http://www.ihtsdo.org/snomed#Trientine
+	Plan 1 of size: 1 conflict score: 206 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Amine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Amine_Group,0
+http://www.ihtsdo.org/snomed#Olive_oil
+	Plan 1 of size: 1 conflict score: 165 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Liquid_dose_form,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Liquid_Dosage_Form,0
+http://www.ihtsdo.org/snomed#Ranibizumab
+	Plan 1 of size: 2 conflict score: 3868 confidence: 1.574
+		http://www.ihtsdo.org/snomed#Antibody,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antibody,0
+		http://www.ihtsdo.org/snomed#Protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Turn,0
+http://www.ihtsdo.org/snomed#Imiglucerase
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Imiglucerase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Imiglucerase,0
+http://www.ihtsdo.org/snomed#Bromelains
+	Plan 1 of size: 2 conflict score: 24 confidence: 1.4869999999999999
+		http://www.ihtsdo.org/snomed#Pancrelipase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pancrelipase,0
+		http://www.ihtsdo.org/snomed#Bromelains,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bromelain,0
+http://www.ihtsdo.org/snomed#Urokinase
+	Plan 1 of size: 3 conflict score: 66 confidence: 2.277
+		http://www.ihtsdo.org/snomed#Thrombolytic_agent,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thrombolytic_Agent,0
+		http://www.ihtsdo.org/snomed#Cardiovascular_agent,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cardioprotective_Agent,0
+		http://www.ihtsdo.org/snomed#Urokinase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Urokinase,0
+http://www.ihtsdo.org/snomed#Ovine_hyaluronidase
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Ovine_hyaluronidase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hyaluronidase_Ovine,0
+http://www.ihtsdo.org/snomed#Mucin
+	Plan 1 of size: 1 conflict score: 200 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Glycoprotein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Polysaccharide-K,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Mucin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mucin,0
+http://www.ihtsdo.org/snomed#Cancer_antigen_15_3
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Mucin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mucin,0
+http://www.ihtsdo.org/snomed#Chlorhexidine_oropharyngeal_preparation
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.7510000000000001
+		http://www.ihtsdo.org/snomed#Mouthwash,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouthwash,0
+http://www.ihtsdo.org/snomed#Oropharyngeal_form_menthol
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Menthol,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Menthol_Flavor,0
+http://www.ihtsdo.org/snomed#Pegaspargase
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Pegaspargase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pegaspargase,0
+http://www.ihtsdo.org/snomed#Oxytocin
+	Plan 1 of size: 1 conflict score: 57 confidence: 0.7749999999999999
+		http://www.ihtsdo.org/snomed#Pituitary_hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pituitary_Hormone,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Oxytocin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Oxytocin,0
+http://www.ihtsdo.org/snomed#Etanercept
+	Plan 1 of size: 2 conflict score: 126 confidence: 1.4869999999999999
+		http://www.ihtsdo.org/snomed#Immunomodulator,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Biological_Response_Modifier,0
+		http://www.ihtsdo.org/snomed#Analgesic,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Analgesic_Agent,0
+	Plan 2 of size: 2 conflict score: 33 confidence: 1.436
+		http://www.ihtsdo.org/snomed#Recombinant_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Recombinant_Protein,0
+		http://www.ihtsdo.org/snomed#Fusion_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fusion_Protein,0
+http://www.ihtsdo.org/snomed#Alefacept
+	Plan 1 of size: 1 conflict score: 24 confidence: 0.8049999999999999
+		http://www.ihtsdo.org/snomed#Immunosuppressant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunosuppressant,0
+http://www.ihtsdo.org/snomed#Colony_stimulating_factor_macrophage
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.7749999999999999
+		http://www.ihtsdo.org/snomed#Colony_stimulating_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Colony_Stimulating_Factor,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8919999999999999
+		http://www.ihtsdo.org/snomed#Colony_stimulating_factor_macrophage,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Recombinant_Macrophage_Colony-Stimulating_Factor,0
+http://www.ihtsdo.org/snomed#Recombinant_human_granulocyte_macrophage_colony_stimulating_factor
+	Plan 1 of size: 1 conflict score: 29 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Recombinant_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Recombinant_Protein,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.9099999999999999
+		http://www.ihtsdo.org/snomed#Colony_stimulating_factor_granulocyte_macrophage,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Granulocyte-Macrophage_Colony-Stimulating_Factor,0
+http://www.ihtsdo.org/snomed#Immunoglobulin_idiotype
+	Plan 1 of size: 1 conflict score: 84 confidence: 0.8140000000000001
+		http://www.ihtsdo.org/snomed#Immunoglobulin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunoglobulin,0
+	Plan 2 of size: 1 conflict score: 15 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Antigen,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antigen,0
+http://www.ihtsdo.org/snomed#Sacrosidase
+	Plan 1 of size: 1 conflict score: 389 confidence: 0.7989999999999999
+		http://www.ihtsdo.org/snomed#Enzyme,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Enzyme,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Sacrosidase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sacrosidase,0
+http://www.ihtsdo.org/snomed#Misoprostol
+	Plan 1 of size: 1 conflict score: 22 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Prostaglandin_product,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Prostaglandin_Production,0
+http://www.ihtsdo.org/snomed#Enzyme_inhibitor_protein
+	Plan 1 of size: 1 conflict score: 37 confidence: 0.79
+		http://www.ihtsdo.org/snomed#Enzyme_inhibitor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Enzyme_Inhibitor,0
+	Plan 2 of size: 1 conflict score: 16 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Enzyme_inhibitor_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Enzyme_Inhibitor_Protein,0
+http://www.ihtsdo.org/snomed#Aprotinin
+	Plan 1 of size: 1 conflict score: 16 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Enzyme_inhibitor_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Enzyme_Inhibitor_Protein,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.778
+		http://www.ihtsdo.org/snomed#Aprotinin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Aprotinin_Bovine,0
+http://www.ihtsdo.org/snomed#Protein_C
+	Plan 1 of size: 1 conflict score: 70 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Coagulation_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Coagulation_Factor,0
+	Plan 2 of size: 1 conflict score: 26 confidence: 0.808
+		http://www.ihtsdo.org/snomed#Anticoagulant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anticoagulant_Agent,0
+http://www.ihtsdo.org/snomed#Nicotine_nasal_spray
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Nicotine_nasal_spray,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nicotine_Nasal_Spray,0
+http://www.ihtsdo.org/snomed#Human_recombinant_keratinocyte_growth_factor
+	Plan 1 of size: 1 conflict score: 18 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Growth_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Growth_Factor,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Human_recombinant_keratinocyte_growth_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Recombinant_Human_Keratinocyte_Growth_Factor,0
+http://www.ihtsdo.org/snomed#von_Willebrand_factor_antigen
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Antigen,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antigen,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#von_Willebrand_factor_antigen,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#von_Willebrand_Factor,0
+http://www.ihtsdo.org/snomed#Thrombin
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Thrombin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thrombin,0
+http://www.ihtsdo.org/snomed#Platelet_factor_4
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Proteoglycan,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Proteoglycan,0
+http://www.ihtsdo.org/snomed#Collagen_fiber
+	Plan 1 of size: 2 conflict score: 1 confidence: 1.532
+		http://www.ihtsdo.org/snomed#Collagen_fiber,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Collagen_Fiber,0
+		http://www.ihtsdo.org/snomed#Connective_tissue_fiber,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Connective_Tissue_Fiber,0
+http://www.ihtsdo.org/snomed#Capillary_blood
+	Plan 1 of size: 1 conflict score: 18 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Blood,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Blood,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Capillary_blood,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood_Capillary,0
+http://www.ihtsdo.org/snomed#Corticotropic_agent
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Polypeptide,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Peptide,0
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.824
+		http://www.ihtsdo.org/snomed#Adrenocorticotropic_hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenocorticotropic_Hormone,0
+http://www.ihtsdo.org/snomed#Cosyntropin
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.824
+		http://www.ihtsdo.org/snomed#Adrenocorticotropic_hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenocorticotropic_Hormone,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Cosyntropin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cortrsyn,0
+http://www.ihtsdo.org/snomed#Prolactin
+	Plan 1 of size: 1 conflict score: 11 confidence: 0.8500000000000001
+		http://www.ihtsdo.org/snomed#Gonadotropin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Gonadotropin,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Prolactin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Prolactin,0
+http://www.ihtsdo.org/snomed#Eruption_due_to_drug
+	Plan 1 of size: 1 conflict score: 3569 confidence: 0.742
+		http://www.ihtsdo.org/snomed#Disorder_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Skin_Disorder,0
+	Plan 2 of size: 1 conflict score: 73 confidence: 0.7390000000000001
+		http://www.ihtsdo.org/snomed#Complication,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Complication,0
+http://www.ihtsdo.org/snomed#Gestational_diabetes_mellitus
+	Plan 1 of size: 1 conflict score: 5860 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Disorder_of_digestive_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Digestive_System_Disorder,0
+http://www.ihtsdo.org/snomed#Hypericum_perforatum_extract
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.8109999999999999
+		http://www.ihtsdo.org/snomed#Hypericum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Hypericum_perforatum_extract,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_Perforatum,0
+http://www.ihtsdo.org/snomed#Shark
+	Plan 1 of size: 1 conflict score: 16 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Fish,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fish,0
+	Plan 2 of size: 1 conflict score: 15 confidence: 0.784
+		http://www.ihtsdo.org/snomed#Shark,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Shark,0
+http://www.ihtsdo.org/snomed#Other_specified_arteriovenous_shunt
+	Plan 1 of size: 1 conflict score: 10831 confidence: 0.772
+		http://www.ihtsdo.org/snomed#Surgical_procedure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Surgical_Procedure,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.848
+		http://www.ihtsdo.org/snomed#Other_specified_arteriovenous_shunt,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Arteriovenous_Shunt,0
+http://www.ihtsdo.org/snomed#Dressing_of_wound
+	Plan 1 of size: 1 conflict score: 120 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Application,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Apply,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Dressing_of_wound,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Wound_Dressing_Material,0
+http://www.ihtsdo.org/snomed#Bonding_material
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Material,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Material,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Bonding_material,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bonding_Restorative_Material,0
+http://www.ihtsdo.org/snomed#Writing
+	Plan 1 of size: 1 conflict score: 44 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Movement,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Movement,0
+http://www.ihtsdo.org/snomed#Hemolysis
+	Plan 1 of size: 1 conflict score: 1006 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Cell_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cell_Structure,0
+	Plan 2 of size: 1 conflict score: 95 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Cell_process,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Process,-1
+	Plan 3 of size: 1 conflict score: 2 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Hemolysis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hemolysis,0
+http://www.ihtsdo.org/snomed#Ricin
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Lectin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lectin,0
+http://www.ihtsdo.org/snomed#Bile_salt
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Steroid,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Steroid_Compound,0
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Bile_salt,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bile_Salt,0
+http://www.ihtsdo.org/snomed#Lithocholic_acid
+	Plan 1 of size: 1 conflict score: 55 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Lipoprotein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lipoprotein,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Acid,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acid,0
+http://www.ihtsdo.org/snomed#Colfosceril
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.824
+		http://www.ihtsdo.org/snomed#Lung_surfactant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lung_Surfactant,0
+http://www.ihtsdo.org/snomed#Thyroglobulin
+	Plan 1 of size: 2 conflict score: 485 confidence: 1.538
+		http://www.ihtsdo.org/snomed#Globulin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Serum_Globulin,0
+		http://www.ihtsdo.org/snomed#Binding_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ligand_Binding_Protein,0
+	Plan 2 of size: 2 conflict score: 3 confidence: 1.58
+		http://www.ihtsdo.org/snomed#Thyroglobulin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Thyroglobulin,0
+		http://www.ihtsdo.org/snomed#Thyroid_hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thyroid_Hormone,0
+http://www.ihtsdo.org/snomed#Colostrum
+	Plan 1 of size: 1 conflict score: 33 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Milk,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.778
+		http://www.ihtsdo.org/snomed#Colostrum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Colostrum,0
+http://www.ihtsdo.org/snomed#Bovine_derived_substance
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Meat,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Meat_Flavor,0
+	Plan 2 of size: 1 conflict score: 10 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Beef,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Beef,0
+http://www.ihtsdo.org/snomed#Strawberry
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Berry,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Berry_Flavor,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Strawberry,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Strawberry,0
+http://www.ihtsdo.org/snomed#Platelet_derived_growth_factor
+	Plan 1 of size: 1 conflict score: 43 confidence: 0.841
+		http://www.ihtsdo.org/snomed#Cytokine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Cytokine,0
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Platelet_derived_growth_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet-Derived_Growth_Factor,0
+http://www.ihtsdo.org/snomed#Eltrombopag
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Platelet_derived_growth_factor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet-Derived_Growth_Factor,0
+http://www.ihtsdo.org/snomed#Interleukin_1_beta
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.772
+		http://www.ihtsdo.org/snomed#Interleukin_1_beta,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-1-Beta,0
+http://www.ihtsdo.org/snomed#Very_low_density_lipoprotein_VLDL_cholesterol
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Very_low_density_lipoprotein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Low_Density_Lipoprotein,0
+http://www.ihtsdo.org/snomed#Lead_isotope
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Lead,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lead,0
+	Plan 2 of size: 1 conflict score: 6 confidence: 0.907
+		http://www.ihtsdo.org/snomed#Isotope,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Isotope,0
+http://www.ihtsdo.org/snomed#Free_radical
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Radical,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Radical,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Free_radical,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Free_Radicals,0
+http://www.ihtsdo.org/snomed#Maple_syrup
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Maple_syrup,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Maple_Syrup,0
+http://www.ihtsdo.org/snomed#Diastasis_of_bone
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Separation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Medical_Device_Material_Separation,0
+http://www.ihtsdo.org/snomed#Congenital_malposition
+	Plan 1 of size: 1 conflict score: 35 confidence: 0.8200000000000001
+		http://www.ihtsdo.org/snomed#Congenital_anomaly,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Congenital_Abnormality,0
+	Plan 2 of size: 1 conflict score: 27 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Malposition,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malposition_of_Medical_Device,0
+http://www.ihtsdo.org/snomed#Coagulation_of_prostate_using_laser
+	Plan 1 of size: 1 conflict score: 70 confidence: 0.853
+		http://www.ihtsdo.org/snomed#Laser_surgery,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Laser_Surgery,0
+	Plan 2 of size: 1 conflict score: 50 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Coagulation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adverse_Event_Associated_with_Coagulation,0
+http://www.ihtsdo.org/snomed#Corneal_transplant
+	Plan 1 of size: 1 conflict score: 344 confidence: 0.8260000000000001
+		http://www.ihtsdo.org/snomed#Transplantation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transplantation,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Corneal_transplant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Corneal_Transplant,0
+http://www.ihtsdo.org/snomed#Hemodialysis
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Hemodialysis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Drug_Administration_via_Hemodialysis,0
+http://www.ihtsdo.org/snomed#Pleural_abrasion
+	Plan 1 of size: 1 conflict score: 6107 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Removal,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Remove,0
+	Plan 2 of size: 1 conflict score: 132 confidence: 0.8109999999999999
+		http://www.ihtsdo.org/snomed#Abrasion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abrasion,0
+http://www.ihtsdo.org/snomed#Swab
+	Plan 1 of size: 1 conflict score: 935 confidence: 0.8380000000000001
+		http://www.ihtsdo.org/snomed#Specimen,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Biospecimen,0
+http://www.ihtsdo.org/snomed#Acute_panmyelosis_with_myelofibrosis
+	Plan 1 of size: 1 conflict score: 3957 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#Disorder_of_skeletal_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Skeletal_System_Disorder,0
+http://www.ihtsdo.org/snomed#Regenerative_inflammation
+	Plan 1 of size: 1 conflict score: 267 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Inflammation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inflammation,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8680000000000001
+		http://www.ihtsdo.org/snomed#Regeneration,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Regeneration,0
+http://www.ihtsdo.org/snomed#nCi
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7030000000000001
+		http://www.ihtsdo.org/snomed#nCi,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NCI_Kind,0
+http://www.ihtsdo.org/snomed#Lupus_erythematosus_cell
+	Plan 1 of size: 1 conflict score: 29 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Immune_system_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immune_System_Finding,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7390000000000001
+		http://www.ihtsdo.org/snomed#Lupus_erythematosus_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#LE_Cell,0
+http://www.ihtsdo.org/snomed#Hypochromic_red_blood_cells
+	Plan 1 of size: 1 conflict score: 27 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Blood_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Peripheral_Blood_Cell,0
+	Plan 2 of size: 1 conflict score: 8 confidence: 0.7749999999999999
+		http://www.ihtsdo.org/snomed#Abnormal_red_blood_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal_Red_Blood_Cell,-1
+	Plan 3 of size: 1 conflict score: 1 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Hypochromic_red_blood_cells,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypochromic_Red_Blood_Cell,0
+http://www.ihtsdo.org/snomed#Masticatory_dysfunction
+	Plan 1 of size: 1 conflict score: 1420 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Oral_cavity_finding,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Oral_Cavity_Finding,0
+	Plan 2 of size: 1 conflict score: 53 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Activity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Activity_Kind,0
+http://www.ihtsdo.org/snomed#Difficulty_chewing
+	Plan 1 of size: 1 conflict score: 53 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Activity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Activity_Kind,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Difficulty_chewing,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Chewing_Difficulty,0
+http://www.ihtsdo.org/snomed#Urticaria_pigmentosa
+	Plan 1 of size: 1 conflict score: 1402 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Neoplasm_of_integumentary_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Integumentary_System_Neoplasms,0
+	Plan 2 of size: 1 conflict score: 308 confidence: 0.9039999999999999
+		http://www.ihtsdo.org/snomed#Neoplasm_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Skin_Neoplasm,-1
+http://www.ihtsdo.org/snomed#Benign_tumor_of_acoustic_vestibular_nerve
+	Plan 1 of size: 1 conflict score: 2682 confidence: 0.8320000000000001
+		http://www.ihtsdo.org/snomed#Neoplasm_of_soft_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Soft_Tissue_Neoplasm,0
+	Plan 2 of size: 1 conflict score: 674 confidence: 0.8049999999999999
+		http://www.ihtsdo.org/snomed#Neuropathy,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neuropathy,0
+	Plan 3 of size: 1 conflict score: 302 confidence: 0.8680000000000001
+		http://www.ihtsdo.org/snomed#Neoplasm_of_peripheral_nerve,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Peripheral_Nervous_System_Neoplasm,-1
+http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_tongue
+	Plan 1 of size: 1 conflict score: 250 confidence: 1.018
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Squamous_Cell_Carcinoma,0
+http://www.ihtsdo.org/snomed#Labial_lentigo
+	Plan 1 of size: 1 conflict score: 82 confidence: 0.8330000000000001
+		http://www.ihtsdo.org/snomed#Disorder_of_skin_pigmentation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Disorders_of_Pigmentation_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Neoplasm_of_rectovesical_septum
+	Plan 1 of size: 1 conflict score: 164 confidence: 0.883
+		http://www.ihtsdo.org/snomed#Neoplasm_of_bladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Neoplasm,0
+http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_penis
+	Plan 1 of size: 1 conflict score: 43 confidence: 0.952
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Queyrat_s_erythroplasia
+	Plan 1 of size: 1 conflict score: 259 confidence: 0.871
+		http://www.ihtsdo.org/snomed#Squamous_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Squamous_Cell_Neoplasm,0
+http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_anal_margin
+	Plan 1 of size: 1 conflict score: 548 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Neoplasm_of_intestinal_tract,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neoplasms_of_the_Mouse_Intestinal_Tract,0
+http://www.ihtsdo.org/snomed#Brunner_s_gland_adenoma
+	Plan 1 of size: 1 conflict score: 90 confidence: 0.7809999999999999
+		http://www.ihtsdo.org/snomed#Benign_neoplasm_of_intestinal_tract,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_the_Mouse_Intestinal_Tract,0
+http://www.ihtsdo.org/snomed#Verrucous_carcinoma_of_oral_cavity
+	Plan 1 of size: 1 conflict score: 29 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_of_pharynx,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_of_the_Mouse_Pharynx,0
+http://www.ihtsdo.org/snomed#Hibernoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Hibernoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hibernoma_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Malignant_neoplasm_of_intrahepatic_gall_duct
+	Plan 1 of size: 1 conflict score: 111 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Malignant_neoplasm_of_liver,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Neoplasms_of_Mouse_Liver,0
+http://www.ihtsdo.org/snomed#Benign_neoplasm_of_intrahepatic_bile_ducts
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.8140000000000001
+		http://www.ihtsdo.org/snomed#Benign_neoplasm_of_liver,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Benign_Neoplasms_of_Mouse_Liver,0
+http://www.ihtsdo.org/snomed#Carcinoma_of_gallbladder
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Carcinoma_of_gallbladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Gallbladder_Carcinoma,0
+http://www.ihtsdo.org/snomed#Somatostatinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.778
+		http://www.ihtsdo.org/snomed#Somatostatinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Somatostatinoma,0
+http://www.ihtsdo.org/snomed#Glucagonoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.802
+		http://www.ihtsdo.org/snomed#Glucagonoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Glucagonoma,0
+http://www.ihtsdo.org/snomed#Insulinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7989999999999999
+		http://www.ihtsdo.org/snomed#Insulinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Insulinoma,0
+http://www.ihtsdo.org/snomed#Acute_myocardial_infarction_of_anterolateral_wall
+	Plan 1 of size: 1 conflict score: 17 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Acute_myocardial_infarction,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acute_Myocardial_Infarction_Pathway,0
+http://www.ihtsdo.org/snomed#Mitral_valve_appearance
+	Plan 1 of size: 1 conflict score: 95 confidence: 0.865
+		http://www.ihtsdo.org/snomed#Heart_disease,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Heart_Disease,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Mitral_valve_appearance,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mitral_Valve,0
+http://www.ihtsdo.org/snomed#Adenosquamous_carcinoma_of_cervix
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Adenosquamous_cell_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenosquamous_Cell_Carcinoma_of_the_Mouse_Prostate_Gland,0
+http://www.ihtsdo.org/snomed#Other_ovarian_cysts
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.754
+		http://www.ihtsdo.org/snomed#Other_ovarian_cysts,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Ovarian_Cysts,0
+http://www.ihtsdo.org/snomed#Carcinoma_of_bladder
+	Plan 1 of size: 1 conflict score: 33 confidence: 0.8440000000000001
+		http://www.ihtsdo.org/snomed#Carcinoma_of_bladder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Carcinoma,0
+http://www.ihtsdo.org/snomed#Bladder_papilloma_NOS
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.835
+		http://www.ihtsdo.org/snomed#Bladder_papilloma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Bladder_Papilloma,0
+http://www.ihtsdo.org/snomed#Neoplasm_of_fallopian_tube
+	Plan 1 of size: 1 conflict score: 48 confidence: 0.829
+		http://www.ihtsdo.org/snomed#Neoplasm_of_fallopian_tube,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fallopian_Tube_Neoplasm,0
+http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_in_situ_of_skin
+	Plan 1 of size: 1 conflict score: 13 confidence: 0.8809999999999999
+		http://www.ihtsdo.org/snomed#Squamous_cell_carcinoma_in_situ_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Carcinoma_in_Situ_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Junctional_melanocytic_nevus_of_skin
+	Plan 1 of size: 1 conflict score: 61 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Benign_melanocytic_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Benign_Melanocytic_Neoplasms,0
+http://www.ihtsdo.org/snomed#Sebaceous_adenoma_of_skin
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.8989999999999999
+		http://www.ihtsdo.org/snomed#Sebaceous_adenoma_of_skin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Adenoma_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Basal_cell_carcinoma_with_sebaceous_differentiation
+	Plan 1 of size: 1 conflict score: 32 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Malignant_basal_cell_tumor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Basal_Cell_Tumor_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Primary_cutaneous_B_cell_lymphoma
+	Plan 1 of size: 1 conflict score: 121 confidence: 0.724
+		http://www.ihtsdo.org/snomed#B_cell_lymphoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#B-cell_Lymphomas_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Primary_cutaneous_B_cell_lymphomacategory
+	Plan 1 of size: 1 conflict score: 226 confidence: 0.872
+		http://www.ihtsdo.org/snomed#B_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_B_Cell_Neoplasms,0
+http://www.ihtsdo.org/snomed#Prostatitis_NOS
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7689999999999999
+		http://www.ihtsdo.org/snomed#Prostatitis_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Prostatitis,0
+http://www.ihtsdo.org/snomed#Other_prostate_disorders_NOS
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Other_prostate_disorders_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Prostate_Disorder,0
+http://www.ihtsdo.org/snomed#Malignant_histiocytosis_of_lymph_nodes_of_multiple_sites
+	Plan 1 of size: 1 conflict score: 45 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Histiocytic_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histiocytic_Neoplasms_of_the_Mouse_Skin,0
+http://www.ihtsdo.org/snomed#Sentinel_node
+	Plan 1 of size: 1 conflict score: 42 confidence: 0.883
+		http://www.ihtsdo.org/snomed#Disorder_of_lymph_node,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lymph_Node_Disorder,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7270000000000001
+		http://www.ihtsdo.org/snomed#Sentinel_node,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sentinel_Lymph_Node,0
+http://www.ihtsdo.org/snomed#Chronic_myelomonocytic_leukemia
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Myelomonocytic_leukemia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myelomonocytic_Leukemia,0
+http://www.ihtsdo.org/snomed#T_cell_acute_lymphoblastic_leukemia
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.835
+		http://www.ihtsdo.org/snomed#Precursor_T_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_T_Cell_Neoplasm_of_the_Mouse_Hematologic_System,0
+http://www.ihtsdo.org/snomed#Monocytic_leukemia_NOS
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.8380000000000001
+		http://www.ihtsdo.org/snomed#Monocytic_leukemia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Monocytic_Leukemia,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Monocytic_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Monocytic_Leukemia,0
+http://www.ihtsdo.org/snomed#Craniopharyngioma
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.817
+		http://www.ihtsdo.org/snomed#Craniopharyngioma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Craniopharyngioma,0
+http://www.ihtsdo.org/snomed#Solitary_osseous_myeloma
+	Plan 1 of size: 1 conflict score: 11 confidence: 0.796
+		http://www.ihtsdo.org/snomed#Plasmacytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Plasmacytoma,0
+http://www.ihtsdo.org/snomed#Adenoid_cystic_carcinoma_of_salivary_gland
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.8620000000000001
+		http://www.ihtsdo.org/snomed#Adenoid_cystic_carcinoma_of_salivary_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenoid_Cystic_Carcinoma_of_the_Mouse_Salivary_Glands,0
+http://www.ihtsdo.org/snomed#Lipoma_NOS
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Lipoma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Lipoma,0
+http://www.ihtsdo.org/snomed#Pineal_parenchymal_tumor_of_intermediate_differentiation
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Pineoblastoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Pineoblastoma,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.742
+		http://www.ihtsdo.org/snomed#Pineal_parenchymal_tumor_of_intermediate_differentiation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pineal_Parenchymal_Tumor_of_Intermediate_Differentiation,0
+http://www.ihtsdo.org/snomed#Precursor_B_lymphoblastic_leukemia_lymphoblastic_lymphoma
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Precursor_B_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Precursor_B_Cell_Neoplasm_of_the_Mouse_Hematologic_System,0
+http://www.ihtsdo.org/snomed#Papillary_and_follicular_adenocarcinoma
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7390000000000001
+		http://www.ihtsdo.org/snomed#Papillary_carcinoma_follicular_variant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Follicular_Variant_Papillary_Carcinoma,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8450000000000001
+		http://www.ihtsdo.org/snomed#Papillary_and_follicular_adenocarcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Follicular_Variant_Papillary_Carcinoma,0
+http://www.ihtsdo.org/snomed#Large_cleaved_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.808
+		http://www.ihtsdo.org/snomed#Large_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Cleaved_Cell,0
+http://www.ihtsdo.org/snomed#Abnormal_megakaryocyte
+	Plan 1 of size: 1 conflict score: 11 confidence: 0.802
+		http://www.ihtsdo.org/snomed#Megakaryocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Megakaryocyte,0
+http://www.ihtsdo.org/snomed#Small_cleaved_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Small_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Small_Cleaved_Cell,0
+http://www.ihtsdo.org/snomed#Abnormal_macrophage
+	Plan 1 of size: 2 conflict score: 25 confidence: 1.703
+		http://www.ihtsdo.org/snomed#Macrophage,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Macrophage,0
+		http://www.ihtsdo.org/snomed#Phagocytic_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Phagocytic_Cell,0
+http://www.ihtsdo.org/snomed#Cleaved_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.854
+		http://www.ihtsdo.org/snomed#Cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cleaved_Cell,0
+http://www.ihtsdo.org/snomed#Large_non_cleaved_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Large_non_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Non-cleaved_Cell,0
+http://www.ihtsdo.org/snomed#Elliptocyte
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.724
+		http://www.ihtsdo.org/snomed#Elliptocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Elliptocyte_Count,0
+http://www.ihtsdo.org/snomed#Atypical_cells_of_undetermined_significance
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.9279999999999999
+		http://www.ihtsdo.org/snomed#Cytologic_atypia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cytologic_Atypia,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.947
+		http://www.ihtsdo.org/snomed#Atypical_cells_of_undetermined_significance,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Cells_of_Uncertain_Significance,0
+http://www.ihtsdo.org/snomed#Atypical_squamous_cells_of_undetermined_significance
+	Plan 1 of size: 1 conflict score: 53 confidence: 0.8200000000000001
+		http://www.ihtsdo.org/snomed#Squamous_cell_atypia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Squamous_Cell_Atypia,0
+http://www.ihtsdo.org/snomed#Atypical_glandular_cells_of_undetermined_significance
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.8049999999999999
+		http://www.ihtsdo.org/snomed#Glandular_cell_atypia,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glandular_Cell_Atypia,0
+http://www.ihtsdo.org/snomed#Ruptured_cavity
+	Plan 1 of size: 1 conflict score: 22 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Rupture,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rupture,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Cavity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cavity,0
+http://www.ihtsdo.org/snomed#Cavitated_nodule
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.7510000000000001
+		http://www.ihtsdo.org/snomed#Nodule,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nodule,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Cavity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cavity,0
+http://www.ihtsdo.org/snomed#Segmented_neutrophil
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Segmented_neutrophil,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Segmented_Neutrophil,0
+http://www.ihtsdo.org/snomed#B_lymphocyte
+	Plan 1 of size: 1 conflict score: 16 confidence: 0.808
+		http://www.ihtsdo.org/snomed#B_lymphocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC,0
+http://www.ihtsdo.org/snomed#Plasmablast
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Plasmablast,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast,0
+http://www.ihtsdo.org/snomed#Atypical_mononuclear_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Atypical_mononuclear_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Mononuclear_Cell,0
+http://www.ihtsdo.org/snomed#Glycocalyx
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Cell_process,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Process,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7390000000000001
+		http://www.ihtsdo.org/snomed#Glycocalyx,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glycocalyx,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Plasmablast,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Segmented_Neutrophil
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Segmented_neutrophil,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Segmented_Neutrophil,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Mononuclear_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Atypical_mononuclear_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Atypical_Mononuclear_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-1-Beta
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.772
+		http://www.ihtsdo.org/snomed#Interleukin_1_beta,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-1-Beta,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acute_Myocardial_Infarction_Pathway
+	Plan 1 of size: 1 conflict score: 17 confidence: 0.9279999999999999
+		http://www.ihtsdo.org/snomed#Myocardial_infarction,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Myocardial_Infarction,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7090000000000001
+		http://www.ihtsdo.org/snomed#Acute_myocardial_infarction,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acute_Myocardial_Infarction_Pathway,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Collagen_Fiber
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7390000000000001
+		http://www.ihtsdo.org/snomed#Collagen_fiber,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Collagen_Fiber,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cleaved_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.854
+		http://www.ihtsdo.org/snomed#Cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cleaved_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Non-cleaved_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Large_non_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Non-cleaved_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Small_Cleaved_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Small_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Small_Cleaved_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Cleaved_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.808
+		http://www.ihtsdo.org/snomed#Large_cleaved_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Large_Cleaved_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Imiglucerase
+	Plan 1 of size: 1 conflict score: 222 confidence: 0.7869999999999999
+		http://www.ihtsdo.org/snomed#Hydrolase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hydrolase,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.748
+		http://www.ihtsdo.org/snomed#Imiglucerase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Imiglucerase,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bromelain
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Endopeptidase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Endopeptidase,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Bromelains,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bromelain,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thrombin
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Serine_protease,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Serine_Protease,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Thrombin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thrombin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Maple_Syrup
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Maple_syrup,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Maple_Syrup,-1
+http://www.ihtsdo.org/snomed#Infant_child
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.736
+		http://www.ihtsdo.org/snomed#Minor,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Minor,0
+http://www.ihtsdo.org/snomed#Collagen_ADP
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Nucleotide,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nucleotides,0
+http://www.ihtsdo.org/snomed#Microfibrillar_collagen_hemostat
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Beef,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Beef,0
+http://www.ihtsdo.org/snomed#Silicone_plug
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.7749999999999999
+		http://www.ihtsdo.org/snomed#Device,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Medical_Device,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7450000000000001
+		http://www.ihtsdo.org/snomed#Silicone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Silicone,0
+http://www.ihtsdo.org/snomed#Congenital_prolapse
+	Plan 1 of size: 1 conflict score: 27 confidence: 0.706
+		http://www.ihtsdo.org/snomed#Malposition,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malposition_of_Medical_Device,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Prolapse,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Prolapse,0
+http://www.ihtsdo.org/snomed#Infrared_coagulation_of_hemorrhoids
+	Plan 1 of size: 1 conflict score: 1976 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Operative_procedure_on_digestive_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Digestive_System_Surgery,0
+	Plan 2 of size: 1 conflict score: 50 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Coagulation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adverse_Event_Associated_with_Coagulation,0
+http://www.ihtsdo.org/snomed#Intravenous_blood_transfusion
+	Plan 1 of size: 1 conflict score: 32 confidence: 0.976
+		http://www.ihtsdo.org/snomed#Transfusion_of_blood_product,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood_Transfusion,0
+	Plan 2 of size: 1 conflict score: 8 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Intravenous_infusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intravenous_Infusion,0
+http://www.ihtsdo.org/snomed#Intravenous_blood_transfusion_of_platelets
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Intravenous_infusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intravenous_Infusion,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.859
+		http://www.ihtsdo.org/snomed#Platelet_transfusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet_Transfusion,0
+http://www.ihtsdo.org/snomed#Electrocoagulation_with_curettage
+	Plan 1 of size: 1 conflict score: 67 confidence: 0.919
+		http://www.ihtsdo.org/snomed#Curettage,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Curettage_Procedure,0
+	Plan 2 of size: 1 conflict score: 50 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Coagulation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adverse_Event_Associated_with_Coagulation,0
+http://www.ihtsdo.org/snomed#Transection_of_vas_deferens
+	Plan 1 of size: 1 conflict score: 1488 confidence: 0.7330000000000001
+		http://www.ihtsdo.org/snomed#Incision,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Surgical_Incision,0
+http://www.ihtsdo.org/snomed#Avulsion_of_inferior_alveolar_nerve_by_osteotomy
+	Plan 1 of size: 1 conflict score: 121 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Osteotomy,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Osteotomy,0
+http://www.ihtsdo.org/snomed#Cilioretinal_artery
+	Plan 1 of size: 3 conflict score: 3 confidence: 2.529
+		http://www.ihtsdo.org/snomed#Branch_of_thoracic_aorta,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thoracic_Aorta_Branch,0
+		http://www.ihtsdo.org/snomed#Branch_of_internal_carotid_artery,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Internal_Carotid_Artery_Branch,0
+		http://www.ihtsdo.org/snomed#Eye_part,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Eye_Part,0
+http://www.ihtsdo.org/snomed#Meckel_s_diverticulum
+	Plan 1 of size: 1 conflict score: 30 confidence: 0.802
+		http://www.ihtsdo.org/snomed#Diverticulum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Diverticulum,0
+	Plan 2 of size: 1 conflict score: 5 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Embryonic_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Embryonic_Structure,0
+http://www.ihtsdo.org/snomed#Follicular_hyperkeratosis
+	Plan 1 of size: 1 conflict score: 101 confidence: 0.766
+		http://www.ihtsdo.org/snomed#Keratosis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Keratosis,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Hair_follicle_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Disorders_of_the_Mouse_Hair_Follicle,0
+http://www.ihtsdo.org/snomed#Ulerythema
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Disorder_of_hair,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hair_Disorder,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Hair_follicle_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Disorders_of_the_Mouse_Hair_Follicle,0
+http://www.ihtsdo.org/snomed#Follicular_ichthyosis
+	Plan 1 of size: 1 conflict score: 92 confidence: 0.7270000000000001
+		http://www.ihtsdo.org/snomed#Hereditary_disease,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Genetic_Disorder,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Hair_follicle_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Disorders_of_the_Mouse_Hair_Follicle,0
+http://www.ihtsdo.org/snomed#Follicular_atrophoderma
+	Plan 1 of size: 1 conflict score: 284 confidence: 0.7150000000000001
+		http://www.ihtsdo.org/snomed#Degenerative_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Degenerative_Disorder,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7569999999999999
+		http://www.ihtsdo.org/snomed#Hair_follicle_disorder,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Disorders_of_the_Mouse_Hair_Follicle,0
+http://www.ihtsdo.org/snomed#Polyploid_plasmablast
+	Plan 1 of size: 2 conflict score: 704 confidence: 1.535
+		http://www.ihtsdo.org/snomed#Abnormal_hematopoietic_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal_Hematopoietic_Cell,0
+		http://www.ihtsdo.org/snomed#Abnormal_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal_Cell_Kind,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Accretion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Histopathology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology,-1
+http://www.ihtsdo.org/snomed#Egg_white
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.721909090909091
+		http://www.ihtsdo.org/snomed#Gamete_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Germ_Cell,0
+http://www.ihtsdo.org/snomed#Histopathology
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Histopathology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology,0
+http://www.ihtsdo.org/snomed#Accretion
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Accretion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Routine
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Priorities,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Priority,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Routine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Routine,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Registration
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Reference_documentation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Reference_Document,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Registers,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Registration,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gamma_Glutamyl_Transpeptidase_Measurement
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.682
+		http://www.ihtsdo.org/snomed#Transferase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transferase,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#gamma_Glutamyltransferase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gamma_Glutamyl_Transpeptidase_Measurement,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Serosa_MMHCC
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5014285714285714
+		http://www.ihtsdo.org/snomed#Structure_of_uterine_serosa,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Serosa_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anterior_Prostate_Gland_MMHCC
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5222553191489362
+		http://www.ihtsdo.org/snomed#Structure_of_genitourinary_system,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Genitourinary_System,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Coagulating_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anterior_Prostate_Gland_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunophenotype
+	Plan 1 of size: 1 conflict score: 13 confidence: 0.2270232723081697
+		http://www.ihtsdo.org/snomed#Microbiology_subtype,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Document_Subtype,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Immunotype,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunophenotype,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Z-Score
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Reference_range_comments,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Reference_Range,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Z_score,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Z-Score,-1
+http://www.ihtsdo.org/snomed#Urokinase
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Thrombolytic,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thrombolysis,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.533
+		http://www.ihtsdo.org/snomed#Urokinase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urokinase,0
+http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge,0
+http://www.ihtsdo.org/snomed#Mecasermin
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.542
+		http://www.ihtsdo.org/snomed#Somatomedin_C,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Insulin-Like_Growth_Factor-1,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.548
+		http://www.ihtsdo.org/snomed#Mecasermin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Recombinant_IGF-I,0
+http://www.ihtsdo.org/snomed#Viscum_album
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Viscum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mistletoe_Extract,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5660000000000001
+		http://www.ihtsdo.org/snomed#Viscum_album,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mistletoe,0
+http://www.ihtsdo.org/snomed#Hammer_toe_operation
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.1451603053435115
+		http://www.ihtsdo.org/snomed#Arthroplasty_of_joint_of_foot,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interphalangeal_Joint_of_the_Foot,0
+http://www.ihtsdo.org/snomed#Excision_of_nail
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.702
+		http://www.ihtsdo.org/snomed#Excision,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Excision,0
+	Plan 2 of size: 1 conflict score: 5 confidence: 0.19217874396135268
+		http://www.ihtsdo.org/snomed#Removal_of_nail,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Body_of_the_Nail,0
+http://www.ihtsdo.org/snomed#Pheochromocytoma
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.34192027855732254
+		http://www.ihtsdo.org/snomed#Chromaffin_cell_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Chromaffin_Cell,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.53
+		http://www.ihtsdo.org/snomed#Pheochromocytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pheochromocytoma,0
+http://www.ihtsdo.org/snomed#Entire_nasal_gland
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7058571428571428
+		http://www.ihtsdo.org/snomed#Exocrine_gland_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exocrine_Gland,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.4718275862068966
+		http://www.ihtsdo.org/snomed#Structure_of_nasal_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Nasal_Gland_MMHCC,0
+http://www.ihtsdo.org/snomed#Structure_of_uterine_serosa
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5014285714285714
+		http://www.ihtsdo.org/snomed#Structure_of_uterine_serosa,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Serosa_MMHCC,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Write
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.73
+		http://www.ihtsdo.org/snomed#Movement,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Movement,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Writing,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Write,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Accretion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Histopathology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Exudate_MMHCC
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Effusion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Effusion,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Carcinoma_of_the_Mouse
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.536
+		http://www.ihtsdo.org/snomed#Hepatocellular_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Carcinoma,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.742
+		http://www.ihtsdo.org/snomed#Hepatocellular_carcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Carcinoma_of_the_Mouse,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Islet_Cell_Carcinoma
+	Plan 1 of size: 1 conflict score: 228 confidence: 0.908
+		http://www.ihtsdo.org/snomed#Neuroendocrine_neoplasm,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neuroendocrine_Neoplasm,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Pancreatic_Intraepithelial_Neoplasia-3
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Carcinoma_in_situ_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Pancreatic_Intraepithelial_Neoplasia-3,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Urinary_Tract_Disorder
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.627
+		http://www.ihtsdo.org/snomed#Other_urinary_tract_disorders,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urinary_Tract_Disorder,0
+	Plan 2 of size: 1 conflict score: 19 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Other_urinary_tract_disorders,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Urinary_Tract_Disorder,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Granulocytic_Hematopoietic_Sarcoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.542
+		http://www.ihtsdo.org/snomed#Chloroma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Granulocytic_Hematopoietic_Sarcoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myeloid_Leukemia
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5569999999999999
+		http://www.ihtsdo.org/snomed#Myeloid_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myeloid_Leukemia,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Monocytic_Leukemia
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://www.ihtsdo.org/snomed#Monocytic_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Monocytic_Leukemia,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Papillary_and_Follicular_Adenocarcinoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.542
+		http://www.ihtsdo.org/snomed#Papillary_and_follicular_adenocarcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Papillary_and_Follicular_Adenocarcinoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Granulocytic_Sarcoma_of_the_Mouse_Nervous_System
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.56
+		http://www.ihtsdo.org/snomed#Chloroma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Granulocytic_Sarcoma_of_the_Mouse_Nervous_System,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Desmoplastic_Medulloblastoma
+	Plan 1 of size: 1 conflict score: 14641 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Other_urinary_tract_disorders,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Urinary_Tract_Disorder,0
+	Plan 2 of size: 1 conflict score: 14640 confidence: 0.627
+		http://www.ihtsdo.org/snomed#Other_urinary_tract_disorders,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urinary_Tract_Disorder,-1
+	Plan 3 of size: 1 conflict score: 13752 confidence: 0.512
+		http://www.ihtsdo.org/snomed#Neoplasms_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urethra_Neoplasm,0
+	Plan 4 of size: 1 conflict score: 1 confidence: 0.527
+		http://www.ihtsdo.org/snomed#Desmoplastic_medulloblastoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Desmoplastic_Medulloblastoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Anaplastic_Ganglioglioma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.527
+		http://www.ihtsdo.org/snomed#Ganglioglioma_anaplastic,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Anaplastic_Ganglioglioma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Angiosarcoma
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Angiosarcoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Angiosarcoma,0
+	Plan 2 of size: 1 conflict score: 6 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Angiosarcoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Angiosarcoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Lipoma
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Lipoma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Lipoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Umbilical_Cord_Blood
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Blood,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Honey_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Honey,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Honey_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raisin_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Raisins,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raisin_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Chocolate_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Chocolate,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Chocolate_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Tangerine_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Tangerine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Tangerine_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raspberry_Flavor
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Raspberries,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raspberry_Flavor,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.575
+		http://www.ihtsdo.org/snomed#Abnormal,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal,-1
+http://www.ihtsdo.org/snomed#Urokinase
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Urokinase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Urokinase,0
+http://www.ihtsdo.org/snomed#Raspberry
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Raspberries,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raspberry_Flavor,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Raspberries,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raspberry,-1
+http://www.ihtsdo.org/snomed#Goat_s_milk
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Whole_milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Milk,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.572
+		http://www.ihtsdo.org/snomed#Whole_milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Milk,-1
+	Plan 3 of size: 1 conflict score: 1 confidence: 0.6993529411764706
+		http://www.ihtsdo.org/snomed#Goat_s_milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Goat_Milk,0
+http://www.ihtsdo.org/snomed#Honey
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Honey,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Honey_Flavor,0
+http://www.ihtsdo.org/snomed#Becaplermin
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Becaplermin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet_Derived_Growth_Factor_Beta_Chain,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.614
+		http://www.ihtsdo.org/snomed#Becaplermin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Platelet_Derived_Growth_Factor_Beta_Chain,0
+http://www.ihtsdo.org/snomed#Capillary_blood
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.7210000000000001
+		http://www.ihtsdo.org/snomed#Blood,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Whole_Blood,0
+http://www.ihtsdo.org/snomed#Gonadorelin
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gonadotrophin_Releasing_Hormone,0
+	Plan 2 of size: 1 conflict score: 6 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Gonadorelin,0
+http://www.ihtsdo.org/snomed#Hypericum_perforatum_extract
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Hypericum_perforatum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_perforatum_Plant,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.53
+		http://www.ihtsdo.org/snomed#Hypericum_perforatum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_Perforatum,-1
+http://www.ihtsdo.org/snomed#Fish
+	Plan 1 of size: 1 conflict score: 326 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Fish,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fish,0
+http://www.ihtsdo.org/snomed#Bile_salt
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.7929999999999999
+		http://www.ihtsdo.org/snomed#Steroid,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Steroid_Compound,0
+http://www.ihtsdo.org/snomed#Somatostatin
+	Plan 1 of size: 2 conflict score: 2 confidence: 1.045923076923077
+		http://www.ihtsdo.org/snomed#Somatostatin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,0
+		http://www.ihtsdo.org/snomed#Somatostatin_28,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Growth_Hormone_Release_Inhibiting_Factor,-1
+	Plan 2 of size: 2 conflict score: 2 confidence: 1.069
+		http://www.ihtsdo.org/snomed#Somatostatin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,0
+		http://www.ihtsdo.org/snomed#Somatostatin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Growth_Hormone_Release_Inhibiting_Factor,0
+http://www.ihtsdo.org/snomed#Somatostatin_28
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5099230769230769
+		http://www.ihtsdo.org/snomed#Somatostatin_28,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,0
+http://www.ihtsdo.org/snomed#Breast_milk
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.572
+		http://www.ihtsdo.org/snomed#Whole_milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Milk,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Whole_milk,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Breast_Milk,-1
+http://www.ihtsdo.org/snomed#Egg_white
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.721909090909091
+		http://www.ihtsdo.org/snomed#Gamete_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Germ_Cell,0
+http://www.ihtsdo.org/snomed#Tangerine
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Tangerine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Tangerine_Flavor,0
+http://www.ihtsdo.org/snomed#Raisins
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Raisins,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Raisin_Flavor,0
+http://www.ihtsdo.org/snomed#Chocolate
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Chocolate,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Chocolate_Flavor,0
+http://www.ihtsdo.org/snomed#Diastasis_of_bone
+	Plan 1 of size: 2 conflict score: 2 confidence: 1.2389999999999999
+		http://www.ihtsdo.org/snomed#Separation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Medical_Device_Material_Separation,0
+		http://www.ihtsdo.org/snomed#Separation,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Separate,0
+http://www.ihtsdo.org/snomed#Abnormal
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.575
+		http://www.ihtsdo.org/snomed#Abnormal,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Abnormal,0
+http://www.ihtsdo.org/snomed#Acute_panmyelosis_with_myelofibrosis
+	Plan 1 of size: 1 conflict score: 190 confidence: 0.5569999999999999
+		http://www.ihtsdo.org/snomed#Myeloid_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Myeloid_Leukemia,0
+	Plan 2 of size: 1 conflict score: 190 confidence: 0.575
+		http://www.ihtsdo.org/snomed#Myeloid_leukemia_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Myeloid_Leukemia,-1
+http://www.ihtsdo.org/snomed#Histopathology
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Histopathology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Histopathology,0
+http://www.ihtsdo.org/snomed#Lipoma_of_skin_and_subcutaneous_tissue_of_neck
+	Plan 1 of size: 1 conflict score: 115 confidence: 0.718
+		http://www.ihtsdo.org/snomed#Lipoma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Lipoma,0
+	Plan 2 of size: 1 conflict score: 114 confidence: 0.528
+		http://www.ihtsdo.org/snomed#Lipoma_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lipoma,-1
+http://www.ihtsdo.org/snomed#Carcinoma_in_situ_of_base_of_tongue
+	Plan 1 of size: 1 conflict score: 710 confidence: 0.521
+		http://www.ihtsdo.org/snomed#Carcinoma_in_situ_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Pancreatic_Intraepithelial_Neoplasia-3,0
+	Plan 2 of size: 1 conflict score: 709 confidence: 0.615
+		http://www.ihtsdo.org/snomed#Carcinoma_in_situ_NOS,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Carcinoma_in_situ,-1
+http://www.ihtsdo.org/snomed#Angiosarcoma_of_liver
+	Plan 1 of size: 1 conflict score: 37 confidence: 0.518
+		http://www.ihtsdo.org/snomed#Angiosarcoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Angiosarcoma,0
+	Plan 2 of size: 1 conflict score: 36 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Angiosarcoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Angiosarcoma,-1
+http://www.ihtsdo.org/snomed#Mitral_valve_appearance
+	Plan 1 of size: 1 conflict score: 16 confidence: 0.865
+		http://www.ihtsdo.org/snomed#Heart_disease,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Heart_Disease,0
+http://www.ihtsdo.org/snomed#Chloroma
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.56
+		http://www.ihtsdo.org/snomed#Chloroma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Granulocytic_Sarcoma_of_the_Mouse_Nervous_System,0
+http://www.ihtsdo.org/snomed#Papillary_and_follicular_adenocarcinoma
+	Plan 1 of size: 2 conflict score: 5 confidence: 1.2810000000000001
+		http://www.ihtsdo.org/snomed#Papillary_and_follicular_adenocarcinoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Papillary_and_Follicular_Adenocarcinoma,0
+		http://www.ihtsdo.org/snomed#Papillary_carcinoma_follicular_variant,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Follicular_Variant_Papillary_Carcinoma,0
+http://www.ihtsdo.org/snomed#Ganglioglioma_anaplastic
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.527
+		http://www.ihtsdo.org/snomed#Ganglioglioma_anaplastic,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Anaplastic_Ganglioglioma,0
+http://www.ihtsdo.org/snomed#Accretion
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Accretion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Accrual,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fish
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.712
+		http://www.ihtsdo.org/snomed#Fish,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fish,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_perforatum_Plant
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.53
+		http://www.ihtsdo.org/snomed#Hypericum_perforatum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_Perforatum,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Hypericum_perforatum,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hypericum_perforatum_Plant,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gonadotrophin_Releasing_Hormone
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Gonadorelin,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gonadotrophin_Releasing_Hormone,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin
+	Plan 1 of size: 2 conflict score: 3 confidence: 1.0429230769230768
+		http://www.ihtsdo.org/snomed#Somatostatin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,-1
+		http://www.ihtsdo.org/snomed#Somatostatin_28,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,-1
+	Plan 2 of size: 2 conflict score: 3 confidence: 1.045923076923077
+		http://www.ihtsdo.org/snomed#Somatostatin_28,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Somatostatin,-1
+		http://www.ihtsdo.org/snomed#Somatostatin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Growth_Hormone_Release_Inhibiting_Factor,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet_Derived_Growth_Factor_Beta_Chain
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.614
+		http://www.ihtsdo.org/snomed#Becaplermin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Platelet_Derived_Growth_Factor_Beta_Chain,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Becaplermin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Platelet_Derived_Growth_Factor_Beta_Chain,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Urokinase
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.76
+		http://www.ihtsdo.org/snomed#Urokinase,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Urokinase,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Gland_Medulla_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.587027027027027
+		http://www.ihtsdo.org/snomed#Adrenal_medulla_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Medulla,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.599027027027027
+		http://www.ihtsdo.org/snomed#Adrenal_medulla_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Gland_Medulla_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Protoplasmic_Astrocytoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Protoplasmic_astrocytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Protoplasmic_Astrocytoma,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fibrillary_Astrocytoma
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Fibrillary_astrocytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fibrillary_Astrocytoma,-1
+http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge,0
+http://www.ihtsdo.org/snomed#Gonadorelin_hydrochloride
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.548
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gonadotrophin_Releasing_Hormone-1,0
+	Plan 2 of size: 1 conflict score: 5 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Gonadorelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Gonadorelin,-1
+http://www.ihtsdo.org/snomed#Hammer_toe_operation
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.1451603053435115
+		http://www.ihtsdo.org/snomed#Arthroplasty_of_joint_of_foot,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interphalangeal_Joint_of_the_Foot,0
+http://www.ihtsdo.org/snomed#Excision_of_nail
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.702
+		http://www.ihtsdo.org/snomed#Excision,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Excision,0
+http://www.ihtsdo.org/snomed#Cilioretinal_artery
+	Plan 1 of size: 2 conflict score: 2 confidence: 1.7029999999999998
+		http://www.ihtsdo.org/snomed#Branch_of_thoracic_aorta,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thoracic_Aorta_Branch,0
+		http://www.ihtsdo.org/snomed#Branch_of_internal_carotid_artery,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Internal_Carotid_Artery_Branch,0
+http://www.ihtsdo.org/snomed#Desmoplastic_medulloblastoma
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.527
+		http://www.ihtsdo.org/snomed#Desmoplastic_medulloblastoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Desmoplastic_Medulloblastoma,0
+http://www.ihtsdo.org/snomed#Protoplasmic_astrocytoma
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Protoplasmic_astrocytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Protoplasmic_Astrocytoma,0
+http://www.ihtsdo.org/snomed#Fibrillary_astrocytoma
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.524
+		http://www.ihtsdo.org/snomed#Fibrillary_astrocytoma,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Fibrillary_Astrocytoma,0
+http://www.ihtsdo.org/snomed#Gastrojejunal_junction
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.545
+		http://www.ihtsdo.org/snomed#Anastomosis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anastomosis,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5797377049180328
+		http://www.ihtsdo.org/snomed#Lower_gastrointestinal_tract_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lower_Gastrointestinal_Tract,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Medulla
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.599027027027027
+		http://www.ihtsdo.org/snomed#Adrenal_medulla_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Gland_Medulla_MMHCC,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.587027027027027
+		http://www.ihtsdo.org/snomed#Adrenal_medulla_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Medulla,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
+		http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge,-1
+MAPPINSG TO ASK: 2578
+largebio-snomed-nci	2495445.0	13329	0.868	0.65	0.743

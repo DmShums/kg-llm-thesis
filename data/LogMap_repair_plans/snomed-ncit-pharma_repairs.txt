@@ -1,0 +1,142 @@
+http://snomed.info/id/52988006
+	Plan 1 of size: 1 conflict score: 60 confidence: 0.7929999999999999
+		http://snomed.info/id/123037004,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C32221,0
+	Plan 2 of size: 1 conflict score: 11 confidence: 0.7150000000000001
+		http://snomed.info/id/52988006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3824,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74536
+	Plan 1 of size: 1 conflict score: 1536 confidence: 0.823
+		http://snomed.info/id/763158003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142605,0
+	Plan 2 of size: 1 conflict score: 49 confidence: 0.706
+		http://snomed.info/id/49694007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74536,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90624
+	Plan 1 of size: 1 conflict score: 12749 confidence: 0.706
+		http://snomed.info/id/105590001,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45306,0
+	Plan 2 of size: 1 conflict score: 69 confidence: 0.817
+		http://snomed.info/id/372791003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C66917,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74262
+	Plan 1 of size: 1 conflict score: 9661 confidence: 0.7030000000000001
+		http://snomed.info/id/441900009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48807,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.796
+		http://snomed.info/id/698024002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74262,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65412
+	Plan 1 of size: 1 conflict score: 5791 confidence: 0.7030000000000001
+		http://snomed.info/id/362981000,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41009,0
+	Plan 2 of size: 1 conflict score: 2889 confidence: 0.7809999999999999
+		http://snomed.info/id/734551003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C471,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157376
+	Plan 1 of size: 1 conflict score: 693 confidence: 0.736
+		http://snomed.info/id/88878007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021,0
+	Plan 2 of size: 1 conflict score: 98 confidence: 0.8500000000000001
+		http://snomed.info/id/49616005,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20401,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76663
+	Plan 1 of size: 1 conflict score: 113 confidence: 0.742
+		http://snomed.info/id/260769002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48187,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8109999999999999
+		http://snomed.info/id/67636005,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76663,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81473
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.766
+		http://snomed.info/id/782439004,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155923,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.808
+		http://snomed.info/id/697998007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81473,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65505
+	Plan 1 of size: 1 conflict score: 31 confidence: 0.712
+		http://snomed.info/id/304380002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8049999999999999
+		http://snomed.info/id/445569008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65505,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C225
+	Plan 1 of size: 1 conflict score: 126 confidence: 0.7150000000000001
+		http://snomed.info/id/59804006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1151
+	Plan 1 of size: 1 conflict score: 12 confidence: 0.706
+		http://snomed.info/id/304372009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7929999999999999
+		http://snomed.info/id/707618008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1151,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C835
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.9380000000000001
+		http://snomed.info/id/70825004,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C835,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2455
+	Plan 1 of size: 1 conflict score: 17 confidence: 0.7150000000000001
+		http://snomed.info/id/81286007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20424,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.808
+		http://snomed.info/id/417092008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2455,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C173802
+	Plan 1 of size: 1 conflict score: 147 confidence: 0.73
+		http://snomed.info/id/768009002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.817
+		http://snomed.info/id/85267009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C173802,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171753
+	Plan 1 of size: 1 conflict score: 59 confidence: 0.8620000000000001
+		http://snomed.info/id/116181003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.772
+		http://snomed.info/id/783678000,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171753,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171659
+	Plan 1 of size: 1 conflict score: 13 confidence: 0.7210000000000001
+		http://snomed.info/id/422055000,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.796
+		http://snomed.info/id/718942000,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171659,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8510000000000001
+		http://snomed.info/id/431069006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363,-1
+http://snomed.info/id/30065008
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://snomed.info/id/30065008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261,0
+http://snomed.info/id/84524005
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.7510000000000001
+		http://snomed.info/id/130196001,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561,0
+http://snomed.info/id/10534002
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://snomed.info/id/10534002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C136413,0
+http://snomed.info/id/420303002
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.778
+		http://snomed.info/id/420303002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496,0
+http://snomed.info/id/61472002
+	Plan 1 of size: 2 conflict score: 6 confidence: 1.49
+		http://snomed.info/id/304381003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073,0
+		http://snomed.info/id/61472002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447,0
+http://snomed.info/id/56355009
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8049999999999999
+		http://snomed.info/id/56355009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021
+	Plan 1 of size: 1 conflict score: 392 confidence: 0.736
+		http://snomed.info/id/88878007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7150000000000001
+		http://snomed.info/id/59804006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728
+	Plan 1 of size: 1 conflict score: 120 confidence: 0.706
+		http://snomed.info/id/304372009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.8620000000000001
+		http://snomed.info/id/116181003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.712
+		http://snomed.info/id/304380002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.778
+		http://snomed.info/id/420303002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.7510000000000001
+		http://snomed.info/id/130196001,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://snomed.info/id/30065008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.8049999999999999
+		http://snomed.info/id/56355009,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.73
+		http://snomed.info/id/768009002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.742
+		http://snomed.info/id/304381003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.748
+		http://snomed.info/id/61472002,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7210000000000001
+		http://snomed.info/id/422055000,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561,-1
+http://snomed.info/id/431069006
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.8510000000000001
+		http://snomed.info/id/431069006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363,0
+MAPPINSG TO ASK: 557
+bioml-snomed-ncit-pharm	1354085.0	4399	0.825	0.625	0.711

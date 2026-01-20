@@ -1,0 +1,15 @@
+http://mouse.owl#MA_0001857
+	Plan 1 of size: 1 conflict score: 173 confidence: 0.8440000000000001
+		http://mouse.owl#MA_0000003,http://human.owl#NCI_C12919,0
+	Plan 2 of size: 1 conflict score: 91 confidence: 0.8799999999999999
+		http://mouse.owl#MA_0000011,http://human.owl#NCI_C12374,0
+http://mouse.owl#MA_0000626
+	Plan 1 of size: 1 conflict score: 66 confidence: 0.6722587145449337
+		http://mouse.owl#MA_0000014,http://human.owl#NCI_C12907,0
+	Plan 2 of size: 1 conflict score: 65 confidence: 0.5292857142857144
+		http://mouse.owl#MA_0000014,http://human.owl#NCI_C12470,-1
+http://human.owl#NCI_C12907
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5292857142857144
+		http://mouse.owl#MA_0000014,http://human.owl#NCI_C12470,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.6722587145449337
+		http://mouse.owl#MA_0000014,http://human.owl#NCI_C12907,-1

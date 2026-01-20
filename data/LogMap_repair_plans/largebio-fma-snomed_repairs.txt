@@ -1,0 +1,665 @@
+largebio-fma-snomed
+Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/fma-snomed//logmap/
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Portion_of_cytosol
+	Plan 1 of size: 1 conflict score: 3463 confidence: 0.7510000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anatomical_structure,http://www.ihtsdo.org/snomed#Anatomical_structure,-1
+	Plan 2 of size: 1 conflict score: 12 confidence: 0.8049999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Portion_of_cytosol,http://www.ihtsdo.org/snomed#Cytoplasmic_matrix,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Front_of_neck
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.76
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_regions_of_neck,http://www.ihtsdo.org/snomed#Region_of_neck,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8200000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Front_of_neck,http://www.ihtsdo.org/snomed#Front_of_neck,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Collagen_fiber
+	Plan 1 of size: 1 conflict score: 2547 confidence: 0.7809999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Portion_of_body_substance,http://www.ihtsdo.org/snomed#Body_substance,-1
+	Plan 2 of size: 1 conflict score: 8 confidence: 0.7150000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Collagen_fiber,http://www.ihtsdo.org/snomed#Collagen_fiber,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mucosa_of_anal_canal
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anus,http://www.ihtsdo.org/snomed#Appearance_of_anus,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.83
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mucosa_of_anal_canal,http://www.ihtsdo.org/snomed#Anal_mucosa_appearance,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mesiopalatal_cusp_of_tooth
+	Plan 1 of size: 1 conflict score: 64 confidence: 0.865
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Surface_of_tooth,http://www.ihtsdo.org/snomed#Tooth_surface,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.79
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mesiopalatal_cusp_of_tooth,http://www.ihtsdo.org/snomed#Mesiopalatal_cusp,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Medial_surface_of_arytenoid
+	Plan 1 of size: 1 conflict score: 102 confidence: 0.724
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cartilage_tissue,http://www.ihtsdo.org/snomed#Cartilage_tissue,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.766
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Medial_surface_of_arytenoid,http://www.ihtsdo.org/snomed#Medial_surface_of_arytenoid,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Surface_of_tongue
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Tongue,http://www.ihtsdo.org/snomed#Appearance_of_tongue,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Surface_of_tongue,http://www.ihtsdo.org/snomed#Surface_appearance_of_tongue,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inguinal_fossa
+	Plan 1 of size: 1 conflict score: 45 confidence: 0.754
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Peritoneal_recess,http://www.ihtsdo.org/snomed#Peritoneal_recess,-1
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.79
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inguinal_fossa,http://www.ihtsdo.org/snomed#Inguinal_fossa,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Esophageal_impression_of_liver
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lobe_of_liver,http://www.ihtsdo.org/snomed#Lobe_of_liver,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.778
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Esophageal_impression_of_liver,http://www.ihtsdo.org/snomed#Esophageal_impression_of_liver,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Oblique_diameter_of_pelvis
+	Plan 1 of size: 1 conflict score: 23 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anatomical_landmark,http://www.ihtsdo.org/snomed#Anatomical_landmark,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Oblique_diameter_of_pelvis,http://www.ihtsdo.org/snomed#Oblique_diameter_of_pelvis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Choroidal_fissure
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Embryonic_structure,http://www.ihtsdo.org/snomed#Embryonic_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8260000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Choroidal_fissure,http://www.ihtsdo.org/snomed#Choroidal_fissure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nutrient_foramen
+	Plan 1 of size: 1 conflict score: 284 confidence: 0.7330000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anatomical_junction,http://www.ihtsdo.org/snomed#Anatomical_junction,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7869999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nutrient_foramen,http://www.ihtsdo.org/snomed#Nutrient_foramen,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ureteral_orifice
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.7749999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ureter,http://www.ihtsdo.org/snomed#Both_ureters,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ureteral_orifice,http://www.ihtsdo.org/snomed#Both_ureteral_orifices,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axis_of_pelvis
+	Plan 1 of size: 1 conflict score: 3272 confidence: 0.7390000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Physical_anatomical_entity,http://www.ihtsdo.org/snomed#Physical_anatomical_entity,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7749999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axis_of_pelvis,http://www.ihtsdo.org/snomed#Axis_of_pelvis,0
+http://www.ihtsdo.org/snomed#Structure_of_entorhinal_cortex
+	Plan 1 of size: 1 conflict score: 60 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Surface_of_brain,http://www.ihtsdo.org/snomed#Surface_of_brain,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.7929999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Region_of_cerebral_cortex,http://www.ihtsdo.org/snomed#Region_of_cerebral_cortex,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_lacunae
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5326153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_lacunae,http://www.ihtsdo.org/snomed#Structure_of_urethral_lacunae,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ora_serrata
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5471632653061225
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Retina,http://www.ihtsdo.org/snomed#Structure_of_tunica_interna_of_eyeball,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5853488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ora_serrata,http://www.ihtsdo.org/snomed#Structure_of_ora_serrata_of_retina,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Submandibular_space
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.551896551724138
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Floor_of_mouth,http://www.ihtsdo.org/snomed#Floor_of_mouth_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.6
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Submandibular_space,http://www.ihtsdo.org/snomed#Submandibular_space_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Subarachnoid_space
+	Plan 1 of size: 1 conflict score: 72 confidence: 0.6458571428571428
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Membrane_organ,http://www.ihtsdo.org/snomed#Membrane_organ_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5822093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Subarachnoid_space,http://www.ihtsdo.org/snomed#Subarachnoid_space_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pharyngeal_recess
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.596027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Wall_of_pharynx,http://www.ihtsdo.org/snomed#Pharyngeal_wall_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5802439024390244
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pharyngeal_recess,http://www.ihtsdo.org/snomed#Structure_of_pharyngeal_recess,0
+http://www.ihtsdo.org/snomed#Structure_of_urethral_lacunae
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5326153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_lacunae,http://www.ihtsdo.org/snomed#Structure_of_urethral_lacunae,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_semilunar_folds_of_colon
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.6192295081967213
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lumen_of_gastrointestinal_system,http://www.ihtsdo.org/snomed#Structure_of_lumen_of_gastrointestinal_tract,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.574764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_semilunar_folds_of_colon,http://www.ihtsdo.org/snomed#Structure_of_plicae_semilunares_coli,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hyaloid_canal
+	Plan 1 of size: 1 conflict score: 18 confidence: 0.5959090909090908
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_segment_of_eyeball,http://www.ihtsdo.org/snomed#Posterior_eyeball_segment_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5871818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hyaloid_canal,http://www.ihtsdo.org/snomed#Hyaloid_canal_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_left_lung
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5386363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_left_lung,http://www.ihtsdo.org/snomed#Structure_of_root_of_left_lung,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_right_lung
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5464285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_right_lung,http://www.ihtsdo.org/snomed#Structure_of_root_of_right_lung,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Tympanostapedial_syndesmosis
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5851463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Oval_window,http://www.ihtsdo.org/snomed#Vestibular_window_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5825714285714285
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Tympanostapedial_syndesmosis,http://www.ihtsdo.org/snomed#Structure_of_tympanostapedial_syndesmosis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hyaloid_artery
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5871818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hyaloid_canal,http://www.ihtsdo.org/snomed#Hyaloid_canal_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5374285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hyaloid_artery,http://www.ihtsdo.org/snomed#Structure_of_hyaloid_artery,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_fascia_of_urogenital_diaphragm
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.6992093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Deep_perineal_space,http://www.ihtsdo.org/snomed#Deep_perineal_space_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5949493670886076
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_fascia_of_urogenital_diaphragm,http://www.ihtsdo.org/snomed#Structure_of_superior_urogenital_diaphragmatic_fascia,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Minor_arterial_circle_of_iris
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.5972553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pupillary_margin_of_iris,http://www.ihtsdo.org/snomed#Structure_of_pupillary_margin_of_iris,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6057692307692307
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Minor_arterial_circle_of_iris,http://www.ihtsdo.org/snomed#Structure_of_lesser_circulus_arteriosus_of_iris,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Major_arterial_circle_of_iris
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5823488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ciliary_margin_of_iris,http://www.ihtsdo.org/snomed#Structure_of_ciliary_margin_of_iris,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6048358208955223
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Major_arterial_circle_of_iris,http://www.ihtsdo.org/snomed#Structure_of_greater_circulus_arteriosus_of_iris,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Area_postrema
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.5738571428571428
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Rhomboid_fossa_of_fourth_ventricle,http://www.ihtsdo.org/snomed#Rhomboid_fossa_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5386363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Area_postrema,http://www.ihtsdo.org/snomed#Structure_of_area_postrema,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ampulla_of_deferent_duct
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.5720000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lumen_of_deferent_duct,http://www.ihtsdo.org/snomed#Vas_deferens_lumen_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5740671580671581
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ampulla_of_deferent_duct,http://www.ihtsdo.org/snomed#Structure_of_ampulla_of_vas_deferens,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Uvula_of_urinary_bladder
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.6319090909090909
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_urethral_orifice,http://www.ihtsdo.org/snomed#Internal_urethral_orifice_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5296363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Uvula_of_urinary_bladder,http://www.ihtsdo.org/snomed#Structure_of_uvula_of_bladder,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_canal_part_of_optic_nerve
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.584896551724138
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_canal,http://www.ihtsdo.org/snomed#Optic_canal_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6097826086956522
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_canal_part_of_optic_nerve,http://www.ihtsdo.org/snomed#Structure_of_intracanalicular_part_of_optic_nerve,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fimbriated_fold_of_tongue
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.586764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inferior_surface_of_tongue,http://www.ihtsdo.org/snomed#Structure_of_inferior_surface_of_tongue,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5831632653061225
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fimbriated_fold_of_tongue,http://www.ihtsdo.org/snomed#Structure_of_plica_fimbriata_of_tongue,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_granular_foveolae
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.662
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Arachnoid_mater,http://www.ihtsdo.org/snomed#Arachnoid_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.635
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_granular_foveolae,http://www.ihtsdo.org/snomed#Pacchionian_granulation,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_tractus_spiralis_foraminosus
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5791463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Modiolus_of_cochlea,http://www.ihtsdo.org/snomed#Cochlear_modiolus_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5682295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_tractus_spiralis_foraminosus,http://www.ihtsdo.org/snomed#Structure_of_tractus_spiralis_foraminosus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_crypts_of_pharyngeal_tonsil
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.565764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_crypts_of_pharyngeal_tonsil,http://www.ihtsdo.org/snomed#Structure_of_crypt_of_pharyngeal_tonsil,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Acetabular_notch
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5326153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Acetabular_notch,http://www.ihtsdo.org/snomed#Structure_of_acetabular_notch,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Symphysial_surface_of_pubis
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.56
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_pubis,http://www.ihtsdo.org/snomed#Bone_structure_of_pubis,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5805849056603773
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Symphysial_surface_of_pubis,http://www.ihtsdo.org/snomed#Structure_of_symphysial_surface_of_pubis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Navicular_facet_of_medial_cuneiform_bone
+	Plan 1 of size: 1 conflict score: 23 confidence: 0.5644285714285714
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cuneiform_bone,http://www.ihtsdo.org/snomed#Bone_structure_of_cuneiform,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.606
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Navicular_facet_of_medial_cuneiform_bone,http://www.ihtsdo.org/snomed#Structure_of_navicular_facet_of_medial_cuneiform_bone,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_talar_articular_surface
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.5101764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Heel,http://www.ihtsdo.org/snomed#Heel_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5947826086956521
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_talar_articular_surface,http://www.ihtsdo.org/snomed#Structure_of_posterior_articular_surface_for_talus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Eminence_of_concha
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.651
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Auricular_cartilage,http://www.ihtsdo.org/snomed#Auricular_cartilage_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6252439024390244
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Eminence_of_concha,http://www.ihtsdo.org/snomed#Structure_of_eminentia_conchae,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Supravesical_fossa
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.571813953488372
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Supravesical_fossa,http://www.ihtsdo.org/snomed#Structure_of_supravesical_fossa,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anal_intersphincteric_groove
+	Plan 1 of size: 1 conflict score: 12 confidence: 0.588027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mucosa,http://www.ihtsdo.org/snomed#Mucous_membrane_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5682295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anal_intersphincteric_groove,http://www.ihtsdo.org/snomed#Structure_of_anal_intersphincteric_groove,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Limbus_of_fossa_ovalis
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5630909090909091
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Limbus_of_fossa_ovalis,http://www.ihtsdo.org/snomed#Structure_of_limbus_of_fossa_ovalis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ulnar_notch_of_radius
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5592439024390244
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ulnar_notch_of_radius,http://www.ihtsdo.org/snomed#Structure_of_ulnar_notch_of_radius,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Carpal_articular_surface_of_radius
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5877692307692308
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Carpal_articular_surface_of_radius,http://www.ihtsdo.org/snomed#Structure_of_carpal_articular_surface_of_radius,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_ninth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_ninth_rib,http://www.ihtsdo.org/snomed#Head_of_ninth_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5643488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_ninth_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_ninth_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_seventh_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.617027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_seventh_rib,http://www.ihtsdo.org/snomed#Head_of_seventh_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5732553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_seventh_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_seventh_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_third_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_third_rib,http://www.ihtsdo.org/snomed#Head_of_third_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5643488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_third_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_third_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_second_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6098571428571429
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_second_rib,http://www.ihtsdo.org/snomed#Head_of_second_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5690000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_second_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_second_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_fourth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6068571428571429
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_fourth_rib,http://www.ihtsdo.org/snomed#Head_of_fourth_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5690000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_fourth_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_fourth_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_eighth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6098571428571429
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_eighth_rib,http://www.ihtsdo.org/snomed#Head_of_eighth_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5690000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_eighth_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_eighth_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_fifth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_fifth_rib,http://www.ihtsdo.org/snomed#Head_of_fifth_rib_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5643488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_fifth_rib,http://www.ihtsdo.org/snomed#Structure_of_crest_of_head_of_fifth_rib,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Radial_notch_of_ulna
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5596153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Radial_notch_of_ulna,http://www.ihtsdo.org/snomed#Structure_of_radial_notch_of_ulna,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_facet_of_head_of_fibula
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.572896551724138
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_fibula,http://www.ihtsdo.org/snomed#Bone_structure_of_fibula,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5720526315789474
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_facet_of_head_of_fibula,http://www.ihtsdo.org/snomed#Structure_of_articular_facet_of_head_of_fibula,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sternal_articular_facet_of_clavicle
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.2961954209830284
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_cartilage_of_sternal_end_of_clavicle,http://www.ihtsdo.org/snomed#Structure_of_articular_facet_of_clavicle,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.592530612244898
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sternal_articular_facet_of_clavicle,http://www.ihtsdo.org/snomed#Structure_of_sternal_facet_of_clavicle,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_facet_of_atlas
+	Plan 1 of size: 1 conflict score: 12 confidence: 0.5630000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_atlas,http://www.ihtsdo.org/snomed#Bone_structure_of_atlas,-1
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.5882553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_facet_of_atlas,http://www.ihtsdo.org/snomed#Structure_of_articular_facet_of_atlas,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_body_of_sternum
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5915714285714285
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_body_of_sternum,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_body_of_sternum
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5892295081967213
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_body_of_sternum,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Jugular_notch_of_sternum
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5552553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Jugular_notch_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_jugular_notch_of_sternum,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_manubrium
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.577728813559322
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_manubrium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_manubrium
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5750526315789474
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_manubrium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fourth_metacarpal_facet_of_capitate
+	Plan 1 of size: 1 conflict score: 42 confidence: 0.5543333333333333
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Skeleton_of_upper_limb,http://www.ihtsdo.org/snomed#Part_of_bone_of_upper_limb,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6196082474226804
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fourth_metacarpal_facet_of_capitate,http://www.ihtsdo.org/snomed#Structure_of_articular_surface_capitate_of_fourth_metacarpal_bone,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Malleolar_stria
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.628728813559322
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pars_tensa_of_tympanic_membrane,http://www.ihtsdo.org/snomed#Structure_of_pars_tensa_of_tympanic_membrane,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5838648648648649
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Malleolar_stria,http://www.ihtsdo.org/snomed#Structure_of_stria_mallearis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Terminal_sulcus_of_tongue
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.5206363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Dorsum_of_tongue,http://www.ihtsdo.org/snomed#Structure_of_dorsum_of_tongue,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5985849056603774
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Terminal_sulcus_of_tongue,http://www.ihtsdo.org/snomed#Structure_of_sulcus_terminalis_of_tongue,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_bicipital_groove
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.5935531914893617
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_proximal_epiphysis_of_humerus,http://www.ihtsdo.org/snomed#Bone_structure_of_proximal_humerus,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5189758671662827
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_bicipital_groove,http://www.ihtsdo.org/snomed#Structure_of_lateral_bicipital_sulcus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plane_suture
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.6359032258064515
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plane_suture,http://www.ihtsdo.org/snomed#Plane_suture_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sulcus_terminalis_cordis
+	Plan 1 of size: 1 conflict score: 18 confidence: 0.5113783783783784
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Right_side_of_heart,http://www.ihtsdo.org/snomed#Structure_of_right_side_of_heart,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5745849056603773
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sulcus_terminalis_cordis,http://www.ihtsdo.org/snomed#Structure_of_sulcus_terminalis_cordis,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Angular_notch_of_stomach
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.5827377049180328
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Upper_gastrointestinal_tract,http://www.ihtsdo.org/snomed#Upper_gastrointestinal_tract_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5810943396226416
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Angular_notch_of_stomach,http://www.ihtsdo.org/snomed#Structure_of_angular_incisure_of_stomach,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Intertrochanteric_line_of_femur
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5712295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Intertrochanteric_line_of_femur,http://www.ihtsdo.org/snomed#Structure_of_intertrochanteric_line_of_femur,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_circumference_of_ulna
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5682295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_circumference_of_ulna,http://www.ihtsdo.org/snomed#Structure_of_articular_circumference_of_ulna,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5683636363636363
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_superior_border_of_manubrium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inferior_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5631818181818181
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inferior_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_inferior_border_of_manubrium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_border_of_body_of_sternum
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.5688387096774193
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_body_of_sternum,-1
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.6290526315789473
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_border_of_body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_lateral_border_of_body_of_sternum,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5810943396226416
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_lateral_border_of_manubrium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bowman_s_space
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5056363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bowman_s_space,http://www.ihtsdo.org/snomed#Structure_of_Bowman_s_space,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Prepyramidal_fissure_of_cerebellum
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5254115306979417
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Vermis_of_posterior_lobe_of_cerebellum,http://www.ihtsdo.org/snomed#Cerebellar_vermis_and_posterior_lobes_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5522553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Prepyramidal_fissure_of_cerebellum,http://www.ihtsdo.org/snomed#Structure_of_prepyramidal_fissure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fimbriodentate_fissure
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5501632653061225
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fimbriodentate_fissure,http://www.ihtsdo.org/snomed#Structure_of_fimbriodentate_sulcus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_occipital_sulcus
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5732553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cortex_of_occipital_lobe,http://www.ihtsdo.org/snomed#Structure_of_cortex_of_occipital_lobe,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5570943396226415
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_occipital_sulcus,http://www.ihtsdo.org/snomed#Structure_of_lateral_occipital_sulcus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hippocampal_sulcus
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.542
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hippocampal_sulcus,http://www.ihtsdo.org/snomed#Structure_of_hippocampal_fissure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Limen_of_insula
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5733488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cortex_of_frontal_lobe,http://www.ihtsdo.org/snomed#Structure_of_cortex_of_frontal_lobe,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5026363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Limen_of_insula,http://www.ihtsdo.org/snomed#Structure_of_limen_insulae,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Retropubic_space
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5626153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Retropubic_space,http://www.ihtsdo.org/snomed#Structure_of_retropubic_space,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bile_canaliculus
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5421818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Biliary_system,http://www.ihtsdo.org/snomed#Biliary_tract_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5356153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bile_canaliculus,http://www.ihtsdo.org/snomed#Structure_of_bile_canaliculus,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pericardial_cavity
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.596027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pericardial_sac,http://www.ihtsdo.org/snomed#Pericardial_sac_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.6182093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pericardial_cavity,http://www.ihtsdo.org/snomed#Pericardial_cavity_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Right_pleural_cavity
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.569896551724138
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pleural_sac,http://www.ihtsdo.org/snomed#Pleural_sac_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.596
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Right_pleural_cavity,http://www.ihtsdo.org/snomed#Structure_of_right_pleural_cavity,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axillary_fossa
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.575027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axilla,http://www.ihtsdo.org/snomed#Axillary_region_structure,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5914285714285714
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axillary_fossa,http://www.ihtsdo.org/snomed#Structure_of_axillary_fossa,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lumen_of_trachea
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.6057272727272727
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Tracheobronchial_tree,http://www.ihtsdo.org/snomed#Tracheobronchial_tree_part,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5734285714285714
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lumen_of_trachea,http://www.ihtsdo.org/snomed#Structure_of_tracheal_lumen,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gastric_foveola
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.6040588235294116
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mucosa_of_stomach,http://www.ihtsdo.org/snomed#Gastric_mucous_membrane_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5233783783783784
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gastric_foveola,http://www.ihtsdo.org/snomed#Structure_of_gastric_foveola,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pelvic_part_of_peritoneal_cavity
+	Plan 1 of size: 1 conflict score: 31 confidence: 0.5701463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pelvic_peritoneum,http://www.ihtsdo.org/snomed#Pelvic_peritoneum_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.612056603773585
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pelvic_part_of_peritoneal_cavity,http://www.ihtsdo.org/snomed#Pelvic_peritoneal_cavity_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Rhomboid_fossa_of_fourth_ventricle
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pons,http://www.ihtsdo.org/snomed#Pons_part,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5738571428571428
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Rhomboid_fossa_of_fourth_ventricle,http://www.ihtsdo.org/snomed#Rhomboid_fossa_structure,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_recess_of_third_ventricle
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.590027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Third_ventricle,http://www.ihtsdo.org/snomed#Third_ventricle_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.604728813559322
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_recess_of_third_ventricle,http://www.ihtsdo.org/snomed#Structure_of_optic_recess_of_third_ventricle,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Foramen_rotundum
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.5872130547306403
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Greater_wing_of_sphenoid,http://www.ihtsdo.org/snomed#Structure_of_greater_wing_of_sphenoid_bone,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5566153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Foramen_rotundum,http://www.ihtsdo.org/snomed#Structure_of_foramen_rotundum,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Valve_of_foramen_ovale
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5433488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Valve_of_foramen_ovale,http://www.ihtsdo.org/snomed#Structure_of_valve_of_foramen_ovale,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ileocecal_orifice
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5780000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Distal_part_of_ileum,http://www.ihtsdo.org/snomed#Structure_of_distal_portion_of_ileum,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5566153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ileocecal_orifice,http://www.ihtsdo.org/snomed#Structure_of_ileocecal_ostium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cardiac_orifice_of_stomach
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5404285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cardia_of_stomach,http://www.ihtsdo.org/snomed#Cardia_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5681632653061225
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cardiac_orifice_of_stomach,http://www.ihtsdo.org/snomed#Structure_of_cardiac_ostium_of_stomach,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Caval_opening
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.6000566037735849
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Central_tendon,http://www.ihtsdo.org/snomed#Central_tendon_of_diaphragm_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.562764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Caval_opening,http://www.ihtsdo.org/snomed#Structure_of_caval_opening_of_diaphragm,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Umbilical_ring
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5847692307692308
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Umbilicus,http://www.ihtsdo.org/snomed#Umbilical_region_structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5554285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Umbilical_ring,http://www.ihtsdo.org/snomed#Structure_of_umbilical_ring,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_inferior_vena_cava
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5631818181818181
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_inferior_vena_cava,http://www.ihtsdo.org/snomed#Structure_of_ostium_of_inferior_vena_cava,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_coronary_sinus
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5432553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_coronary_sinus,http://www.ihtsdo.org/snomed#Structure_of_coronary_sinus_ostium,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_superior_vena_cava
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5713636363636363
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_superior_vena_cava,http://www.ihtsdo.org/snomed#Structure_of_ostium_of_superior_vena_cava,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gustatory_pore
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5284285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gustatory_pore,http://www.ihtsdo.org/snomed#Structure_of_gustatory_pore,0
+http://www.ihtsdo.org/snomed#Structure_of_acetabular_notch
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5326153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Acetabular_notch,http://www.ihtsdo.org/snomed#Structure_of_acetabular_notch,-1
+http://www.ihtsdo.org/snomed#Structure_of_intertrochanteric_line_of_femur
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5712295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Intertrochanteric_line_of_femur,http://www.ihtsdo.org/snomed#Structure_of_intertrochanteric_line_of_femur,-1
+http://www.ihtsdo.org/snomed#Structure_of_articular_circumference_of_ulna
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5682295081967212
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_circumference_of_ulna,http://www.ihtsdo.org/snomed#Structure_of_articular_circumference_of_ulna,-1
+http://www.ihtsdo.org/snomed#Structure_of_carpal_articular_surface_of_radius
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.6181463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_distal_epiphysis_of_radius,http://www.ihtsdo.org/snomed#Bone_structure_of_distal_radius,-1
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.5877692307692308
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Carpal_articular_surface_of_radius,http://www.ihtsdo.org/snomed#Structure_of_carpal_articular_surface_of_radius,-1
+http://www.ihtsdo.org/snomed#Plane_suture_structure
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.6359032258064515
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plane_suture,http://www.ihtsdo.org/snomed#Plane_suture_structure,-1
+http://www.ihtsdo.org/snomed#Entire_crypt_of_pharyngeal_tonsil
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.565764705882353
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_crypts_of_pharyngeal_tonsil,http://www.ihtsdo.org/snomed#Structure_of_crypt_of_pharyngeal_tonsil,-1
+http://www.ihtsdo.org/snomed#Structure_of_gustatory_pore
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5284285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gustatory_pore,http://www.ihtsdo.org/snomed#Structure_of_gustatory_pore,-1
+http://www.ihtsdo.org/snomed#Female_external_urethral_orifice
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5683783783783783
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#External_urethral_orifice,http://www.ihtsdo.org/snomed#Structure_of_urethral_meatus,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5809090909090908
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Female_external_genitalia,http://www.ihtsdo.org/snomed#Female_external_genitalia_structure,-1
+http://www.ihtsdo.org/snomed#Skin_structure_of_gluteal_fold
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.6038571428571429
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gluteal_fold,http://www.ihtsdo.org/snomed#Gluteal_sulcus_structure,-1
+http://www.ihtsdo.org/snomed#Skin_of_vertex
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5824285714285714
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Vertex,http://www.ihtsdo.org/snomed#Vertex_structure,-1
+http://www.ihtsdo.org/snomed#Skin_structure_of_cavity_of_concha
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5386363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cavity_of_concha_of_pinna,http://www.ihtsdo.org/snomed#Structure_of_cavity_of_concha,-1
+http://www.ihtsdo.org/snomed#Skin_structure_of_intertragal_incisure
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.6385531914893616
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Intertragic_incisure,http://www.ihtsdo.org/snomed#Intertragal_incisure_structure,-1
+http://www.ihtsdo.org/snomed#Skin_structure_of_medial_surface_of_thumb
+	Plan 1 of size: 1 conflict score: 65 confidence: 0.6283448275862069
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Segment_of_skin,http://www.ihtsdo.org/snomed#Structure_of_skin_region,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.596
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Medial_surface_of_thumb,http://www.ihtsdo.org/snomed#Structure_of_medial_surface_of_thumb,-1
+http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_body_of_sternum
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5915714285714285
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_body_of_sternum,-1
+http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_body_of_sternum
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5892295081967213
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_body_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_body_of_sternum,-1
+http://www.ihtsdo.org/snomed#Structure_of_inferior_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5631818181818181
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Inferior_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_inferior_border_of_manubrium,-1
+http://www.ihtsdo.org/snomed#Structure_of_lateral_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5810943396226416
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_lateral_border_of_manubrium,-1
+http://www.ihtsdo.org/snomed#Structure_of_superior_border_of_manubrium
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.5683636363636363
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_border_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_superior_border_of_manubrium,-1
+http://www.ihtsdo.org/snomed#Structure_of_jugular_notch_of_sternum
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5552553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Jugular_notch_of_sternum,http://www.ihtsdo.org/snomed#Structure_of_jugular_notch_of_sternum,-1
+http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_manubrium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5750526315789474
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anterior_surface_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_anterior_surface_of_manubrium,-1
+http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_manubrium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.577728813559322
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Posterior_surface_of_manubrium,http://www.ihtsdo.org/snomed#Structure_of_posterior_surface_of_manubrium,-1
+http://www.ihtsdo.org/snomed#Structure_of_radial_notch_of_ulna
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.5971463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_proximal_epiphysis_of_ulna,http://www.ihtsdo.org/snomed#Bone_structure_of_proximal_ulna,-1
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.5596153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Radial_notch_of_ulna,http://www.ihtsdo.org/snomed#Structure_of_radial_notch_of_ulna,-1
+http://www.ihtsdo.org/snomed#Structure_of_root_of_left_lung
+	Plan 1 of size: 2 conflict score: 9 confidence: 1.0307619047619048
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Left_pulmonary_hilum,http://www.ihtsdo.org/snomed#Structure_of_hilum_of_left_lung,-1
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pulmonary_hilum,http://www.ihtsdo.org/snomed#Structure_of_hilum_of_lung,-1
+	Plan 2 of size: 2 conflict score: 6 confidence: 1.1316363636363636
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_lung,http://www.ihtsdo.org/snomed#Lung_root,-1
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Root_of_left_lung,http://www.ihtsdo.org/snomed#Structure_of_root_of_left_lung,-1
+http://www.ihtsdo.org/snomed#Structure_of_root_of_right_lung
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5383783783783784
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Right_pulmonary_hilum,http://www.ihtsdo.org/snomed#Structure_of_hilum_of_right_lung,-1
+http://www.ihtsdo.org/snomed#Structure_of_Bowman_s_space
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5056363636363637
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bowman_s_space,http://www.ihtsdo.org/snomed#Structure_of_Bowman_s_space,-1
+http://www.ihtsdo.org/snomed#Structure_of_supravesical_fossa
+	Plan 1 of size: 1 conflict score: 25 confidence: 0.612056603773585
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pelvic_part_of_peritoneal_cavity,http://www.ihtsdo.org/snomed#Pelvic_peritoneal_cavity_structure,-1
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.571813953488372
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Supravesical_fossa,http://www.ihtsdo.org/snomed#Structure_of_supravesical_fossa,-1
+http://www.ihtsdo.org/snomed#Structure_of_retropubic_space
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6332093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hypogastrium,http://www.ihtsdo.org/snomed#Hypogastric_region_structure,-1
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.5626153846153846
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Retropubic_space,http://www.ihtsdo.org/snomed#Structure_of_retropubic_space,-1
+http://www.ihtsdo.org/snomed#Structure_of_fimbriodentate_sulcus
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.5501632653061225
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fimbriodentate_fissure,http://www.ihtsdo.org/snomed#Structure_of_fimbriodentate_sulcus,-1
+http://www.ihtsdo.org/snomed#Structure_of_hippocampal_fissure
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.542
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hippocampal_sulcus,http://www.ihtsdo.org/snomed#Structure_of_hippocampal_fissure,-1
+http://www.ihtsdo.org/snomed#Structure_of_coronary_sinus_ostium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5432553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_coronary_sinus,http://www.ihtsdo.org/snomed#Structure_of_coronary_sinus_ostium,-1
+http://www.ihtsdo.org/snomed#Structure_of_valve_of_foramen_ovale
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5433488372093023
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Valve_of_foramen_ovale,http://www.ihtsdo.org/snomed#Structure_of_valve_of_foramen_ovale,-1
+http://www.ihtsdo.org/snomed#Structure_of_ostium_of_superior_vena_cava
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5713636363636363
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_superior_vena_cava,http://www.ihtsdo.org/snomed#Structure_of_ostium_of_superior_vena_cava,-1
+http://www.ihtsdo.org/snomed#Structure_of_ostium_of_inferior_vena_cava
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5631818181818181
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ostium_of_inferior_vena_cava,http://www.ihtsdo.org/snomed#Structure_of_ostium_of_inferior_vena_cava,-1
+http://www.ihtsdo.org/snomed#Structure_of_limbus_of_fossa_ovalis
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5630909090909091
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Limbus_of_fossa_ovalis,http://www.ihtsdo.org/snomed#Structure_of_limbus_of_fossa_ovalis,-1
+http://www.ihtsdo.org/snomed#Dorsal_surface_of_thumb_surface_region
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.6859999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Segment_of_hand,http://www.ihtsdo.org/snomed#Region_of_hand,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.593
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Dorsal_surface_of_thumb,http://www.ihtsdo.org/snomed#Structure_of_dorsal_surface_of_thumb,-1
+http://www.ihtsdo.org/snomed#Entire_greater_supraclavicular_fossa
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.589
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Subdivision_of_neck,http://www.ihtsdo.org/snomed#Region_of_neck,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.6605714285714285
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Greater_supraclavicular_fossa,http://www.ihtsdo.org/snomed#Structure_of_greater_supraclavicular_fossa,-1
+http://www.ihtsdo.org/snomed#Entire_medial_surface_of_great_toe
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.624
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Segment_of_foot,http://www.ihtsdo.org/snomed#Region_of_foot,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.6077647058823529
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Medial_surface_of_great_toe,http://www.ihtsdo.org/snomed#Structure_of_medial_surface_of_great_toe,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_mastoid_cells
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.5088387096774194
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mastoid_air_cell,http://www.ihtsdo.org/snomed#Structure_of_mastoid_cell,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5028387096774194
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_mastoid_cells,http://www.ihtsdo.org/snomed#Structure_of_mastoid_cell,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fourth_ventricle
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.528114175133043
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Diencephalon,http://www.ihtsdo.org/snomed#Structure_of_diencephalon,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5822553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cave_of_septum_pellucidum,http://www.ihtsdo.org/snomed#Structure_of_cavum_septi_pellucidi,0
+	Plan 3 of size: 1 conflict score: 2 confidence: 0.584
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cave_of_septum_pellucidum,http://www.ihtsdo.org/snomed#Fifth_ventricle,-1
+	Plan 4 of size: 1 conflict score: 1 confidence: 0.6601904761904761
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fourth_ventricle,http://www.ihtsdo.org/snomed#Fifth_ventricle,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mastoid_air_cell
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.5028387096774194
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_mastoid_cells,http://www.ihtsdo.org/snomed#Structure_of_mastoid_cell,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.5088387096774194
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Mastoid_air_cell,http://www.ihtsdo.org/snomed#Structure_of_mastoid_cell,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superior_fascia_of_urogenital_diaphragm
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.6992093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Deep_perineal_space,http://www.ihtsdo.org/snomed#Deep_perineal_space_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Minor_arterial_circle_of_iris
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.5972553191489361
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pupillary_margin_of_iris,http://www.ihtsdo.org/snomed#Structure_of_pupillary_margin_of_iris,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Ampulla_of_deferent_duct
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.5720000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lumen_of_deferent_duct,http://www.ihtsdo.org/snomed#Vas_deferens_lumen_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Eminence_of_concha
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.651
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Auricular_cartilage,http://www.ihtsdo.org/snomed#Auricular_cartilage_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_ninth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_ninth_rib,http://www.ihtsdo.org/snomed#Head_of_ninth_rib_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_third_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_third_rib,http://www.ihtsdo.org/snomed#Head_of_third_rib_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_eighth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6098571428571429
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_eighth_rib,http://www.ihtsdo.org/snomed#Head_of_eighth_rib_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Crest_of_head_of_fifth_rib
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.6021818181818182
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Head_of_fifth_rib,http://www.ihtsdo.org/snomed#Head_of_fifth_rib_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sternal_articular_facet_of_clavicle
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.2961954209830284
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_cartilage_of_sternal_end_of_clavicle,http://www.ihtsdo.org/snomed#Structure_of_articular_facet_of_clavicle,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Articular_facet_of_atlas
+	Plan 1 of size: 1 conflict score: 12 confidence: 0.5630000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_atlas,http://www.ihtsdo.org/snomed#Bone_structure_of_atlas,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lateral_bicipital_groove
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.5935531914893617
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_proximal_epiphysis_of_humerus,http://www.ihtsdo.org/snomed#Bone_structure_of_proximal_humerus,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axillary_fossa
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.575027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Axilla,http://www.ihtsdo.org/snomed#Axillary_region_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cave_of_septum_pellucidum
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.6601904761904761
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fourth_ventricle,http://www.ihtsdo.org/snomed#Fifth_ventricle,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.584
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cave_of_septum_pellucidum,http://www.ihtsdo.org/snomed#Fifth_ventricle,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Optic_recess_of_third_ventricle
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.590027027027027
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Third_ventricle,http://www.ihtsdo.org/snomed#Third_ventricle_structure,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cardiac_orifice_of_stomach
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.5404285714285715
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cardia_of_stomach,http://www.ihtsdo.org/snomed#Cardia_structure,-1
+http://www.ihtsdo.org/snomed#Structure_of_carpal_articular_surface_of_radius
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.6181463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_distal_epiphysis_of_radius,http://www.ihtsdo.org/snomed#Bone_structure_of_distal_radius,-1
+http://www.ihtsdo.org/snomed#Structure_of_radial_notch_of_ulna
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5971463414634146
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Bone_of_proximal_epiphysis_of_ulna,http://www.ihtsdo.org/snomed#Bone_structure_of_proximal_ulna,-1
+http://www.ihtsdo.org/snomed#Structure_of_retropubic_space
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.6332093023255814
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hypogastrium,http://www.ihtsdo.org/snomed#Hypogastric_region_structure,-1
+MAPPINSG TO ASK: 1452
+largebio-fma-snomed	850828.0	6625	0.796	0.641	0.71

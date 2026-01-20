@@ -1,0 +1,32 @@
+http://purl.obolibrary.org/obo/DOID_754
+	Plan 1 of size: 1 conflict score: 441 confidence: 0.803
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39738,http://purl.obolibrary.org/obo/DOID_0050117,-1
+http://purl.obolibrary.org/obo/DOID_10011
+	Plan 1 of size: 1 conflict score: 107 confidence: 0.7330000000000001
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496,http://purl.obolibrary.org/obo/DOID_1781,-1
+http://purl.obolibrary.org/obo/DOID_5621
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.9219999999999999
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251,http://purl.obolibrary.org/obo/DOID_5621,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251
+	Plan 1 of size: 1 conflict score: 7 confidence: 0.9219999999999999
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251,http://purl.obolibrary.org/obo/DOID_5621,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7330000000000001
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496,http://purl.obolibrary.org/obo/DOID_1781,0
+http://purl.obolibrary.org/obo/DOID_5782
+	Plan 1 of size: 1 conflict score: 8 confidence: 0.6605400271370421
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27065,http://purl.obolibrary.org/obo/DOID_5100,-1
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.5461538461538461
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12502,http://purl.obolibrary.org/obo/DOID_5782,-1
+http://purl.obolibrary.org/obo/DOID_13945
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.619
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111036,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.619
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111035,0
+	Plan 3 of size: 1 conflict score: 1 confidence: 0.539
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_13945,-1
+http://purl.obolibrary.org/obo/DOID_0111036
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.619
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111035,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.619
+		http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111036,-1

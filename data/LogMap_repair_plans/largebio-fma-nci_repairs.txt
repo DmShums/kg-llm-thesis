@@ -1,0 +1,330 @@
+largebio-fma-nci
+Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/fma-nci//logmap/
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#MHC_Class-I_Protein
+	Plan 1 of size: 1 conflict score: 430 confidence: 0.718
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Turn,0
+	Plan 2 of size: 1 conflict score: 7 confidence: 0.836
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Class_I_major_histocompatibility_complex_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#MHC_Class-I_Protein,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Peptide_Hormone
+	Plan 1 of size: 1 conflict score: 34 confidence: 0.772
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hormone,0
+	Plan 2 of size: 1 conflict score: 33 confidence: 0.712
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Peptide_hormone,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Peptide_Hormone,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin
+	Plan 1 of size: 1 conflict score: 66 confidence: 0.847
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cytokine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Cytokine,0
+	Plan 2 of size: 1 conflict score: 24 confidence: 0.907
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-8
+	Plan 1 of size: 1 conflict score: 22 confidence: 0.823
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Chemokine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Chemokine,0
+	Plan 2 of size: 1 conflict score: 19 confidence: 0.872
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CxC_chemokine,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Alpha_Chemokine,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sweating
+	Plan 1 of size: 1 conflict score: 37 confidence: 0.7090000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Secretion,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Secretion,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.748
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Sweat,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sweating,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_nasal_glands
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_nasal_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Nasal_Gland_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_sebaceous_glands
+	Plan 1 of size: 1 conflict score: 10 confidence: 0.808
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gland,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_sebaceous_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Skin_Gland_Sebaceous_Gland_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Adipose_tissue
+	Plan 1 of size: 1 conflict score: 19 confidence: 0.7869999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Adipose_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adipose_Tissue_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Germinal_epithelium_of_ovary
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.724
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Germinal_epithelium_of_ovary,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ovary_Germinal_Epithelium_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Trophoblast
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.772
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Embryonic_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Embryonic_Structure,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7390000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Trophoblast,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Placenta_Trophoblast_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Leukocyte
+	Plan 1 of size: 1 conflict score: 98 confidence: 0.772
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Leukocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_WBC_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#B_lymphocyte
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.736
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#B_lymphocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Foam_cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Foam_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Foam_Cell,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plasmablast
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.778
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plasmablast,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Parafollicular_cell_of_thyroid_gland
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.824
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Parafollicular_cell_of_thyroid_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thyroid_Gland_Parafollicular_Cell_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Type_I_cell_of_carotid_body
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7330000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Type_I_cell_of_carotid_body,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glomus_Cell,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Meninx
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.79
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Organ,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organ,0
+	Plan 2 of size: 1 conflict score: 14 confidence: 0.7210000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Meninx,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CNS_Brain_Meninges_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Dura_mater
+	Plan 1 of size: 1 conflict score: 14 confidence: 0.7210000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Meninx,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#CNS_Brain_Meninges_MMHCC,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8450000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Dura_mater,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Dura_Mater,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superficial_palmar_arterial_arch
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.8109999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anastomosis,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Anastomosis,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.8450000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Superficial_palmar_arterial_arch,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Superficial_Palmar_Arch,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Myelin
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.772
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Lipoprotein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lipoprotein,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7450000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Myelin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Myelin,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Neural_cell_adhesion_molecule
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.896
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cell_adhesion_molecule,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cell_Adhesion_Molecule,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.8140000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Neural_cell_adhesion_molecule,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NCAM1_wt_Allele,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nuclear_lamin
+	Plan 1 of size: 1 conflict score: 20 confidence: 0.817
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Intermediate_filament_protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intermediate_Filament_Protein,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.73
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nuclear_lamin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nuclear_Lamin,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fibrillar_actin
+	Plan 1 of size: 1 conflict score: 5 confidence: 0.7510000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Actin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Actin,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Fibrillar_actin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#F-actin,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_15
+	Plan 1 of size: 1 conflict score: 26 confidence: 0.907
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.932
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_15,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-15,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#White_pulp_of_spleen
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.8569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Splenic_pulp,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Splenic_Pulp,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.836
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#White_pulp_of_spleen,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Spleen_White_Pulp_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cavity_of_endosome
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.817
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cell_component,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cell_Part,-1
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.8330000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cavity_of_endosome,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lumen_of_the_Endosome,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adipose_Tissue_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.7869999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Adipose_tissue,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adipose_Tissue_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thyroid_Gland_Parafollicular_Cell_MMHCC
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.824
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Parafollicular_cell_of_thyroid_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Thyroid_Gland_Parafollicular_Cell_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Nasal_Gland_MMHCC
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.742
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nasal_cavity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_MMHCC,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_nasal_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Nasal_Gland_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_WBC_MMHCC
+	Plan 1 of size: 1 conflict score: 24 confidence: 0.772
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Leukocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_WBC_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.736
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#B_lymphocyte,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Leukocyte_Lymphocyte_B-Lymphocyte_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ovary_Germinal_Epithelium_MMHCC
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.724
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Germinal_epithelium_of_ovary,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ovary_Germinal_Epithelium_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.778
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Plasmablast,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Plasmablast,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glomus_Cell
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.7330000000000001
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Type_I_cell_of_carotid_body,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glomus_Cell,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Foam_Cell
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.7629999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Foam_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Foam_Cell,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cylindrical
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.5
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cell_morphology,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Morphology,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Cylindrical,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cylinder,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Extraembryonic_celom
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.62
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Extra_embryonic_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Extraembryonic_Structure,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.6
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Extraembryonic_celom,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Extraembryonic_Coelom,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-2
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_2,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-2,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.614
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_2,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-2,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-3
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.59
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_3,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-3,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_3,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-3,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-4
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.596
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_4,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-4,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.614
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_4,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-4,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-5
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.632
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_5,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-5,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_5,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-5,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_nasal_glands
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.742
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Nasal_cavity,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_MMHCC,-1
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.7569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_nasal_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Nasal_Gland_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_sebaceous_glands
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.539
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_sebaceous_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Gland_of_the_Eyelash,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_glands
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.539
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urethral_Gland,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_autonomic_nerves
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.79
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Organ,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organ,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.515
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Autonomic_nerve,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Autonomic_Nerves_MMHCC,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Feces
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.548
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Feces,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Feces,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.71
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Feces,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Stool_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Olfactory_receptor_cell
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.633
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Olfactory_receptor_cell,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nose_Nasal_Cavity_Olfactory_Cell_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Urethral_gland
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.539
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_urethral_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Urethral_Gland,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Renal_tubule
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.521
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Renal_tubule,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Renal_Tubule,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Descending_limb_of_loop_of_Henle
+	Plan 1 of size: 1 conflict score: 15 confidence: 0.521
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Renal_tubule,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Renal_Tubule,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gingiva
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.515
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gingiva,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gum,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.632
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gingiva,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gingiva,0
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Gland_of_the_Eyelash
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.539
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Set_of_sebaceous_glands,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sebaceous_Gland_of_the_Eyelash,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Feces
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.71
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Feces,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Stool_MMHCC,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.548
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Feces,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Feces,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gum
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.632
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gingiva,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gingiva,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.515
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Gingiva,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gum,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-3
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_3,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-3,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.59
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_3,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-3,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-4
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.614
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_4,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-4,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.596
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_4,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-4,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-5
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_5,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-5,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.632
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_5,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-5,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-2
+	Plan 1 of size: 1 conflict score: 6 confidence: 0.614
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_2,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-2,0
+	Plan 2 of size: 1 conflict score: 5 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_2,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-2,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pituitary_Gland_MMHCC
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.524
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Pituitary_gland,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pituitary_Gland_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.704
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-12,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.627
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12A
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12A,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12A_wt_Allele,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.639
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12A,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12A,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12B
+	Plan 1 of size: 1 conflict score: 3 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12B,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12B_wt_Allele,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.639
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12B,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12B,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-8
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.5569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_8,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-8,0
+	Plan 2 of size: 1 conflict score: 3 confidence: 0.699
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_8,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-8,-1
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Middle_ear
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Middle_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Middle_Ear,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.536
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Middle_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Middle_Ear_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_ear
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Internal_Ear,0
+	Plan 2 of size: 1 conflict score: 4 confidence: 0.536
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Inner_Ear_Cochlea_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Skull
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Skull,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bone_Skull_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Endometrium
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Endometrium,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Endometrium_MMHCC,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CA2_field
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.53
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CA2_field,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#TYRP1_wt_Allele,0
+	Plan 2 of size: 1 conflict score: 2 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CA2_field,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Infliximab,0
+http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Extraembryonic_celom
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.62
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Extra_embryonic_structure,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Extraembryonic_Structure,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Middle_Ear
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.536
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Middle_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Middle_Ear_MMHCC,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Middle_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Middle_Ear,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Internal_Ear
+	Plan 1 of size: 1 conflict score: 4 confidence: 0.536
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ear_Inner_Ear_Cochlea_MMHCC,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Internal_ear,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Internal_Ear,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12B_wt_Allele
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12B,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12B_wt_Allele,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12A_wt_Allele
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12A,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#IL12A_wt_Allele,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#TYRP1_wt_Allele
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.533
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CA2_field,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Infliximab,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.53
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#CA2_field,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#TYRP1_wt_Allele,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-8
+	Plan 1 of size: 1 conflict score: 2 confidence: 0.699
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_8,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-8,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.5569999999999999
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_8,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-8,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-12
+	Plan 1 of size: 1 conflict score: 9 confidence: 0.627
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-12,0
+	Plan 2 of size: 1 conflict score: 1 confidence: 0.704
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Interleukin_12,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Therapeutic_Interleukin-12,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bone_Skull_MMHCC
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.605
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Skull,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bone_Skull_MMHCC,-1
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Endometrium_MMHCC
+	Plan 1 of size: 1 conflict score: 1 confidence: 0.527
+		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Endometrium,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Endometrium_MMHCC,-1
+MAPPINSG TO ASK: 885
+largebio-fma-nci	272042.0	2673	0.86	0.8	0.829

@@ -1,0 +1,9 @@
+.env
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.ruff_cache/
+fma.body.owl
+playground_files/
+venv/
+oaei_SNOMED_whole_ontology.owl
