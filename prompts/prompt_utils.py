@@ -1,7 +1,6 @@
 from __future__ import annotations
 
-from src.onto_object import OntologyEntryAttr
-from src.formatting import format_gt_pairs_filepath
+from utils.onto_object import OntologyEntryAttr
 
 
 def get_name_string(name_set: set | list | OntologyEntryAttr) -> str:
@@ -106,6 +105,19 @@ def select_best_sequential_hierarchy_with_synonyms(
     return src_results[0], tgt_results[0], src_results[1:], tgt_results[1:]
 
 # Few-shot prompt utilities
+
+def format_gt_pairs_filepath(dataset_name: str, set_name: str) -> str:
+    """Format the filepath for ground truth pairs."""
+    # Default format: data/{dataset_name}/{set_name}/reference.rdf or similar
+    import os
+    base_path = os.path.join("data", dataset_name, set_name)
+    # Try common filenames
+    for filename in ["reference.rdf.txt", "reference.rdf", "refs_equiv/reference.tsv"]:
+        full_path = os.path.join(base_path, filename)
+        if os.path.exists(full_path):
+            return full_path
+    # Fallback
+    return os.path.join(base_path, "reference.rdf.txt")
 
 def get_gt_pairs(dataset_name: str, set_name: str) -> list[str]:
     with open(format_gt_pairs_filepath(dataset_name, set_name), 'r') as f:

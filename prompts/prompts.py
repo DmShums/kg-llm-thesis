@@ -1,5 +1,5 @@
-from prompts.onto_object import OntologyEntryAttr
-from prompts.prompts.prompt_utils import (
+from utils.onto_object import OntologyEntryAttr
+from prompts.prompt_utils import (
     format_hierarchy,
     select_best_direct_entity_names,
     select_best_direct_entity_names_with_synonyms,

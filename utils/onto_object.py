@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import owlready2
 
-from src.constants import LOGGER
-from src.onto_access import OntologyAccess
+from utils.constants import LOGGER
+from utils.onto_access import OntologyAccess
 
 
 class OntologyEntryAttr:

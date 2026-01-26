@@ -33,8 +33,14 @@ def _extract_json_text(text: str) -> str:
 # 1) Search / Annotate BioPortal API
 # -------------------------
 
+def _bioportal_headers() -> Dict[str, str]:
+    if not BIOPORTAL_KEY:
+        raise RuntimeError("BIOPORTAL_API_KEY is not set")
+    return {"Authorization": f"apikey token={BIOPORTAL_KEY}"}
+
+
 def bioportal_search(query: str, ontologies: str = None, pagesize: int = 50) -> List[Dict[str, Any]]:
-    headers = {"Authorization": f"apikey token={BIOPORTAL_KEY}"}
+    headers = _bioportal_headers()
     params = {"q": query, "pagesize": pagesize}
     if ontologies:
         params["ontologies"] = ontologies
@@ -56,7 +62,7 @@ def bioportal_annotate(text: str,
     """
     Calls the BioPortal Annotator endpoint and returns a list of annotation objects.
     """
-    headers = {"Authorization": f"apikey token={BIOPORTAL_KEY}"}
+    headers = _bioportal_headers()
     params = {
         "text": text,
         "longest_only": "true" if longest_only else "false",
@@ -77,6 +83,102 @@ def bioportal_annotate(text: str,
         return [data]
     return items
 
+
+# -------------------------
+# 1b) BioPortal Recommender / Ontology metadata (for Mediating Ontology selection)
+# -------------------------
+
+def bioportal_recommender(
+    text: str,
+    input_ontologies: str | None = None,
+    output_ontologies: str | None = None,
+    max_elements: int = 15,
+) -> List[Dict[str, Any]]:
+    """
+    Calls the BioPortal Recommender endpoint.
+
+    This is useful for selecting a mediating ontology (MO) given some text derived from O1/O2.
+
+    Notes:
+    - BioPortal's API returns a ranked list of ontologies with scores.
+    - Parameters can vary by BioPortal deployment; we keep them optional and tolerant.
+    """
+    headers = _bioportal_headers()
+    params: Dict[str, Any] = {
+        "input": text,
+        "maxElements": str(max_elements),
+    }
+    if input_ontologies:
+        params["input_ontologies"] = input_ontologies
+    if output_ontologies:
+        params["output_ontologies"] = output_ontologies
+
+    resp = requests.get(f"{BIOPORTAL_BASE}/recommender", headers=headers, params=params, timeout=60)
+    resp.raise_for_status()
+    data = resp.json()
+    # Common shapes: list[dict] or {"collection": [...]}
+    if isinstance(data, dict):
+        items = data.get("collection") or data.get("@graph") or data.get("results")
+        return items if isinstance(items, list) else [data]
+    return data if isinstance(data, list) else [data]
+
+
+def bioportal_get_ontology(acronym: str) -> Dict[str, Any]:
+    """Fetch BioPortal ontology metadata for an acronym (e.g., 'FMA', 'SNOMEDCT')."""
+    headers = _bioportal_headers()
+    resp = requests.get(f"{BIOPORTAL_BASE}/ontologies/{acronym}", headers=headers, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def bioportal_get_latest_submission(acronym: str) -> Dict[str, Any]:
+    """Fetch latest submission metadata, which typically contains download links."""
+    headers = _bioportal_headers()
+    resp = requests.get(f"{BIOPORTAL_BASE}/ontologies/{acronym}/latest_submission", headers=headers, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def bioportal_download_latest_submission(
+    acronym: str,
+    out_path: str,
+    chunk_size: int = 1024 * 1024,
+    fallback_ontology_json: dict | None = None,
+) -> str:
+    """
+    Download the latest ontology submission file from BioPortal.
+
+    Tries:
+    1) latest_submission.links.download
+    2) fallback: ontology.links.download
+
+    Returns:
+        out_path
+    """
+    headers = _bioportal_headers()
+
+    # 1️⃣ Try latest_submission
+    try:
+        sub = bioportal_get_latest_submission(acronym)
+        download_url = sub.get("links", {}).get("download")
+    except Exception:
+        download_url = None
+
+    # 2️⃣ Fallback: use pre-fetched ontology JSON (e.g., from recommender)
+    if not download_url and fallback_ontology_json:
+        download_url = fallback_ontology_json.get("links", {}).get("download")
+
+    if not download_url:
+        raise RuntimeError(f"No download link found for ontology {acronym}")
+
+    # Download
+    with requests.get(download_url, headers=headers, stream=True, timeout=300) as r:
+        r.raise_for_status()
+        with open(out_path, "wb") as f:
+            for chunk in r.iter_content(chunk_size=chunk_size):
+                if chunk:
+                    f.write(chunk)
+    return out_path
 
 # -------------------------
 # 2) Normalize candidate -> text context
@@ -199,6 +301,17 @@ def call_qwen_chat(prompt: str,
     except Exception:
         # If parsing fails, return the raw extracted text so downstream code can attempt its heuristics
         return extracted
+
+def chat_invoke(messages: list[dict], server_url: str = QWEN_SERVER_URL, max_new_tokens: int = 50, temperature: float = 0.7) -> str:
+    payload = {
+        "messages": messages,
+        "max_new_tokens": max_new_tokens,
+        "temperature": temperature
+    }
+    response = requests.post(f"{server_url}", json=payload, timeout=300)
+    response.raise_for_status()
+    data = response.json()
+    return data["response"]
 
 
 # -------------------------
