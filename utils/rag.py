@@ -146,38 +146,40 @@ def bioportal_download_latest_submission(
     fallback_ontology_json: dict | None = None,
 ) -> str:
     """
-    Download the latest ontology submission file from BioPortal.
+    Download ontology from BioPortal.
 
-    Tries:
+    Tries (in order):
     1) latest_submission.links.download
-    2) fallback: ontology.links.download
-
-    Returns:
-        out_path
+    2) fallback_ontology_json.links.download
+    3) ontology-level /ontologies/{ACRONYM}/download   ← REQUIRED for NCIT
     """
-    headers = _bioportal_headers()
 
-    # 1️⃣ Try latest_submission
+    headers = _bioportal_headers()
+    download_url = None
+
+    # 1. latest submission download
     try:
         sub = bioportal_get_latest_submission(acronym)
         download_url = sub.get("links", {}).get("download")
     except Exception:
-        download_url = None
+        pass
 
-    # 2️⃣ Fallback: use pre-fetched ontology JSON (e.g., from recommender)
+    # 2. fallback ontology JSON (e.g. recommender)
     if not download_url and fallback_ontology_json:
         download_url = fallback_ontology_json.get("links", {}).get("download")
 
+    # 3. ontology-level download (NCIT, MeSH, etc.)
     if not download_url:
-        raise RuntimeError(f"No download link found for ontology {acronym}")
+        download_url = f"https://data.bioontology.org/ontologies/{acronym}/download"
 
-    # Download
+    # --- download ---
     with requests.get(download_url, headers=headers, stream=True, timeout=300) as r:
         r.raise_for_status()
         with open(out_path, "wb") as f:
             for chunk in r.iter_content(chunk_size=chunk_size):
                 if chunk:
                     f.write(chunk)
+
     return out_path
 
 # -------------------------
