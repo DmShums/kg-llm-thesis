@@ -27,3 +27,26 @@ Responsibilities: call LLM to validate candidate pairs, perform strict heuristic
 Responsibilities: merge source↔target matches, compute metrics, persist results, trigger audits.
 
 (Optional) AuditorAgent / HumanAgent
+
+
+
+
+How to run logmap
+
+if doesn't exist:
+```bash
+mkdir output
+```
+
+```bash
+docker run --rm \
+  -v /Users/shuma/Desktop/dyplom:/workspace \
+  -w /workspace \
+  amazoncorretto:8-alpine \
+  java -jar logmap/logmap-matcher-4.0.jar \
+    MATCHER \
+    file:data/anatomy/human-mouse/human.owl \
+    file:data/anatomy/human-mouse/mouse.owl \
+    output/ \
+    true
+```
