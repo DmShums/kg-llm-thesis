@@ -90,8 +90,8 @@ def bioportal_annotate(text: str,
 
 def bioportal_recommender(
     text: str,
-    input_ontologies: str | None = None,
-    output_ontologies: str | None = None,
+    input_ontologies: str  = None,
+    output_ontologies: str  = None,
     max_elements: int = 15,
 ) -> List[Dict[str, Any]]:
     """
@@ -143,7 +143,7 @@ def bioportal_download_latest_submission(
     acronym: str,
     out_path: str,
     chunk_size: int = 1024 * 1024,
-    fallback_ontology_json: dict | None = None,
+    fallback_ontology_json: dict = None,
 ) -> str:
     """
     Download ontology from BioPortal.

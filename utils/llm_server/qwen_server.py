@@ -11,8 +11,8 @@ import uvicorn
 # =====================================================
 app = FastAPI(title="Qwen Model Server")
 
-MODEL_NAME = "Qwen/Qwen3-1.7B"
-# MODEL_NAME = "Qwen/Qwen3-8B"
+# MODEL_NAME = "Qwen/Qwen3-1.7B"
+MODEL_NAME = "Qwen/Qwen3-8B"
 # MODEL_NAME = "Qwen/Qwen1.5-MoE-A2.7B"
 
 # python3.10 qwen_server.py
@@ -60,7 +60,7 @@ def chat(req: ChatRequest):
         temperature=req.temperature,
         do_sample=False,  # deterministic
         eos_token_id=model.config.eos_token_id,
-        # prefix_allowed_tokens_fn=allowed_tokens
+        prefix_allowed_tokens_fn=allowed_tokens
     )
 
     output_ids = outputs[0][len(inputs.input_ids[0]):]
