@@ -1,0 +1,4 @@
+Metric,Value
+LLM_corrected_pairs,78
+LLM_introduced_errors,77
+Total_changed_by_LLM,155
