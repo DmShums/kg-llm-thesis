@@ -22,3 +22,6 @@ langchain-text-splitters==0.3.0
 langchain-openai
 openai
 jpype1
+pandas
+matplotlib
+seaborn
