@@ -10,7 +10,13 @@ from typing import Optional
 
 from utils.constants import LOGGER
 
-WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
+from dotenv import load_dotenv
+load_dotenv()
+
+WORKSPACE_ROOT = Path(
+    os.environ["WORKSPACE_ROOT"]
+) if "WORKSPACE_ROOT" in os.environ else Path(__file__).resolve().parent.parent
+
 LOGMAP_JAR = WORKSPACE_ROOT / "logmap" / "logmap-matcher-4.0.jar"
 
 
@@ -45,7 +51,7 @@ def run_logmap_alignment(
         "-v", f"{workspace}:/workspace",
         "-w", "/workspace",
         "amazoncorretto:8-alpine",
-        "java", "-jar", "logmap/logmap-matcher-4.0.jar",
+        "java", "-Xmx10g", "-jar", "logmap/logmap-matcher-4.0.jar", # make sure container will allocate at least 10gb of ram
         "MATCHER",
         f"file:{o1_rel}",
         f"file:{o2_rel}",

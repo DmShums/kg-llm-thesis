@@ -96,58 +96,45 @@ class OntologyAlignmentEvaluator:
         dataset_name: str,
         experiment_type: str,
         prompts_used: str,
+        second_system_name: str = "LLM",
+        second_system_pred_col: str = "LLMDecision",
         results_dir: str = "results",
     ) -> dict:
 
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
-
-        results_path = (
-            Path(results_dir)
-            / timestamp
-            / dataset_name
-            / experiment_type
-        )
+        results_path = Path(results_dir) / timestamp / dataset_name / experiment_type
         results_path.mkdir(parents=True, exist_ok=True)
 
         df = self.attach_labels(df)
-        df = self.analyze_llm_impact(df)
 
+        # compute metrics
         logmap_metrics = self._metrics(df["Label"], df["LogMapPred"])
-        llm_metrics = self._metrics(df["Label"], df["LLMDecision"])
+        second_metrics = self._metrics(df["Label"], df[second_system_pred_col])
 
-        impact = {
-            "LLM_corrected_pairs": int(df["LLMHelped"].sum()),
-            "LLM_introduced_errors": int(df["LLMHurt"].sum()),
-            "Total_changed_by_LLM": int(df["ChangedByLLM"].sum()),
-        }
+        # Optionally analyze LLM-like impact if column exists
+        if "LLMDecision" in df.columns:
+            df = self.analyze_llm_impact(df)
 
-        # SAVE METRICS CSV
+        # Save metrics CSV
         metrics_df = pd.DataFrame([
             {"System": "LogMap", **{k: v for k, v in logmap_metrics.items() if k != "ConfusionMatrix"}},
-            {"System": "LogMap+LLM", **{k: v for k, v in llm_metrics.items() if k != "ConfusionMatrix"}},
+            {"System": second_system_name, **{k: v for k, v in second_metrics.items() if k != "ConfusionMatrix"}},
         ])
         metrics_df.to_csv(results_path / "metrics.csv", index=False)
 
-        # SAVE LLM IMPACT
-        pd.DataFrame(
-            list(impact.items()),
-            columns=["Metric", "Value"]
-        ).to_csv(results_path / "llm_impact.csv", index=False)
-
-        # SAVE CONFUSION MATRICES
+        # Save confusion matrices
         self._save_confusion_matrix(
             logmap_metrics["ConfusionMatrix"],
             results_path / "confusion_matrix_logmap.png",
             "LogMap Confusion Matrix",
         )
-
         self._save_confusion_matrix(
-            llm_metrics["ConfusionMatrix"],
-            results_path / "confusion_matrix_logmap_llm.png",
-            "LogMap + LLM Confusion Matrix",
+            second_metrics["ConfusionMatrix"],
+            results_path / f"confusion_matrix_{second_system_name}.png",
+            f"{second_system_name} Confusion Matrix",
         )
 
-        # SAVE DETAILED RESULTS
+        # Save detailed results
         df.to_csv(results_path / "detailed_results.csv", index=False)
 
         with open(results_path / "prompts_used.txt", "w") as f:
@@ -159,6 +146,5 @@ class OntologyAlignmentEvaluator:
 
         return {
             "LogMap": logmap_metrics,
-            "LogMap+LLM": llm_metrics,
-            "LLM Impact": impact,
+            second_system_name: second_metrics,
         }

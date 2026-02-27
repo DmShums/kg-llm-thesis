@@ -1,10 +1,14 @@
 import json
+from tqdm import tqdm
 from pathlib import Path
 from collections import defaultdict
-from typing import List, Dict, Tuple, Optional
+from typing import List, Dict, Tuple, Optional, Set
 
 from utils.onto_access import OntologyAccess
-from utils.rag import bioportal_search, bioportal_download_latest_submission
+from utils.rag import (
+    bioportal_search,
+    bioportal_download_latest_submission,
+)
 from utils.constants import LOGGER
 
 
@@ -13,13 +17,19 @@ class MediatingOntologySelector:
         self,
         o1_path: str,
         o2_path: str,
+        lexical_mappings: List[Tuple[str, str]],
         cache_dir: str = "output/mediators",
         json_out: str = "output/mediators/mediating_ontology_ranking.json",
-        max_queries: int = 25,
+        stability_calls: int = 25,  # N in paper
     ):
         self.o1 = OntologyAccess(o1_path)
         self.o2 = OntologyAccess(o2_path)
-        self.max_queries = max_queries
+        self.lexical_mappings = lexical_mappings
+        self.stability_calls = stability_calls
+
+        # build IRI→label indexes (robust vs getClassByIRI)
+        self.o1_labels = self._build_label_index(self.o1)
+        self.o2_labels = self._build_label_index(self.o2)
 
         self.cache_dir = Path(cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
@@ -27,33 +37,44 @@ class MediatingOntologySelector:
         self.json_out = Path(json_out)
         self.json_out.parent.mkdir(parents=True, exist_ok=True)
 
-        LOGGER.info("MediatingOntologySelector initialized")
+        LOGGER.info("MediatingOntologySelector initialized (Algorithm 2 faithful)")
 
     # ------------------------------------------------------------
-    # Step 1: Exact lexical overlap
+    # Label index
     # ------------------------------------------------------------
 
     @staticmethod
-    def _collect_labels(onto: OntologyAccess) -> set:
-        labels = set()
+    def _build_label_index(onto: OntologyAccess) -> Dict[str, str]:
+        index = {}
         for cls in onto.getClasses():
             label = getattr(cls, "label", None)
-            if label:
-                if isinstance(label, list):
-                    labels.add(str(label[0]).lower())
-                else:
-                    labels.add(str(label).lower())
-        return labels
+            if not label:
+                continue
+            if isinstance(label, list):
+                label = label[0]
+            index[str(cls.iri)] = str(label).lower()
+        return index
 
-    def extract_exact_label_matches(self) -> List[str]:
-        LOGGER.info("Extracting exact lexical overlaps between ontologies")
+    # ------------------------------------------------------------
+    # Step 2: representative labels from lexical mappings
+    # ------------------------------------------------------------
 
-        labels_o1 = self._collect_labels(self.o1)
-        labels_o2 = self._collect_labels(self.o2)
-        shared = list(labels_o1 & labels_o2)
+    def extract_labels_from_mappings(self) -> List[str]:
+        LOGGER.info("Extracting labels from lexical mappings (LogMap anchors)")
 
-        LOGGER.info(f"Found {len(shared)} shared labels")
-        return shared
+        labels: Set[str] = set()
+
+        for iri1, iri2 in self.lexical_mappings:
+            l1 = self.o1_labels.get(iri1)
+            l2 = self.o2_labels.get(iri2)
+
+            if l1:
+                labels.add(l1)
+            if l2:
+                labels.add(l2)
+
+        LOGGER.info(f"Collected {len(labels)} representative labels")
+        return list(labels)
 
     # ------------------------------------------------------------
     # BioPortal helpers
@@ -66,9 +87,13 @@ class MediatingOntologySelector:
             return None
         return onto_url.rstrip("/").split("/")[-1]
 
+    # ------------------------------------------------------------
+    # Algorithm 2 selection
+    # ------------------------------------------------------------
+
     def collect_mediating_candidates(
         self,
-        shared_labels: List[str]
+        labels: List[str]
     ) -> Dict[str, dict]:
 
         LOGGER.info("Querying BioPortal SEARCH for mediating candidates")
@@ -78,11 +103,10 @@ class MediatingOntologySelector:
             "synonym_count": 0,
         })
 
-        for i, label in enumerate(shared_labels):
-            if i >= self.max_queries:
-                LOGGER.info(f"Reached max_queries limit: {self.max_queries}")
-                break
+        stable = 0
+        prev_size = 0
 
+        for label in tqdm(labels, desc="Processing labels"):
             LOGGER.debug(f"BioPortal search for label: '{label}'")
 
             results = bioportal_search(label)
@@ -97,11 +121,25 @@ class MediatingOntologySelector:
                     stats[onto]["synonym_count"] += len(synonyms)
                     seen_ontologies.add(onto)
 
+
+            # Step 7: adaptive stop
+            if len(stats) == prev_size:
+                stable += 1
+            else:
+                stable = 0
+                prev_size = len(stats)
+
+            if stable >= self.stability_calls:
+                LOGGER.info(
+                    f"Stop condition reached: MO stable for {self.stability_calls} calls"
+                )
+                break
+
         LOGGER.info(f"Collected stats for {len(stats)} candidate ontologies")
         return stats
 
     # ------------------------------------------------------------
-    # Ranking
+    # Ranking (paper rule)
     # ------------------------------------------------------------
 
     @staticmethod
@@ -124,26 +162,27 @@ class MediatingOntologySelector:
         return ranked[:top_k]
 
     # ------------------------------------------------------------
-    # JSON trace (same style as your script)
+    # JSON trace
     # ------------------------------------------------------------
 
     def _save_ranking_to_json(self, ranked: List[Tuple[str, dict]]):
         LOGGER.info(f"Saving mediating ontology ranking to {self.json_out}")
 
         results = []
+
         for acronym, s in ranked:
             avg_syn = s["synonym_count"] / max(s["positive_hits"], 1)
             results.append({
                 "acronym": acronym,
                 "positive_hits": s["positive_hits"],
-                "avg_synonyms": avg_syn
+                "avg_synonyms": avg_syn,
             })
 
         with open(self.json_out, "w") as f:
             json.dump(results, f, indent=2)
 
     # ------------------------------------------------------------
-    # Download logic (cached)
+    # Download
     # ------------------------------------------------------------
 
     def get_or_download_ontology(self, acronym: str) -> Path:
@@ -153,15 +192,12 @@ class MediatingOntologySelector:
             LOGGER.info(f"Using cached ontology: {acronym}")
         else:
             LOGGER.info(f"Downloading mediating ontology: {acronym}")
-            bioportal_download_latest_submission(
-                acronym,
-                str(out_path)
-            )
+            bioportal_download_latest_submission(acronym, str(out_path))
 
         return out_path
 
     # ------------------------------------------------------------
-    # Public API for agent
+    # Public API
     # ------------------------------------------------------------
 
     def select_top_mediators(
@@ -172,8 +208,8 @@ class MediatingOntologySelector:
 
         LOGGER.info("Starting mediating ontology selection pipeline")
 
-        shared = self.extract_exact_label_matches()
-        stats = self.collect_mediating_candidates(shared)
+        labels = self.extract_labels_from_mappings()
+        stats = self.collect_mediating_candidates(labels)
         ranked = self.rank_mediators(stats, top_k=top_k)
 
         self._save_ranking_to_json(ranked)

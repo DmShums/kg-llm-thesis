@@ -23,6 +23,8 @@ PROMPT_FUNCTIONS: Dict[str, Callable] = {
     "sequential_hierarchy_with_synonyms": prompt_sequential_hierarchy_with_synonyms,
 }
 
+# LLM Servers
+from utils.llm_server.qwen import QwenServer
 
 class LLMValidator:
     """
@@ -104,6 +106,7 @@ class LLMValidator:
         tgt_entity: OntologyEntryAttr,
         prompt_type: Optional[str] = None,
         system_prompt_type: Optional[str] = None,
+        model: Optional[str] = "qwen",
     ) -> Dict[str, Any]:
 
         messages = self._build_messages(
@@ -113,6 +116,12 @@ class LLMValidator:
             system_prompt_type,
         )
 
+        if model.startswith("qwen"):
+            llm_server = QwenServer()
+            raw_response = llm_server.ask_sync_question(message=messages)
+        else:
+            raise ValueError(f"Unknown model: {model}")
+        
         raw_response = self._call_qwen(messages)
         decision = raw_response.strip().lower()
 
