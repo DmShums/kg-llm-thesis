@@ -17,7 +17,7 @@ WORKSPACE_ROOT = Path(
     os.environ["WORKSPACE_ROOT"]
 ) if "WORKSPACE_ROOT" in os.environ else Path(__file__).resolve().parent.parent
 
-LOGMAP_JAR = WORKSPACE_ROOT / "logmap" / "logmap-matcher-4.0.jar"
+LOGMAP_JAR = WORKSPACE_ROOT / "modules" / "logmap" / "logmap-matcher-4.0.jar"
 
 
 def run_logmap_alignment(
@@ -45,13 +45,14 @@ def run_logmap_alignment(
     o1_rel = o1_path if not os.path.isabs(o1_path) else os.path.relpath(o1_path, workspace)
     o2_rel = o2_path if not os.path.isabs(o2_path) else os.path.relpath(o2_path, workspace)
     out_rel = output_dir if not os.path.isabs(output_dir) else os.path.relpath(output_dir, workspace)
+    os.makedirs(os.path.join(workspace, out_rel), exist_ok=True)
 
     cmd = [
         "docker", "run", "--rm",
         "-v", f"{workspace}:/workspace",
         "-w", "/workspace",
         "amazoncorretto:8-alpine",
-        "java", "-Xmx10g", "-jar", "logmap/logmap-matcher-4.0.jar", # make sure container will allocate at least 10gb of ram
+        "java", "-Xmx10g", "-jar", "modules/logmap/logmap-matcher-4.0.jar", # make sure container will allocate at least 10gb of ram
         "MATCHER",
         f"file:{o1_rel}",
         f"file:{o2_rel}",
