@@ -2,6 +2,8 @@
 
 In order, to run each module or experiment sepparately from main pipeline go to `runners` module and execute python notebooks.
 
+To run whole pipeline use `main.py` at the root of the repository
+
 
 # How to run logmap
 
@@ -50,3 +52,13 @@ You want something like:
 ```
 Mem: 11G total
 ```
+
+
+### 📦 Ontology Files
+
+Due to their large size, not all `.owl` ontology files are included in this repository.
+
+To run the experiments, download the required ontologies from:
+https://drive.google.com/file/d/1-sxhqFCIkZzTSoxXcIBzbcRGEcOn_1ek/view?usp=sharing
+
+After downloading, extract the archive into the `data/` directory, preserving the folder structure.
