@@ -11,8 +11,8 @@ import uvicorn
 # =====================================================
 app = FastAPI(title="Qwen Model Server")
 
-# MODEL_NAME = "Qwen/Qwen3-1.7B"
-MODEL_NAME = "Qwen/Qwen3-8B"
+MODEL_NAME = "Qwen/Qwen3-1.7B"
+# MODEL_NAME = "Qwen/Qwen3-8B"
 # MODEL_NAME = "Qwen/Qwen1.5-MoE-A2.7B"
 
 # python3.10 qwen_server.py
@@ -22,7 +22,7 @@ model = AutoModelForCausalLM.from_pretrained(
     MODEL_NAME,
     trust_remote_code=True,
     torch_dtype=torch.float16,
-    device_map="auto"
+    device_map="cpu"
 )
 
 class ChatRequest(BaseModel):

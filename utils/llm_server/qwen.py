@@ -2,7 +2,7 @@ from __future__ import annotations
 from typing import Any, Optional
 from pydantic import BaseModel
 import requests
-from src.constants import BinaryOutputFormat, BinaryOutputFormatWithReasoning, LLMCallOutput, TokensUsage
+from utils.constants import BinaryOutputFormat, BinaryOutputFormatWithReasoning, LLMCallOutput, TokensUsage
 
 
 class QwenServer:    
@@ -39,7 +39,7 @@ class QwenServer:
                 f"{self.base_url}/chat",
                 json=payload,
                 headers={"Content-Type": "application/json"},
-                timeout=120,
+                timeout=1000,
             )
             response.raise_for_status()
             text_response = response.json().get("response", "").strip()
