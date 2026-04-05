@@ -134,5 +134,3 @@ Requires `JAVA_EXE` and `modules/logmap-bio/logmap-matcher-4.0.jar`. Mode: `MATC
 | `final_results/` | Structured evaluation folders — `metrics.csv`, `detailed_results.csv`, `prompts_used.txt` |
 
 ---
-
-## License / Attribution
