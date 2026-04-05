@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>Using env.test.properties</echo>
+  <copy file="parameters.txt" tofile="/Users/shuma/Desktop/logmap-matcher/target/parameters.txt"/>
+</target>
+</project>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: uk.ac.ox.krr.logmap2.test.oaei.Test_DISO_guard
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s -- in uk.ac.ox.krr.logmap2.test.oaei.Test_DISO_guard

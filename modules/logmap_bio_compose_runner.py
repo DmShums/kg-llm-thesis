@@ -10,12 +10,15 @@ Additionally computes:
 MC_minus_direct := MC − LogMap(O1, O2)
 """
 
+import os
 from pathlib import Path
 from typing import List, Tuple, Dict, Set
 
 from utils.constants import LOGGER
-from modules.logmap_wrapper import run_logmap_alignment
+from modules.logmap_wrapper import run_logmap_alignment, run_logmap_alignment_locally
 
+# LOCAL_LOGMAP = os.environ.get("LOCAL_LOGMAP", False)
+LOCAL_LOGMAP = True
 
 class LogMapBioRunner:
     def __init__(
@@ -38,11 +41,14 @@ class LogMapBioRunner:
     # STEP 1 & 2: Run LogMap pairwise
     # ------------------------------------------------------------
 
-    def _run_pairwise(self, onto_a: str, onto_b: str, subdir: str) -> str:
+    def _run_pairwise(self, onto_a: str, onto_b: str, subdir: str, use_local: bool = LOCAL_LOGMAP) -> str:
         out_dir = self.work_dir / subdir
         out_dir.mkdir(exist_ok=True)
 
-        result = run_logmap_alignment(onto_a, onto_b, str(out_dir))
+        if use_local:
+            result = run_logmap_alignment_locally(onto_a, onto_b, str(out_dir))
+        else:
+            result = run_logmap_alignment(onto_a, onto_b, str(out_dir))
 
         if not result["success"]:
             raise RuntimeError(f"LogMap failed: {result['error']}")
@@ -124,14 +130,17 @@ class LogMapBioRunner:
     # Direct LogMap alignment
     # ------------------------------------------------------------
 
-    def _run_direct_alignment(self) -> Set[Tuple[str, str]]:
+    def _run_direct_alignment(self, use_local: bool = LOCAL_LOGMAP) -> Set[Tuple[str, str]]:
 
         LOGGER.info("Running direct LogMap(O1, O2)")
 
         direct_dir = self.work_dir / "direct_o1_o2"
         direct_dir.mkdir(exist_ok=True)
 
-        result = run_logmap_alignment(self.o1, self.o2, str(direct_dir))
+        if use_local:
+            result = run_logmap_alignment_locally(self.o1, self.o2, str(direct_dir))
+        else:
+            result = run_logmap_alignment(self.o1, self.o2, str(direct_dir))
 
         if not result["success"]:
             raise RuntimeError(f"Direct LogMap failed: {result['error']}")
