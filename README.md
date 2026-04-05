@@ -53,8 +53,6 @@ Primary workflow: **Jupyter notebooks** at the repo root, plus importable **Pyth
 | `run_mediator.ipynb` | Mediating ontology selection |
 | `run_local_validator.ipynb` | Local validator workflows |
 
-> `main.py` is a placeholder — use notebooks or import modules from your own script.
-
 ---
 
 ## Prerequisites
