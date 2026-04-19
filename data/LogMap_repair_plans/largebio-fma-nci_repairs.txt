@@ -1,5 +1,3 @@
-largebio-fma-nci
-Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/fma-nci//logmap/
 http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#MHC_Class-I_Protein
 	Plan 1 of size: 1 conflict score: 430 confidence: 0.718
 		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Protein,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Turn,0
@@ -326,5 +324,3 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Bone_Skull_MMHCC
 http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Endometrium_MMHCC
 	Plan 1 of size: 1 conflict score: 1 confidence: 0.527
 		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Endometrium,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uterus_Endometrium_MMHCC,-1
-MAPPINSG TO ASK: 885
-largebio-fma-nci	272042.0	2673	0.86	0.8	0.829

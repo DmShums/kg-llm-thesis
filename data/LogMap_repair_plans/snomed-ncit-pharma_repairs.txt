@@ -138,5 +138,3 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561
 http://snomed.info/id/431069006
 	Plan 1 of size: 1 conflict score: 2 confidence: 0.8510000000000001
 		http://snomed.info/id/431069006,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363,0
-MAPPINSG TO ASK: 557
-bioml-snomed-ncit-pharm	1354085.0	4399	0.825	0.625	0.711

@@ -1,5 +1,3 @@
-bioml-snomed-ncit-neoplas
-Saving mappings to C:/Users/sbrn854/Documents/OAEI/bio-ml/snomed-ncit.neoplas//logmap/
 http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62403
 	Plan 1 of size: 1 conflict score: 1 confidence: 0.748
 		http://snomed.info/id/39274007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C62403,-1
@@ -170,7 +168,6 @@ http://snomed.info/id/307598005
 http://snomed.info/id/255187008
 	Plan 1 of size: 1 conflict score: 2 confidence: 0.89
 		http://snomed.info/id/255187008,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C21834,0
-http://snomed.info/id/417264005
 http://snomed.info/id/417264005
 	Plan 1 of size: 2 conflict score: 16 confidence: 1.7169999999999999
 		http://snomed.info/id/254662007,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C60425,0
@@ -1209,5 +1206,3 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C24109
 http://snomed.info/id/70555003
 	Plan 1 of size: 1 conflict score: 2 confidence: 0.5481176470588235
 		http://snomed.info/id/70555003,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C24108,0
-MAPPINSG TO ASK: 1305
-bioml-snomed-ncit-neoplas	178032.0	4717	0.624	0.774	0.691

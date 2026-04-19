@@ -1,5 +1,3 @@
-bioml-snomed-fma-body
-Saving mappings to C:/Users/sbrn854/Documents/OAEI/bio-ml/snomed-fma.body//logmap/
 http://snomed.info/id/48607003
 	Plan 1 of size: 1 conflict score: 1 confidence: 0.736
 		http://snomed.info/id/48607003,http://purl.org/sig/ont/fma/fma59823,0
@@ -18,7 +16,6 @@ http://snomed.info/id/279711001
 	Plan 3 of size: 2 conflict score: 28961 confidence: 1.536
 		http://snomed.info/id/70104002,http://purl.org/sig/ont/fma/fma0327934,0
 		http://snomed.info/id/2969000,http://purl.org/sig/ont/fma/fma5897,0
-http://snomed.info/id/19969001
 http://snomed.info/id/87746007
 	Plan 1 of size: 8 conflict score: 21066 confidence: 6.027
 		http://snomed.info/id/91829005,http://purl.org/sig/ont/fma/fma7563,0

@@ -1,5 +1,3 @@
-largebio-fma-snomed
-Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/fma-snomed//logmap/
 http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Portion_of_cytosol
 	Plan 1 of size: 1 conflict score: 3463 confidence: 0.7510000000000001
 		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Anatomical_structure,http://www.ihtsdo.org/snomed#Anatomical_structure,-1
@@ -661,5 +659,3 @@ http://www.ihtsdo.org/snomed#Structure_of_radial_notch_of_ulna
 http://www.ihtsdo.org/snomed#Structure_of_retropubic_space
 	Plan 1 of size: 1 conflict score: 2 confidence: 0.6332093023255814
 		http://bioontology.org/projects/ontologies/fma/fmaOwlDlComponent_2_0#Hypogastrium,http://www.ihtsdo.org/snomed#Hypogastric_region_structure,-1
-MAPPINSG TO ASK: 1452
-largebio-fma-snomed	850828.0	6625	0.796	0.641	0.71

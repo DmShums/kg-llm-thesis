@@ -1,5 +1,3 @@
-largebio-snomed-nci
-Saving mappings to C:/Users/sbrn854/Documents/OAEI/largebio/snomed-nci//logmap/
 http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Activity_Kind
 	Plan 1 of size: 1 conflict score: 44465 confidence: 0.736
 		http://www.ihtsdo.org/snomed#Qualifier_value,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Qualifier,0
@@ -1382,5 +1380,3 @@ http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adrenal_Medulla
 http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge
 	Plan 1 of size: 1 conflict score: 1 confidence: 0.5
 		http://www.ihtsdo.org/snomed#Absorbable_gelatin_sponge,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Absorbable_Gelatin_Sponge,-1
-MAPPINSG TO ASK: 2578
-largebio-snomed-nci	2495445.0	13329	0.868	0.65	0.743
