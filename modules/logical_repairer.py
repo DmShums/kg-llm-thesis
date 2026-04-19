@@ -184,9 +184,8 @@ class LogicalRepairer:
         return results_path
 
     # ------------------------------------------------------------------
-    # FULL PIPELINE
+    # FULL PIPELINE: Includes LogMap heuristic + LLM-based ranking
     # ------------------------------------------------------------------
-
     def run(
         self,
         logmap_output_path: str,
@@ -253,7 +252,10 @@ class LogicalRepairer:
             )
 
         return results
-    
+
+    # ------------------------------------------------------------------
+    # REDUCED PIPELINE: Includes LLM-based ranking without LogMap heuristics
+    # ------------------------------------------------------------------
     def run_reduced(
         self,
         logmap_output_path: str,
@@ -264,7 +266,6 @@ class LogicalRepairer:
     ) -> List[Dict]:
 
         conflicts = self.load_repair_plans(logmap_output_path)
-        print("conflicts:", conflicts)
 
         if limit:
             conflicts = conflicts[:limit]
@@ -350,8 +351,6 @@ class LogicalRepairer:
                     onto_src=self.onto_src,
                     onto_tgt=self.onto_tgt
                 )
-
-                print("arbitration_prompt:", arbitration_prompt)
 
                 response = self.llm.ask_repair_ranking(arbitration_prompt, model=self.model)
                 raw = response.message

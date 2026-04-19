@@ -142,9 +142,7 @@ class OntologyAlignmentEvaluator:
         else:
             return {second_system_name: second_metrics}
 
-    # ============================================================
-    # New method: evaluate mediator systems
-    # ============================================================
+    # evaluate mediator systems
     def evaluate_labeled_mappings(
         self,
         df: pd.DataFrame,
@@ -156,27 +154,18 @@ class OntologyAlignmentEvaluator:
         Evaluate a set of mappings that already contain a Prediction column (True/False).
         Computes metrics against the ground truth stored in self.gt_pairs.
         """
-        # -------------------------
-        # Prepare output folder
-        # -------------------------
         timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M")
         results_path = Path(results_dir) / timestamp / dataset_name / system_name
         results_path.mkdir(parents=True, exist_ok=True)
 
-        # -------------------------
         # Compute Label column
-        # -------------------------
         df["Label"] = df.apply(lambda r: frozenset((r["Source"], r["Target"])) in self.gt_pairs, axis=1)
 
-        # -------------------------
         # Use Prediction column directly
-        # -------------------------
         y_true = df["Label"].tolist()
         y_pred = df["Prediction"].tolist()
 
-        # -------------------------
         # Compute metrics
-        # -------------------------
         cm = confusion_matrix(y_true, y_pred, labels=[False, True])
         if cm.shape != (2, 2):
             cm = [[0, 0], [0, 0]]
@@ -205,9 +194,7 @@ class OntologyAlignmentEvaluator:
             "ConfusionMatrix": cm
         }
 
-        # -------------------------
         # Save metrics
-        # -------------------------
         metrics_df = pd.DataFrame([{"System": system_name, **{k: v for k, v in metrics.items() if k != "ConfusionMatrix"}}])
         metrics_df.to_csv(results_path / "metrics.csv", index=False)
 
