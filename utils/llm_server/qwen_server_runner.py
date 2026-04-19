@@ -13,7 +13,6 @@ app = FastAPI(title="Qwen Model Server")
 
 MODEL_NAME = "Qwen/Qwen3-1.7B"
 # MODEL_NAME = "Qwen/Qwen3-8B"
-# MODEL_NAME = "Qwen/Qwen1.5-MoE-A2.7B"
 
 # python3.10 qwen_server.py
 

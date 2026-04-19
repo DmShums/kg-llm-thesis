@@ -1,3 +1,9 @@
+"""
+RAG-based ontology matching utilities.
+Some code parts are actively utilised in notebooks like `run_repairer.ipynb` and `run_validator.ipynb`,
+while others, like bioportal_search or bioportal_annotate, are more experimental or for future use.
+"""
+
 import os
 import time
 import requests
@@ -495,3 +501,173 @@ def rag_match_for_term_annotator(source_text: str,
         enriched.append(item)
     
     return enriched
+
+
+
+# few-shot rag utilities
+
+import json
+from typing import List, Dict
+from itertools import product
+
+from langchain.vectorstores import FAISS
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.schema import Document
+
+# -------------------------
+# Preprocess few-shot examples
+# -------------------------
+from utils.onto_object import OntologyEntryAttr, OntologyAccess
+
+def extract_direct_entity(example):
+    text = example["input"]
+
+    src_label = re.search(r'first one is "(.*?)"', text).group(1)
+    src_parent = re.search(r'broader category "(.*?)"', text).group(1)
+
+    tgt_label = re.search(r'second one is "(.*?)"', text).group(1)
+    tgt_parent = re.findall(r'broader category "(.*?)"', text)[1]
+
+    return src_label, tgt_label, src_parent, tgt_parent
+
+
+# -------------------------
+# Build vector store
+# -------------------------
+
+def build_vectorstore(few_shot_samples: List[Dict]) -> FAISS:
+    """
+    Build FAISS vector store from few-shot examples.
+    """
+
+    if not few_shot_samples:
+        raise ValueError("few_shot_samples is empty")
+
+    embeddings = HuggingFaceEmbeddings(
+        model_name="intfloat/e5-base-v2",
+        encode_kwargs={"normalize_embeddings": True}
+    )
+
+    docs: List[Document] = []
+
+    for i, sample in enumerate(few_shot_samples):
+
+        if "input" not in sample:
+            raise ValueError("Few-shot sample missing 'input' field")
+        
+        src, tgt, src_p, tgt_p = extract_direct_entity(sample)
+
+        def normalize(x: str) -> str:
+            if not x:
+                return ""
+            return (
+                x.replace("_", " ")
+                .replace("-", " ")
+                .lower()
+                .strip()
+            )
+        
+        src = normalize(src)
+        tgt = normalize(tgt)
+        src_p = normalize(src_p)
+        tgt_p = normalize(tgt_p)
+
+        # basic content structure
+        # content = (
+        #     f"source entity {src} parent {src_p} "
+        #     f"target entity {tgt} parent {tgt_p}"
+        # )
+
+        content = f"""
+passage: Possible ontology alignment:
+
+Source entity: {src}
+Parent class: {src_p}
+
+Target entity: {tgt}
+Parent class: {tgt_p}
+
+Are these biomedical concepts equivalent?
+"""
+
+        docs.append(
+            Document(
+                page_content=content,
+                metadata={
+                    "index": i,
+                    "src": src,
+                    "tgt": tgt,
+                    "label": sample["output"],
+                    "sample": sample
+                },
+            )
+        )
+
+    vectorstore = FAISS.from_documents(docs, embeddings)
+
+    return vectorstore
+
+
+# -------------------------
+# Expand experiment setups
+# -------------------------
+
+def expand_setups(
+    setups: List[Dict],
+    base_setup: Dict,
+    exclude_keys: List[str] = None
+) -> List[Dict]:
+
+    base_setup = base_setup or {}
+    exclude_keys = exclude_keys or []
+
+    expanded: List[Dict] = []
+
+    for setup in setups:
+
+        constant_part: Dict = {}
+        keys: List[str] = []
+        values: List[List] = []
+
+        setup = {**base_setup, **setup}
+
+        for k, v in setup.items():
+
+            if isinstance(v, list) and k not in exclude_keys:
+                keys.append(k)
+                values.append(v)
+            else:
+                constant_part[k] = v
+
+        if not keys:
+            expanded.append(constant_part)
+            continue
+
+        for combo in product(*values):
+
+            new_setup = constant_part.copy()
+            new_setup.update(dict(zip(keys, combo)))
+
+            expanded.append(new_setup)
+
+    return expanded
+
+
+# -------------------------
+# Load few-shot examples
+# -------------------------
+
+def load_few_shot_examples(path: str, prompt_key: str) -> List[Dict]:
+    """
+    Load few-shot examples from dataset file.
+    """
+
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    examples = data.get("OpenAI", {}).get(prompt_key, [])
+
+    if not isinstance(examples, list):
+        raise ValueError(f"{prompt_key} must contain a list of examples")
+
+    return examples

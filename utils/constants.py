@@ -38,5 +38,7 @@ class RepairPlan(BaseModel):
 
 from pydantic import RootModel
 
-class RepairRankingOutput(RootModel[List[RepairPlan]]):
-    pass
+
+class RepairRankingOutput(BaseModel):
+    selected_plan: Union[str, int]
+    reasoning: Optional[str] = None

@@ -2,11 +2,19 @@
 
 import contextlib
 import logging
+import os
+import subprocess
+import tempfile
 from enum import Enum
 
 import owlready2
 import rdflib
 from owlready2 import default_world, get_ontology, sync_reasoner, sync_reasoner_pellet
+
+from dotenv import load_dotenv
+load_dotenv()
+
+_DEFAULT_JAVA_EXE = os.environ.get("JAVA_EXE", "java")
 
 
 class Reasoner(Enum):
@@ -71,9 +79,9 @@ class AnnotationURIs:
         self.lexicalAnnotationURIs.add("http://purl.obolibrary.org/obo/IAO_0000115")
         # Elucidation
         self.lexicalAnnotationURIs.add("http://purl.obolibrary.org/obo/IAO_0000600")
-        # has associated axiomm fol
+        # has associated axiom fol
         self.lexicalAnnotationURIs.add("http://purl.obolibrary.org/obo/IAO_0000602")
-        # has associated axiomm nl
+        # has associated axiom nl
         self.lexicalAnnotationURIs.add("http://purl.obolibrary.org/obo/IAO_0000601")
         self.lexicalAnnotationURIs.add("http://www.geneontology.org/formats/oboInOwl#hasOBONamespace")
 
@@ -98,19 +106,18 @@ class OntologyAccess:
     def get_ontology_iri(self) -> str:
         return self.urionto
 
-    def load_ontology(self, reasoner: Reasoner = Reasoner.PELLET, memory_java: str = "10240") -> None:
+    def load_ontology(self, reasoner: Reasoner = Reasoner.NONE, memory_java: str = "16384", java_exe: str = _DEFAULT_JAVA_EXE) -> None:
         # Method from owlready
         self.onto: owlready2.Ontology = get_ontology(self.urionto).load()
         owlready2.JAVA_MEMORY = memory_java
+        owlready2.JAVA_EXE = java_exe
         owlready2.set_log_level(9)
 
         if reasoner == Reasoner.PELLET:
             try:
-                with self.onto:  # it does add inferences to ontology
-                    # Is this wrt data assertions? Check if necessary
-                    # infer_property_values = True, infer_data_property_values = True
+                with self.onto:
                     logging.info("Classifying ontology with Pellet...")
-                    sync_reasoner_pellet()  # it does add inferences to ontology
+                    sync_reasoner_pellet()
                     unsat = len(list(self.onto.inconsistent_classes()))
                     logging.info("Ontology successfully classified.")
                     print("Ontology successfully classified.")
@@ -124,9 +131,9 @@ class OntologyAccess:
         elif reasoner == Reasoner.HERMIT:
             try:
                 print("#####Using HermiT reasoner...#####")
-                with self.onto:  # it does add inferences to ontology
+                with self.onto:
                     logging.info("Classifying ontology with HermiT...")
-                    sync_reasoner()  # HermiT doe snot work very well....
+                    sync_reasoner()
                     unsat = len(list(self.onto.inconsistent_classes()))
                     logging.info("Ontology successfully classified.")
                     if unsat > 0:
@@ -251,7 +258,6 @@ class OntologyAccess:
             range_uris.add(cls.name)
         return range_uris
 
-    # Only for object properties
     def getRangeURIs(self, prop: owlready2.ObjectPropertyClass) -> set[str]:
         range_uris = set()
         for cls in prop.range:
@@ -335,7 +341,6 @@ class OntologyAccess:
                         dictionary[str(row[0])].add(row[1].value)
                 except AttributeError:
                     pass
-        return
 
     def getSynonymsNames(self, entity: owlready2.Thing) -> set[str]:
         if entity.iri not in self.entityToSynonyms:

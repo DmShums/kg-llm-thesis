@@ -150,6 +150,78 @@ def prompt_sequential_hierarchy_with_synonyms(src_entity: OntologyEntryAttr, tgt
     ]
     return "\n".join(prompt_lines)
 
+# New children prompts
+def prompt_direct_entity_children(src_entity: OntologyEntryAttr, tgt_entity: OntologyEntryAttr) -> str:
+    """Prompt including direct children and direct parent info for LLM comparison."""
+    
+    # Get direct parent names (take first preferred name if multiple)
+    src_parent = next(iter(src_entity.get_direct_parent().get_preffered_names()), None) if src_entity.get_direct_parent() else None
+    tgt_parent = next(iter(tgt_entity.get_direct_parent().get_preffered_names()), None) if tgt_entity.get_direct_parent() else None
+
+    # Get direct children names (take first preferred name per child)
+    src_children = [next(iter(c.get_preffered_names())) for c in src_entity.get_direct_children()]
+    tgt_children = [next(iter(c.get_preffered_names())) for c in tgt_entity.get_direct_children()]
+    # print(f"DEBUG: src_parent={src_parent}, src_children={src_children}")
+    # print(f"DEBUG: tgt_parent={tgt_parent}, tgt_children={tgt_children}")
+
+    prompt_lines = [
+        "We have two entities from different biomedical ontologies.",
+        f'The first one is "{next(iter(src_entity.get_preffered_names()))}"' + 
+            (f', which belongs to the broader category "{src_parent}"' if src_parent else "") +
+            (f' and has children: {", ".join(src_children)}' if src_children else ""),
+        f'The second one is "{next(iter(tgt_entity.get_preffered_names()))}"' + 
+            (f', which belongs to the broader category "{tgt_parent}"' if tgt_parent else "") +
+            (f' and has children: {", ".join(tgt_children)}' if tgt_children else ""),
+        '\nDo they mean the same thing? Respond with "True" or "False".',
+    ]
+    
+    return "\n".join(prompt_lines)
+
+def prompt_direct_entity_children_no_parents(src_entity: OntologyEntryAttr, tgt_entity: OntologyEntryAttr) -> str:
+    """Prompt including direct children but ignoring parent info."""
+    
+    # Direct children names
+    src_children = [next(iter(c.get_preffered_names())) for c in src_entity.get_direct_children()]
+    tgt_children = [next(iter(c.get_preffered_names())) for c in tgt_entity.get_direct_children()]
+    # print(f"DEBUG: src_children={src_children}")
+    # print(f"DEBUG: tgt_children={tgt_children}")
+
+    prompt_lines = [
+        "We have two entities from different biomedical ontologies.",
+        f'The first one is "{next(iter(src_entity.get_preffered_names()))}"' +
+            (f' and has children: {", ".join(src_children)}' if src_children else ""),
+        f'The second one is "{next(iter(tgt_entity.get_preffered_names()))}"' +
+            (f' and has children: {", ".join(tgt_children)}' if tgt_children else ""),
+        '\nDo they mean the same thing? Respond with "True" or "False".',
+    ]
+    
+    return "\n".join(prompt_lines)
+
+# Subsumption prompts
+
+def prompt_source_subsumed_by_target(src_entity: OntologyEntryAttr, tgt_entity: OntologyEntryAttr) -> str:
+    """Prompt asking whether the source entity is a subtype of the target entity (source ⊑ target)."""
+    src_parent = next(iter(src_entity.get_direct_parent().get_preffered_names()), None) if src_entity.get_direct_parent() else None
+    tgt_parent = next(iter(tgt_entity.get_direct_parent().get_preffered_names()), None) if tgt_entity.get_direct_parent() else None
+
+    prompt_lines = [
+        "We have two entities from different biomedical ontologies.",
+        f'The first one is "{next(iter(src_entity.get_preffered_names()))}"' +
+            (f', which belongs to the broader category "{src_parent}"' if src_parent else ""),
+        f'The second one is "{next(iter(tgt_entity.get_preffered_names()))}"' +
+            (f', which belongs to the broader category "{tgt_parent}"' if tgt_parent else ""),
+        '\nIs the first entity a more specific type of the second entity? In other words, is the first entity a subclass of the second entity? Respond with "True" or "False".',
+    ]
+
+    return "\n".join(prompt_lines)
+
+
+def prompt_target_subsumed_by_source(src_entity: OntologyEntryAttr, tgt_entity: OntologyEntryAttr) -> str:
+    """Prompt asking whether the target entity is a subtype of the source entity (target ⊑ source)."""
+    # Just swap roles
+    return prompt_source_subsumed_by_target(tgt_entity, src_entity)
+
+
 # -------------------------------
 #        Few-Shot Prompts
 # -------------------------------
