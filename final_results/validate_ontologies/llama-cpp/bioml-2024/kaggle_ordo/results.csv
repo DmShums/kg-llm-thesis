@@ -1,0 +1,7 @@
+Prompt,Accuracy,Precision,Recall,F1 Score,Specificity,Sensitivity,Youden's index,Dataset,SubSet,Model
+direct_entity,0.752,0.8388,0.8454,0.8421,0.4169,0.8454,0.2623,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+direct_entity_ontological,0.6291,0.8592,0.6288,0.7262,0.6301,0.6288,0.2589,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+prompt_direct_entity_with_synonyms,0.8484,0.8504,0.9782,0.9098,0.3824,0.9782,0.3606,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy,0.7555,0.8315,0.862,0.8465,0.373,0.862,0.235,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy_ontological,0.7712,0.8214,0.9039,0.8607,0.2947,0.9039,0.1986,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy_with_synonyms,0.8497,0.8566,0.9703,0.9099,0.4169,0.9703,0.3872,bioml-2024,omim-ordo,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF

@@ -1,0 +1,2 @@
+Prompt,Accuracy,Precision,Recall,F1 Score,Specificity,Sensitivity,Youden's index,Dataset,SubSet,Model
+direct_entity_with_synonyms,0.8291,0.8182,0.9863,0.8944,0.3962,0.9863,0.3825,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF

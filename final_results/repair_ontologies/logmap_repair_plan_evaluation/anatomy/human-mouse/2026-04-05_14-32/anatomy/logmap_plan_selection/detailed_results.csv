@@ -1,0 +1,4 @@
+Source,Target,ConflictScore,Confidence,LogMapDecision,Label,LogMapPred
+http://mouse.owl#MA_0000003,http://human.owl#NCI_C12919,173,0.8440000000000001,False,False,False
+http://mouse.owl#MA_0000014,http://human.owl#NCI_C12907,66,0.6722587145449337,False,True,False
+http://mouse.owl#MA_0000014,http://human.owl#NCI_C12470,2,0.5292857142857144,False,False,False

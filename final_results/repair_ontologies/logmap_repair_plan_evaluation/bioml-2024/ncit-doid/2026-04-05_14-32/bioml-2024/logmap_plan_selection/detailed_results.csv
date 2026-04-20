@@ -1,0 +1,9 @@
+Source,Target,ConflictScore,Confidence,LogMapDecision,Label,LogMapPred
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39738,http://purl.obolibrary.org/obo/DOID_0050117,441,0.803,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496,http://purl.obolibrary.org/obo/DOID_1781,107,0.7330000000000001,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251,http://purl.obolibrary.org/obo/DOID_5621,9,0.9219999999999999,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251,http://purl.obolibrary.org/obo/DOID_5621,7,0.9219999999999999,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496,http://purl.obolibrary.org/obo/DOID_1781,1,0.7330000000000001,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27065,http://purl.obolibrary.org/obo/DOID_5100,8,0.6605400271370421,False,True,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111036,3,0.619,False,False,False
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606,http://purl.obolibrary.org/obo/DOID_0111035,3,0.619,False,True,False

@@ -1,0 +1,1589 @@
+[
+    {
+        "entity_uri": "http://snomed.info/id/52988006",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 60,
+                "confidence": 0.7929999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/123037004",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C32221",
+                        "src_entity_name": "Body structure",
+                        "tgt_entity_name": "Body Part",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 151
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 11,
+                "confidence": 0.7150000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/52988006",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3824",
+                        "src_entity_name": "Lesion",
+                        "tgt_entity_name": "Lesion",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 158
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74536",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1536,
+                "confidence": 0.823,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/763158003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142605",
+                        "src_entity_name": "Medicinal product (product)",
+                        "tgt_entity_name": "Medicinal Product",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 150
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 49,
+                "confidence": 0.706,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/49694007",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74536",
+                        "src_entity_name": "Mucolytic agent",
+                        "tgt_entity_name": "Mucolytic Agent",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 153
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C90624",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves two entities named 'Substance' from different ontologies, both under 'Thing'. This suggests they are likely equivalent or at least not hierarchical, making 'False' a reasonable response. Plan 2 involves 'Antitussive Agent' and 'Antitussive agent' under different broader categories, which may imply a subclass relationship, but the LLM responded 'False', indicating potential inconsistency. Plan 1 is less likely to contain a logical inconsistency since both entities are semantically similar and the response 'False' aligns with common ontology practices. Thus, Plan 1 is more likely to contain the correct mapping and should be preserved.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 12749,
+                "confidence": 0.706,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/105590001",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45306",
+                        "src_entity_name": "Substance (substance)",
+                        "tgt_entity_name": "Substance",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 69,
+                "confidence": 0.817,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/372791003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C66917",
+                        "src_entity_name": "Antitussive agent",
+                        "tgt_entity_name": "Antitussive Agent",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 160
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74262",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 9661,
+                "confidence": 0.7030000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/441900009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48807",
+                        "src_entity_name": "Chemical",
+                        "tgt_entity_name": "Chemical",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 144
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.796,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/698024002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C74262",
+                        "src_entity_name": "Ambroxol",
+                        "tgt_entity_name": "Ambroxol",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 150
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65412",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1's response 'False' is logically consistent with the ontology structure, as 'Qualifier value' and 'Qualifier' are not hierarchical in a subclass/superclass relationship. Plan 2's 'False' is less clear-cut due to potential semantic overlap or case sensitivity, making Plan 1 more reliable for resolving inconsistency.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 5791,
+                "confidence": 0.7030000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/362981000",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41009",
+                        "src_entity_name": "Qualifier value (qualifier value)",
+                        "tgt_entity_name": "Qualifier",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 2889,
+                "confidence": 0.7809999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/734551003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C471",
+                        "src_entity_name": "Enzyme inhibitor",
+                        "tgt_entity_name": "Enzyme Inhibitor",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 157
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C157376",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves a logical inconsistency: 'Protein' cannot be both a subclass of 'Polypeptide' and 'Thing' unless 'Polypeptide' is a subclass of 'Thing', which is generally true in biological ontologies. However, the mapping in Plan 2 is logically consistent — 'Monoclonal Antibody' is a subclass of 'Immunotherapeutic Agent', which is a subclass of 'Thing'. Plan 1's response 'True' may be misleading because 'Protein' as a subclass of 'Polypeptide' is correct, but 'Protein' as a subclass of 'Thing' is also correct, so the inconsistency lies in the assumption that both mappings must be preserved together — which Plan 1's answer implies. Plan 2 is logically sound and does not require removal. Therefore, Plan 1 is the one with potential inconsistency and should be selected for repair.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 693,
+                "confidence": 0.736,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/88878007",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021",
+                        "src_entity_name": "Protein",
+                        "tgt_entity_name": "Protein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 146
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 98,
+                "confidence": 0.8500000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/49616005",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20401",
+                        "src_entity_name": "Monoclonal antibody",
+                        "tgt_entity_name": "Monoclonal Antibody",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 155
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76663",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 113,
+                "confidence": 0.742,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/260769002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48187",
+                        "src_entity_name": "Material (substance)",
+                        "tgt_entity_name": "Material",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 145
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.8109999999999999,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/67636005",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C76663",
+                        "src_entity_name": "Guaiacol (substance)",
+                        "tgt_entity_name": "Guaiacol",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 153
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81473",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 3,
+                "confidence": 0.766,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/782439004",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C155923",
+                        "src_entity_name": "Cytochrome P450 2C19 inhibitor",
+                        "tgt_entity_name": "CYP2C19 Inhibitor",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 162
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.808,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/697998007",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C81473",
+                        "src_entity_name": "Eslicarbazepine (substance)",
+                        "tgt_entity_name": "Eslicarbazepine",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 160
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65505",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 31,
+                "confidence": 0.712,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304380002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072",
+                        "src_entity_name": "Enzyme inhibitor protein (substance)",
+                        "tgt_entity_name": "Enzyme Inhibitor Protein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 156
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.8049999999999999,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/445569008",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C65505",
+                        "src_entity_name": "Ecallantide (substance)",
+                        "tgt_entity_name": "Ecallantide",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C225",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The first entity 'Glycoprotein (substance)' is correctly classified under 'Polypeptide', which is a more specific category than 'Thing'. Therefore, it is logically consistent to consider it a subclass of the second entity 'Glycoprotein' which belongs to 'Thing'. The LLM response 'True' aligns with this logical hierarchy.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 126,
+                "confidence": 0.7150000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/59804006",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642",
+                        "src_entity_name": "Glycoprotein (substance)",
+                        "tgt_entity_name": "Glycoprotein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "**True**\n\nThe first entity, \"Glycoprotein (substance)\", is a more specific type of the second entity, \"Glycoprotein\", because it is explicitly categorized under \"Polypeptide\", which implies a more precise biological classification. While the second entity \"Glycoprotein\" is broadly categorized under \"Thing\", the first entity inherits specificity from its parent category (\"Polypeptide\"), making it a more refined subclass.\n\nIn ontology terms, if \"Glycoprotein (substance)\" is a subclass of \"Polypeptide\", and \"Polypeptide\" is a subclass of \"Glycoprotein\" — that would be inconsistent. But in reality, **glycoproteins are a type of polypeptide**, so \"Glycoprotein (substance)\" should be a subclass of \"Polypeptide\", and \"Glycoprotein\" (as a broader term) should be a superclass of \"Glycoprotein (substance)\" — assuming the ontologies are consistent.\n\nHowever, the second entity \"Glycoprotein\" is under \"Thing\", which is a very broad category. Since \"Glycoprotein (substance)\" is a more specific biological entity (a type of polypeptide), it is indeed a **more specific instance** of \"Glycoprotein\", and thus can be considered a **subclass** of it — assuming the ontological hierarchy allows for such a relationship.\n\nIn standard biomedical ontologies (like Uberon, GO, or CHEBI), \"Glycoprotein\" is typically a subclass of \"Polypeptide\", and \"Polypeptide\" is a subclass of \"Protein\", which is a subclass of \"Molecular Entity\", etc. So if \"Glycoprotein (substance)\" is a glycoprotein, then yes — it is a subclass of \"Glycoprotein\".\n\nTherefore, **True** — the first entity is a more specific type of the second entity.\n\n✅ **Answer: True**",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 558
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1151",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves entities with more specific and logically related categories ('Binding protein' under 'Polypeptide' vs 'Ligand Binding Protein' under 'Protein, Organized by Function'), making the inconsistency more likely to stem from incorrect subclassing. Plan 2's categories are too broad ('Pharmacologic Substance' and 'Thing'), making the mapping less likely to be logically inconsistent.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 12,
+                "confidence": 0.706,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304372009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728",
+                        "src_entity_name": "Binding protein (substance)",
+                        "tgt_entity_name": "Ligand Binding Protein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 158
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7929999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/707618008",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1151",
+                        "src_entity_name": "Mannose-binding protein",
+                        "tgt_entity_name": "Mannose-Binding Lectin",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile \"Mannose-Binding Lectin\" and \"Mannose-binding protein\" are often used interchangeably in biological contexts (and in fact, they refer to the same protein — MBL, or Mannose-Binding Lectin), the ontological classification matters here.\n\n- \"Mannose-Binding Lectin\" is classified under **\"Pharmacologic Substance\"**, which implies it is being treated as a drug or therapeutic agent in this ontology.\n- \"Mannose-binding protein\" is classified under **\"Thing\"**, which is a very broad, top-level category — essentially a placeholder for any entity without specific semantic classification.\n\nIn ontology terms, **\"Pharmacologic Substance\"** is a more specific category than **\"Thing\"**, so if we were to say that \"Mannose-Binding Lectin\" is a subclass of \"Mannose-binding protein\", that would imply that \"Mannose-binding protein\" is a more general concept — which is **not** true in this case.\n\nActually, **\"Mannose-Binding Lectin\" is a specific *instance* or *subclass* of \"Mannose-binding protein\"** — but only if we ignore the ontological hierarchy imposed by the ontologies. Since \"Thing\" is too broad and \"Pharmacologic Substance\" is more specific, the ontological structure does not support \"Mannose-Binding Lectin\" being a subclass of \"Mannose-binding protein\" — because the latter is not sufficiently specific.\n\nMoreover, in standard biomedical ontologies (like UMLS or GO), \"Mannose-binding protein\" is typically classified under **\"protein\"** or **\"glycoprotein\"**, not \"Thing\". But even if we accept \"Thing\" as a superclass, the classification under \"Pharmacologic Substance\" implies a *different* ontological intent — treating it as a drug — which is not accurate for MBL, which is a protein involved in innate immunity, not primarily a pharmacologic substance.\n\nTherefore, **False** — the first entity is not a subclass of the second entity under the given ontological hierarchy.\n\n✅ **Final Answer: False**",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 598
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C835",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The first entity 'Recombinant Insulin-Like Growth Factor' is a specific biological agent, while 'Somatomedin (substance)' is a broader category 'Thing'. In biomedical ontologies, 'Recombinant Insulin-Like Growth Factor' is indeed a subclass of 'Somatomedin', making the mapping logically consistent. The LLM response 'True' correctly reflects this subclass relationship.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 5,
+                "confidence": 0.9380000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/70825004",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C835",
+                        "src_entity_name": "Somatomedin (substance)",
+                        "tgt_entity_name": "Recombinant Insulin-Like Growth Factor",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "**True**\n\n---\n\n**Reasoning:**\n\n- **\"Recombinant Insulin-Like Growth Factor\"** is a specific biological molecule — typically referring to a recombinant form of IGF (Insulin-like Growth Factor), which is a protein involved in growth regulation.\n\n- **\"Somatomedin (substance)\"** is a broader term referring to a class of substances (primarily IGFs) that mediate the growth-promoting effects of insulin-like activity — i.e., somatomedins are the biological substances that act as mediators of growth hormone action.\n\n- **Ontological relationship**: Insulin-like Growth Factors (IGFs) are the primary *somatomedins*. Therefore, “Recombinant Insulin-Like Growth Factor” is a specific *instance* or *subclass* of “Somatomedin (substance)”.\n\n- Although the first entity is categorized under “Biological Agent” and the second under “Thing”, the “Thing” category is a very broad, top-level category in many ontologies (like in Wikidata or Uberon), and “Biological Agent” is a more specific subclass of “Thing”. So the hierarchy still holds:  \n  **Recombinant Insulin-Like Growth Factor → Somatomedin → Thing**\n\nThus, **yes**, the first entity is a more specific type of the second entity — it is a subclass.\n\n✅ **Answer: True**",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 450
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2455",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves a clearer hierarchical mismatch: 'Growth factor' under 'Thing' vs. 'Growth Factor' under 'Protein, Organized by Function'. The inconsistency likely stems from category misalignment, making it a prime candidate for removal. Plan 2's entities are both broad categories ('Biological Agent' vs. 'Thing'), so the False response is less suspicious and less likely to be the source of inconsistency.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 17,
+                "confidence": 0.7150000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/81286007",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20424",
+                        "src_entity_name": "Growth factor",
+                        "tgt_entity_name": "Growth Factor",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 152
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.808,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/417092008",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2455",
+                        "src_entity_name": "Recombinant human keratinocyte growth factor (substance)",
+                        "tgt_entity_name": "Palifermin",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 158
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C173802",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 147,
+                "confidence": 0.73,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/768009002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746",
+                        "src_entity_name": "Peptide hormone (substance)",
+                        "tgt_entity_name": "Peptide Hormone",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 156
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.817,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/85267009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C173802",
+                        "src_entity_name": "Angiotensin II (substance)",
+                        "tgt_entity_name": "Therapeutic Angiotensin II",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171753",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 59,
+                "confidence": 0.8620000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/116181003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354",
+                        "src_entity_name": "Coagulation protein",
+                        "tgt_entity_name": "Coagulation Factor",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.772,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/783678000",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171753",
+                        "src_entity_name": "Andexanet alfa (substance)",
+                        "tgt_entity_name": "Andexanet Alfa",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 158
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171659",
+        "selected_plan": 2,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 2's mapping is logically inconsistent because 'Pharmacologic Substance' is a more specific category than 'Thing', but the second entity is categorized as 'Thing', which is too broad. Removing this mapping preserves correct semantic relationships. Plan 1's mapping is logically consistent since 'Recombinant protein' is a more specific category than 'Thing'.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 13,
+                "confidence": 0.7210000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/422055000",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561",
+                        "src_entity_name": "Fusion protein",
+                        "tgt_entity_name": "Fusion Protein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 150
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.796,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/718942000",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C171659",
+                        "src_entity_name": "Eftrenonacog alfa",
+                        "tgt_entity_name": "Eftrenonacog Alfa",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.8510000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/431069006",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363",
+                        "src_entity_name": "Packed red blood cells (product)",
+                        "tgt_entity_name": "Packed Red Blood Cells",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile \"Packed Red Blood Cells\" is a more specific *biological product* or *medical specimen*, and \"Packed red blood cells (product)\" is a broader *product* category, the ontological relationship is not a direct subclass relationship in the way implied by your question.\n\nHere’s why:\n\n- \"Packed Red Blood Cells\" belongs to \"Blood Sample\" — which implies it’s a *type of biological specimen*, often used in clinical diagnostics.\n- \"Packed red blood cells (product)\" belongs to \"Thing\" — which is a very broad, top-level category in many ontologies (like BFO or OWL), meaning it’s a generic entity without semantic specificity.\n\nEven though \"Packed Red Blood Cells\" *could* be considered a *type of product* (in a commercial or clinical context), the ontology hierarchy does not establish \"Blood Sample\" as a subclass of \"Thing\" in a meaningful way — and more importantly, **\"Packed Red Blood Cells\" is not a subclass of \"Packed red blood cells (product)\"** because:\n\n1. The second entity is a *product* category, while the first is a *specimen* category — they belong to different ontological domains (clinical vs. commercial/product).\n2. The first entity is not logically a subclass of the second — they are not in the same hierarchical lineage. The second entity is too broad and lacks semantic specificity to serve as a parent class for the first.\n\nThus, **False** — the first entity is not a subclass of the second entity in a meaningful ontological sense.",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 479
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/30065008",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7629999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/30065008",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261",
+                        "src_entity_name": "Adenosine deaminase (substance)",
+                        "tgt_entity_name": "Adenosine Deaminase",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 155
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/84524005",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 5,
+                "confidence": 0.7510000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/130196001",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561",
+                        "src_entity_name": "Esterase",
+                        "tgt_entity_name": "Esterase",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/10534002",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7569999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/10534002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C136413",
+                        "src_entity_name": "Thyrotropin releasing factor (substance)",
+                        "tgt_entity_name": "Thyrotropin-Releasing Hormone",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/420303002",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.778,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/420303002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496",
+                        "src_entity_name": "Interferon gamma (substance)",
+                        "tgt_entity_name": "Interferon Gamma",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 151
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/61472002",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 2,
+                "conflict_score": 6,
+                "confidence": 1.49,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304381003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073",
+                        "src_entity_name": "Structural protein",
+                        "tgt_entity_name": "Structural Protein",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile both entities refer to proteins that serve structural roles, they belong to different ontological hierarchies and are not necessarily in a subclass relationship.\n\n- **\"Structural protein\"** (under \"Polypeptide\") implies a classification based on molecular composition — it’s a type of polypeptide that functions structurally.\n- **\"Structural Protein\"** (under \"Protein, Organized by Function\") implies a classification based on biological function — it’s a protein categorized by its structural role.\n\nThese are **parallel classifications**, not hierarchical. The first is not a subclass of the second — they are different ways of organizing the same concept, but not in a parent-child ontological relationship.\n\nThus, **False**.",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 303
+                        }
+                    },
+                    {
+                        "source_uri": "http://snomed.info/id/61472002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447",
+                        "src_entity_name": "Collagen",
+                        "tgt_entity_name": "Collagen",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 146
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/56355009",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The LLM response 'True' indicates that 'Clostridium histolyticum collagenase (substance)' is considered a subclass of 'Collagenase'. However, this is logically inconsistent because 'Collagenase' is a peptidase, while the first entity is classified under 'Thing', which is too broad. This inconsistency suggests the mapping should be removed. Plan 1 correctly identifies this inconsistency and should be selected to preserve logical integrity.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.8049999999999999,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/56355009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559",
+                        "src_entity_name": "Clostridium histolyticum collagenase (substance)",
+                        "tgt_entity_name": "Collagenase",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 392,
+                "confidence": 0.736,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/88878007",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17021",
+                        "src_entity_name": "Protein",
+                        "tgt_entity_name": "Protein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 146
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7150000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/59804006",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16642",
+                        "src_entity_name": "Glycoprotein (substance)",
+                        "tgt_entity_name": "Glycoprotein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 153
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 120,
+                "confidence": 0.706,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304372009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17728",
+                        "src_entity_name": "Binding protein (substance)",
+                        "tgt_entity_name": "Ligand Binding Protein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile both entities refer to proteins that bind ligands, they are classified under different broader ontological categories — “Protein, Organized by Function” vs. “Polypeptide” — which suggests different ontological frameworks or taxonomic approaches.\n\nMoreover, “Ligand Binding Protein” is organized by *function*, while “Binding protein (substance)” is organized by *chemical class* (polypeptide). This implies they are not necessarily in a direct subclass/superclass relationship.\n\nAdditionally, “Binding protein (substance)” is a more general term that may include proteins that bind *anything* (e.g., ions, nucleic acids, other proteins), whereas “Ligand Binding Protein” implies binding to *ligands* — a more specific functional role. However, in ontology design, subclassing depends on the *explicit hierarchy* defined in the ontology, not just semantic similarity.\n\nSince the ontologies are different and the hierarchical relationship is not explicitly stated or implied by the given categories, we cannot assume “Ligand Binding Protein” is a subclass of “Binding protein (substance)”.\n\nThus, the answer is: **False**.",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 395
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The mapping is logically inconsistent because 'Coagulation Factor' (subclass of 'Gene Product') cannot be a subclass of 'Coagulation protein' (subclass of 'Thing'), as 'Gene Product' and 'Thing' are not equivalent or properly aligned in hierarchy. Removing this mapping resolves the inconsistency while preserving correct mappings.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.8620000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/116181003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16354",
+                        "src_entity_name": "Coagulation protein",
+                        "tgt_entity_name": "Coagulation Factor",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The first entity 'Enzyme Inhibitor Protein' is a subclass of 'Gene Product', while the second is a 'Thing'. Since 'Gene Product' is more specific than 'Thing', the first entity cannot be a subclass of the second. The LLM response 'True' is logically inconsistent, so Plan 1 should be selected to remove this incorrect mapping.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.712,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304380002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18072",
+                        "src_entity_name": "Enzyme inhibitor protein (substance)",
+                        "tgt_entity_name": "Enzyme Inhibitor Protein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 156
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.778,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/420303002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20496",
+                        "src_entity_name": "Interferon gamma (substance)",
+                        "tgt_entity_name": "Interferon Gamma",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 151
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The mapping is logically inconsistent because 'Gene Product' is a more specific category than 'Thing', so 'Esterase' as a 'Gene Product' should be a subclass of 'Thing'. The LLM response 'True' correctly reflects this valid subclass relationship, so no repair is needed.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 14,
+                "confidence": 0.7510000000000001,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/130196001",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16561",
+                        "src_entity_name": "Esterase",
+                        "tgt_entity_name": "Esterase",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7629999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/30065008",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16261",
+                        "src_entity_name": "Adenosine deaminase (substance)",
+                        "tgt_entity_name": "Adenosine Deaminase",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 155
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.8049999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/56355009",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17559",
+                        "src_entity_name": "Clostridium histolyticum collagenase (substance)",
+                        "tgt_entity_name": "Collagenase",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The mapping is logically inconsistent because 'Peptide Hormone' as a subclass of 'Protein, Organized by Function' cannot be a subclass of 'Thing' (a more general category) without violating ontology hierarchy. Removing this mapping resolves the inconsistency while preserving correct mappings.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 9,
+                "confidence": 0.73,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/768009002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C1746",
+                        "src_entity_name": "Peptide hormone (substance)",
+                        "tgt_entity_name": "Peptide Hormone",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 156
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 8,
+                "confidence": 0.742,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/304381003",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18073",
+                        "src_entity_name": "Structural protein",
+                        "tgt_entity_name": "Structural Protein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 154
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The mapping is logically inconsistent because 'Structural Protein' is a more specific category than 'Thing', so 'Collagen' as a 'Structural Protein' should not be mapped to 'Thing' as a superclass. The LLM response 'True' incorrectly implies a valid subclass relationship, which is false in ontology hierarchy. Removing this mapping resolves inconsistency while preserving correct mappings.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.748,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/61472002",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16447",
+                        "src_entity_name": "Collagen",
+                        "tgt_entity_name": "Collagen",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 146
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 3,
+                "confidence": 0.7210000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/422055000",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17561",
+                        "src_entity_name": "Fusion protein",
+                        "tgt_entity_name": "Fusion Protein",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 150
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://snomed.info/id/431069006",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.8510000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://snomed.info/id/431069006",
+                        "target_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C126363",
+                        "src_entity_name": "Packed red blood cells (product)",
+                        "tgt_entity_name": "Packed Red Blood Cells",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 153
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

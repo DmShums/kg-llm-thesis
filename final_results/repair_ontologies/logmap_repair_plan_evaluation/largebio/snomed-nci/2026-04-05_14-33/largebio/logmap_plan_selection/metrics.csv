@@ -1,0 +1,3 @@
+System,Precision,Recall,F1,TP,TN,FP,FN,Sensitivity,Specificity,YoudenIndex
+LogMap,0.0,0.0,0.0,0,197,0,169,0.0,1.0,0.0
+LogMapPlan,0.0,0.0,0.0,0,197,0,169,0.0,1.0,0.0

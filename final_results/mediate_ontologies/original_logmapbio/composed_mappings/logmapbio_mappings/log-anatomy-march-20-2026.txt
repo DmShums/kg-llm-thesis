@@ -1,0 +1,174 @@
+Read RDF Align mapping objects: 1516
+Representative elements: 1374
+Time performing matching with input ontologies O1 and O2 (s): 3.006
+Extracting up to 10 mediating ontologies from BioPortal.
+Necessary number of calls to BioPortal: 50
+EMAPA
+	Pos hits: 35
+	Size: 8768
+	Language: OWL
+UBERON
+	Pos hits: 31
+	Size: 26962
+	Language: OWL
+MA
+	Pos hits: 26
+	Size: 3390
+	Language: OBO
+CL
+	Pos hits: 25
+	Size: 19143
+	Language: OWL
+BTO
+	Pos hits: 22
+	Size: 6569
+	Language: OBO
+OBA
+	Pos hits: 21
+	Size: 82874
+	Language: OWL
+AISM
+	Pos hits: 18
+	Size: 7443
+	Language: OWL
+NMDCO
+	Pos hits: 17
+	Size: 13683
+	Language: OWL
+CCONT
+	Pos hits: 16
+	Size: 14044
+	Language: OWL
+EFO
+	Pos hits: 15
+	Size: 93268
+	Language: OWL
+Time extracting Mediating Ontologies (s): 343.825
+
+
+
+0. MO ONTOLOGY: EMAPA
+Downloading ontology EMAPA. Attempt: 1
+
+Time downloading MO 'EMAPA' (s): 23.542
+Time matching O1 with MO 'EMAPA' (s): 3.211
+Time matching O2 with MO 'EMAPA' (s): 3.495
+Time creating composed mappings for'EMAPA' (s): 0.065
+
+Time performing composed matching with MO 'EMAPA' (s): 0.065
+Composed mappings: 1126
+
+
+1. MO ONTOLOGY: UBERON
+Downloading ontology UBERON. Attempt: 1
+
+Time downloading MO 'UBERON' (s): 161.202
+Time matching O1 with MO 'UBERON' (s): 59.289
+Time matching O2 with MO 'UBERON' (s): 30.898
+Time creating composed mappings for'UBERON' (s): 0.154
+
+Time performing composed matching with MO 'UBERON' (s): 0.154
+Composed mappings: 1493
+
+
+2. MO ONTOLOGY: MA
+Downloading ontology MA. Attempt: 1
+[Fatal Error] :1:1: Content is not allowed in prolog.
+
+Time downloading MO 'MA' (s): 2.014
+Time matching O1 with MO 'MA' (s): 1.423
+Time matching O2 with MO 'MA' (s): 1.86
+Time creating composed mappings for'MA' (s): 0.036
+
+Time performing composed matching with MO 'MA' (s): 0.037
+Composed mappings: 1232
+
+
+3. MO ONTOLOGY: CL
+Downloading ontology CL. Attempt: 1
+
+Time downloading MO 'CL' (s): 106.264
+Time matching O1 with MO 'CL' (s): 27.703
+Time matching O2 with MO 'CL' (s): 45.057
+Time creating composed mappings for'CL' (s): 0.218
+
+Time performing composed matching with MO 'CL' (s): 0.218
+Composed mappings: 1046
+
+
+4. MO ONTOLOGY: BTO
+Downloading ontology BTO. Attempt: 1
+[Fatal Error] :1:1: Content is not allowed in prolog.
+
+Time downloading MO 'BTO' (s): 5.589
+Time matching O1 with MO 'BTO' (s): 2.923
+Time matching O2 with MO 'BTO' (s): 8.694
+Time creating composed mappings for'BTO' (s): 0.033
+
+Time performing composed matching with MO 'BTO' (s): 0.033
+Composed mappings: 501
+
+
+5. MO ONTOLOGY: OBA
+Downloading ontology OBA. Attempt: 1
+
+Time downloading MO 'OBA' (s): 211.877
+Time matching O1 with MO 'OBA' (s): 131.131
+Time matching O2 with MO 'OBA' (s): 114.175
+Time creating composed mappings for'OBA' (s): 0.023
+
+Time performing composed matching with MO 'OBA' (s): 0.023
+Composed mappings: 750
+
+
+6. MO ONTOLOGY: AISM
+Downloading ontology AISM. Attempt: 1
+
+Time downloading MO 'AISM' (s): 36.018
+Time matching O1 with MO 'AISM' (s): 3.86
+Time matching O2 with MO 'AISM' (s): 7.916
+Time creating composed mappings for'AISM' (s): 0.004
+
+Time performing composed matching with MO 'AISM' (s): 0.004
+Composed mappings: 420
+
+
+7. MO ONTOLOGY: NMDCO
+Downloading ontology NMDCO. Attempt: 1
+
+Time downloading MO 'NMDCO' (s): 62.468
+Time matching O1 with MO 'NMDCO' (s): 5.527
+Time matching O2 with MO 'NMDCO' (s): 13.3
+Time creating composed mappings for'NMDCO' (s): 0.006
+
+Time performing composed matching with MO 'NMDCO' (s): 0.006
+Composed mappings: 414
+
+
+8. MO ONTOLOGY: CCONT
+Downloading ontology CCONT. Attempt: 1
+
+Time downloading MO 'CCONT' (s): 36.948
+Time matching O1 with MO 'CCONT' (s): 23.005
+Time matching O2 with MO 'CCONT' (s): 26.986
+Time creating composed mappings for'CCONT' (s): 0.0
+
+Time performing composed matching with MO 'CCONT' (s): 0.001
+Composed mappings: 0
+
+
+8. MO ONTOLOGY: EFO
+Downloading ontology EFO. Attempt: 1
+
+Time downloading MO 'EFO' (s): 545.772
+Time matching O1 with MO 'EFO' (s): 76.255
+Time matching O2 with MO 'EFO' (s): 144.399
+Time creating composed mappings for'EFO' (s): 0.014
+
+Time performing composed matching with MO 'EFO' (s): 0.014
+Composed mappings: 532
+
+Time performing mapping repair (s): 1.059
+Number of total computed mappings: 1569
+LogMap 2 (with BioPortal) total matching time (s): 2272.578
+P: 0.8801784576163161, R: 0.9109498680738787, F: 0.8952998379254457, Num: 1569

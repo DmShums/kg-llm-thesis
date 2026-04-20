@@ -1,0 +1,37 @@
+[
+  {
+    "acronym": "NCIT",
+    "positive_hits": 132,
+    "avg_synonyms": 2.840909090909091
+  },
+  {
+    "acronym": "UBERON",
+    "positive_hits": 116,
+    "avg_synonyms": 2.560344827586207
+  },
+  {
+    "acronym": "NIFSTD",
+    "positive_hits": 106,
+    "avg_synonyms": 4.528301886792453
+  },
+  {
+    "acronym": "SNOMEDCT",
+    "positive_hits": 94,
+    "avg_synonyms": 1.627659574468085
+  },
+  {
+    "acronym": "UPHENO",
+    "positive_hits": 89,
+    "avg_synonyms": 2.2808988764044944
+  },
+  {
+    "acronym": "FMA",
+    "positive_hits": 79,
+    "avg_synonyms": 1.4430379746835442
+  },
+  {
+    "acronym": "IOBC",
+    "positive_hits": 66,
+    "avg_synonyms": 4.5
+  }
+]

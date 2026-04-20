@@ -1,0 +1,7 @@
+Prompt,Accuracy,Precision,Recall,F1 Score,Specificity,Sensitivity,Youden's index,Dataset,SubSet,Model
+direct_entity,0.804,0.8185,0.9418,0.8758,0.4245,0.9418,0.3663,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+direct_entity_ontological,0.5779,0.8974,0.4795,0.625,0.8491,0.4795,0.3285,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+direct_entity_with_synonyms,0.8342,0.8229,0.9863,0.8972,0.4151,0.9863,0.4014,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy,0.8241,0.8246,0.9658,0.8896,0.434,0.9658,0.3997,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy_ontological,0.794,0.7933,0.9726,0.8738,0.3019,0.9726,0.2745,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF
+sequential_hierarchy_with_synonyms,0.8291,0.8164,0.9897,0.8947,0.3868,0.9897,0.3765,anatomy,human-mouse,Qwen/Qwen3-30B-A3B-Instruct-2507-GGUF

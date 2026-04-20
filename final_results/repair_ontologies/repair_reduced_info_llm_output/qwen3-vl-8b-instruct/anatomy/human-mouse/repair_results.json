@@ -1,0 +1,176 @@
+[
+    {
+        "entity_uri": "http://mouse.owl#MA_0001857",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves entities with broader categories that are more semantically aligned (‘Thing’ vs ‘Anatomic_Structure_System_or_Substance’), making the False response more likely to reflect a true inconsistency. Plan 2’s categories are less directly comparable, so the False response is less certain to indicate a real conflict.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 173,
+                "confidence": 0.8440000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000003",
+                        "target_uri": "http://human.owl#NCI_C12919",
+                        "src_entity_name": "organ system",
+                        "tgt_entity_name": "Organ_System",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 151
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 91,
+                "confidence": 0.8799999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000011",
+                        "target_uri": "http://human.owl#NCI_C12374",
+                        "src_entity_name": "connective tissue",
+                        "tgt_entity_name": "Connective_Tissue",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 150
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://mouse.owl#MA_0000626",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves entities with identical semantic meaning ('integumental system' vs 'Integumentary_System') differing only in capitalization, which is likely a case of inconsistent mapping due to case sensitivity. This is a common source of logical inconsistency in ontology alignments. Plan 2 involves different entities ('Skin' vs 'integumental system') with potentially valid hierarchical relationships, making it less likely to be the root cause of inconsistency.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 66,
+                "confidence": 0.6722587145449337,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000014",
+                        "target_uri": "http://human.owl#NCI_C12907",
+                        "src_entity_name": "integumental system",
+                        "tgt_entity_name": "Integumentary_System",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 152
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 65,
+                "confidence": 0.5292857142857144,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000014",
+                        "target_uri": "http://human.owl#NCI_C12470",
+                        "src_entity_name": "integumental system",
+                        "tgt_entity_name": "Skin",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile \"Skin\" is a major component of the \"integumental system,\" and the integumental system is often considered the organ system that includes the skin, the ontological relationship is not strictly hierarchical in the way implied by the question.\n\nIn standard biomedical ontologies (like UMLS, Uberon, or NCIT), \"Skin\" is typically classified as an **anatomical structure** (e.g., a tissue or organ), while \"integumental system\" is classified as an **organ system**. Therefore, \"Skin\" is a **part of** or **component of** the integumental system, not a subclass of it — at least not in a direct taxonomic sense.\n\nMoreover, the broader categories provided — \"Anatomic_Structure_System_or_Substance\" vs. \"organ system\" — are not equivalent. \"Anatomic_Structure_System_or_Substance\" is a more general, possibly non-standard or cross-cutting category, while \"organ system\" is a specific, well-defined ontological class.\n\nThus, **\"Skin\" is not a subclass of \"integumental system\"** in a formal ontology sense — it is a constituent part. The relationship is **part-of**, not subclass-of.\n\n✅ Final Answer: **False**",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 417
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://human.owl#NCI_C12907",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 correctly identifies the inconsistency: 'integumental system' and 'Skin' belong to different broader categories ('organ system' vs 'Anatomic_Structure_System_or_Substance'), making it logically invalid to claim one is a subclass of the other. Plan 2 compares two entities with identical broader categories, which is less likely to cause inconsistency. Thus, Plan 1 targets the actual conflict.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 2,
+                "confidence": 0.5292857142857144,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000014",
+                        "target_uri": "http://human.owl#NCI_C12470",
+                        "src_entity_name": "integumental system",
+                        "tgt_entity_name": "Skin",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 154
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.6722587145449337,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://mouse.owl#MA_0000014",
+                        "target_uri": "http://human.owl#NCI_C12907",
+                        "src_entity_name": "integumental system",
+                        "tgt_entity_name": "Integumentary_System",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 152
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

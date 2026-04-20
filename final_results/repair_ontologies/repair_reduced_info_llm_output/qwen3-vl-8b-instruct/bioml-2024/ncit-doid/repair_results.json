@@ -1,0 +1,366 @@
+[
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_754",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 441,
+                "confidence": 0.803,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C39738",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_0050117",
+                        "src_entity_name": "Infectious Disease Pathway",
+                        "tgt_entity_name": "disease by infectious agent",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 151
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_10011",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 107,
+                "confidence": 0.7330000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_1781",
+                        "src_entity_name": "Papillary Thyroid Carcinoma Pathway",
+                        "tgt_entity_name": "thyroid cancer",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_5621",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "The LLM response 'True' indicates a subclass relationship, which is logically inconsistent because 'histiocytic and dendritic cell cancer' is a disease (subclass of hematologic cancer), while 'Histiocytic and Dendritic Cell' is a cell type (subclass of 'Thing'). This mismatch suggests the mapping is invalid and should be removed to resolve the inconsistency.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 9,
+                "confidence": 0.9219999999999999,
+                "plan_valid": true,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_5621",
+                        "src_entity_name": "Histiocytic and Dendritic Cell",
+                        "tgt_entity_name": "histiocytic and dendritic cell cancer",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": true,
+                            "mapping_type": "EXACT_MATCH",
+                            "confidence": null,
+                            "raw_response": "True",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 160
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 7,
+                "confidence": 0.9219999999999999,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C43251",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_5621",
+                        "src_entity_name": "Histiocytic and Dendritic Cell",
+                        "tgt_entity_name": "histiocytic and dendritic cell cancer",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 160
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496",
+        "selected_plan": 1,
+        "decision_type": "single_invalid",
+        "reasoning": null,
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.7330000000000001,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C91496",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_1781",
+                        "src_entity_name": "Papillary Thyroid Carcinoma Pathway",
+                        "tgt_entity_name": "thyroid cancer",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 159
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_5782",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1 involves entities with different broader categories ('Thing' vs 'Ear Disorder'), suggesting a potential logical inconsistency if incorrectly mapped. Plan 2 involves entities in the same broader category, making the inconsistency less likely. Removing the mapping in Plan 1 is more likely to resolve a logical conflict while preserving correct mappings.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 8,
+                "confidence": 0.6605400271370421,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C27065",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_5100",
+                        "src_entity_name": "Middle Ear Disorder",
+                        "tgt_entity_name": "middle ear disease",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 7,
+                "confidence": 0.5461538461538461,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12502",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_5782",
+                        "src_entity_name": "Tympanic Membrane",
+                        "tgt_entity_name": "tympanic membrane disease",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "**False**\n\nWhile \"tympanic membrane disease\" is a condition that affects the \"tympanic membrane,\" in standard biomedical ontologies (such as UMLS, SNOMED CT, or ROBOT-based ontologies), **\"tympanic membrane disease\" is not typically classified as a subclass of \"tympanic membrane\"** — because:\n\n- **\"Tympanic Membrane\"** is an anatomical structure (a physical entity).\n- **\"Tympanic Membrane Disease\"** is a pathological condition or disease entity — a *disorder* or *abnormality* affecting that structure.\n\nIn ontology design, **anatomical structures** and **diseases** are usually placed in **separate branches** of the hierarchy. For example:\n\n- In UMLS, \"Tympanic Membrane\" is in the `Anatomical Structure` semantic type.\n- \"Tympanic Membrane Disease\" would be in the `Disease or Syndrome` semantic type.\n\nThus, **\"tympanic membrane disease\" is not a subclass of \"tympanic membrane\"** — rather, it is a disease *associated with* or *affecting* the tympanic membrane.\n\n✅ Correct answer: **False**",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 404
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_13945",
+        "selected_plan": 3,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 3 is the most likely to resolve the inconsistency because it involves a direct naming relationship where 'CADASIL' is likely a general term and 'CADASIL Syndrome' is a specific subtype. The LLM response 'False' suggests the mapping is incorrect, which aligns with the need to remove inconsistent mappings. The other plans involve less direct or ambiguous relationships, making Plan 3 the most logical choice for repair.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 3,
+                "confidence": 0.619,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_0111036",
+                        "src_entity_name": "CADASIL Syndrome",
+                        "tgt_entity_name": "CADASIL 2",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 3,
+                "confidence": 0.619,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_0111035",
+                        "src_entity_name": "CADASIL Syndrome",
+                        "tgt_entity_name": "CADASIL 1",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 3,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.539,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_13945",
+                        "src_entity_name": "CADASIL Syndrome",
+                        "tgt_entity_name": "CADASIL",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 147
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "entity_uri": "http://purl.obolibrary.org/obo/DOID_0111036",
+        "selected_plan": 1,
+        "decision_type": "llm_reasoning",
+        "reasoning": "Plan 1's mapping is logically inconsistent because 'CADASIL Syndrome' and 'CADASIL 1' are likely the same or closely related entities, and claiming one is not a subclass of the other is incorrect. Plan 2's mapping is also False, but Plan 1's inconsistency is more fundamental as it involves a direct naming conflict (CADASIL Syndrome vs CADASIL 1), making it the better candidate for removal to resolve the logical conflict.",
+        "plans": [
+            {
+                "plan_id": 1,
+                "size": 1,
+                "conflict_score": 3,
+                "confidence": 0.619,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_0111035",
+                        "src_entity_name": "CADASIL Syndrome",
+                        "tgt_entity_name": "CADASIL 1",
+                        "decision": 0,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "source_subsumed_by_target",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            },
+            {
+                "plan_id": 2,
+                "size": 1,
+                "conflict_score": 1,
+                "confidence": 0.619,
+                "plan_valid": false,
+                "mappings": [
+                    {
+                        "source_uri": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84606",
+                        "target_uri": "http://purl.obolibrary.org/obo/DOID_0111036",
+                        "src_entity_name": "CADASIL Syndrome",
+                        "tgt_entity_name": "CADASIL 2",
+                        "decision": -1,
+                        "validation": {
+                            "is_match": false,
+                            "mapping_type": "NO_MATCH",
+                            "confidence": null,
+                            "raw_response": "False",
+                            "prompt_type": "target_subsumed_by_source",
+                            "system_prompt_type": "ontology_aware",
+                            "tokens_used": 149
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
