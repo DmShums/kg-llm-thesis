@@ -6,6 +6,8 @@ __pycache__/
 fma.body.owl
 playground_files/
 venv/
+venv310/
 oaei_SNOMED_whole_ontology.owl
 output/*
-results/*
+data/bioml-2024/snomed-fma.body/fma.body.owl
+archive/*
